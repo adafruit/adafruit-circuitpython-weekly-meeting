@@ -1,7 +1,7 @@
 CircuitPython Weekly Meeting Notes
 ===================================
 
-Each week, members of the CircuitPython community meet on [the Adafruit Discord](http://adafru.it/discord) to discuss all things CircuitPython. The meetings are recorded and made [available on YouTube](https://www.youtube.com/playlist?list=PLjF7R1fz_OOUvw7tMv45xjWp0ht8yNgg0) with links to notes in this repo. These notes include time codes to specific sections of the video so that one can only listen to portions of interest.
+Each week, members of the CircuitPython community meet on `the Adafruit Discord <http://adafru.it/discord>`_ to discuss all things CircuitPython. The meetings are recorded and made `available on YouTube <https://www.youtube.com/playlist?list=PLjF7R1fz_OOUvw7tMv45xjWp0ht8yNgg0>`_ with links to notes in this repo. These notes include time codes to specific sections of the video so that one can only listen to portions of interest.
 
 The weekly happens normally at 2pm ET/11am PT on Mondays. Check the #circuitpython channel for notices of change in time and links to past episodes.
 
