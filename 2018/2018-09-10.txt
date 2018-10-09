@@ -1,0 +1,319 @@
+Adafruit CircuitPython September 10th, 2018
+
+Video is available here: https://youtu.be/ee0Eaa60GOQ
+
+Thanks to @Dan Halbert for taking notes!
+
+Join here for the chat all week: http://adafru.it/discord
+
+The weekly happens normally at 2pm ET/11am PT on Mondays. Check the #circuitpython channel for notices of change in time and links to past episodes.
+
+ 3:21 State of CircuitPython + Libraries
+* 19 pull requests merged
+  * 6 authors - dfarning, hathach, jepler, ladyada, dhalbert, tannewt
+  * 4 reviewers - tannewt, sommersoft, ladyada, dhalbert
+* 2 new PRs, 2 authors - notro, nickzoic
+* 15 open pull requests
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP3xxx/pull/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP3xxx/pull/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP3xxx/pull/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_DHT/pull/14
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/pull/23
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/pull/22
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP230xx/pull/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_EPD/pull/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/pull/28
+  * https://github.com/adafruit/Adafruit_CircuitPython_PN532/pull/6
+  * https://github.com/adafruit/circuitpython/pull/1167
+  * https://github.com/adafruit/circuitpython/pull/1164
+  * https://github.com/adafruit/circuitpython/pull/1144
+  * https://github.com/adafruit/circuitpython/pull/943
+  * https://github.com/adafruit/circuitpython/pull/839
+* 6 closed issues by 6 people, 10 opened by 4 people
+* 148 open issues
+  * https://github.com/adafruit/METROX-CircuitPython/issues/3
+  * https://github.com/adafruit/awesome-circuitpython/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/16
+  * https://github.com/adafruit/Adafruit_CircuitPython_SD/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_SD/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_HID/issues/25
+  * https://github.com/adafruit/Adafruit_CircuitPython_RTTTL/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/33
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/10
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP3xxx/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_AM2320/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/12
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/11
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_CharLCD/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_CircuitPlayground/issues/37
+  * https://github.com/adafruit/Adafruit_CircuitPython_OneWire/issues/7
+  * https://github.com/adafruit/Adafruit_CircuitPython_INA219/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/25
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/21
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/21
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/20
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/19
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_TCS34725/issues/7
+  * https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_BME680/issues/10
+  * https://github.com/adafruit/Adafruit_CircuitPython_TSL2591/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_TSL2591/issues/7
+  * https://github.com/adafruit/Adafruit_CircuitPython_CCS811/issues/25
+  * https://github.com/adafruit/Adafruit_CircuitPython_SI4713/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_L3GD20/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_L3GD20/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_TLC5947/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_MPR121/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS0/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_EPD/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/27
+  * https://github.com/adafruit/Adafruit_CircuitPython_RFM9x/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_PN532/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_seesaw/issues/19
+  * https://github.com/adafruit/Adafruit_CircuitPython_SGP30/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/22
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/21
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/83
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/77
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/57
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/53
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/40
+  * https://github.com/adafruit/circuitpython/issues
+Download stats for 3.0.1
+* arduino_zero - 88
+* circuitplayground_express - 453
+* circuitplayground_express_crickit - 146
+* feather52832 - 23
+* feather_huzzah - 160
+* feather_m0_adalogger - 44
+* feather_m0_basic - 44
+* feather_m0_express - 176
+* feather_m0_express_crickit - 25
+* feather_m0_rfm69 - 14
+* feather_m0_rfm9x - 27
+* feather_m4_express - 66
+* gemma_m0 - 123
+* hallowing_m0_express - 11
+* itsybitsy_m0_express - 56
+* itsybitsy_m4_express - 77
+* metro_m0_express - 55
+* metro_m4_express - 81
+* pca10056 - 9
+* pirkey_m0 - 7
+* trinket_m0 - 214
+1899 total
+100 out of 625 repos need work.
+
+
+PyLint version very out of date - 88
+
+
+For pypi compatibility, missing Adafruit-Blinka in requirements.txt - 23
+
+
+ReadTheDocs missing the latest release. (Ignore me! RTD doesn't update when a new version is released. Only on pushes.) - 15
+
+
+For pypi compatibility, missing pypi provider in .travis.yml - 12
+
+
+PyLint version not fixed - 10
+
+
+For pypi compatibility, missing setup.py - 13
+
+
+ReadTheDocs latest build has warnings and/or errors - 3
+https://github.com/adafruit/Adafruit_CircuitPython_MCP3xxx
+https://github.com/adafruit/Adafruit_CircuitPython_LED_Animation
+https://github.com/adafruit/Adafruit_CircuitPython_ImageLoad
+
+
+Not listed on PyPi for CPython use - 14
+
+
+Unable to enable Travis build - 1
+https://github.com/adafruit/Adafruit_CircuitPython_LED_Animation
+
+
+CircuitPython drivers page missing driver - 6
+
+
+Not in bundle. - 5
+https://github.com/adafruit/Adafruit_CircuitPython_CPython
+https://github.com/adafruit/Adafruit_CircuitPython_VEML6075
+https://github.com/adafruit/Adafruit_CircuitPython_MPRLS
+https://github.com/adafruit/Adafruit_CircuitPython_AT86RF233
+https://github.com/adafruit/Adafruit_CircuitPython_TFmini
+
+
+ReadTheDocs missing as a subproject on CircuitPython - 6
+
+
+Mismatched readthedocs.yml - 4
+https://github.com/adafruit/Adafruit_CircuitPython_DHT
+https://github.com/adafruit/Adafruit_CircuitPython_CharLCD
+https://github.com/adafruit/Adafruit_CircuitPython_DS3231
+https://github.com/adafruit/Adafruit_CircuitPython_GPS
+
+
+ReadTheDocs project missing adabot as owner - 1
+https://github.com/adafruit/Adafruit_CircuitPython_Crickit
+
+
+README image missing alt text - 1
+https://github.com/adafruit/Adafruit_CircuitPython_HCSR04
+
+
+Wiki should be disabled - 4
+https://github.com/adafruit/Adafruit_CircuitPython_VEML6075
+https://github.com/adafruit/Adafruit_CircuitPython_MPRLS
+https://github.com/adafruit/Adafruit_CircuitPython_AT86RF233
+https://github.com/adafruit/Adafruit_CircuitPython_TFmini
+
+
+Only allow merges, disallow rebase and squash - 4
+https://github.com/adafruit/Adafruit_CircuitPython_VEML6075
+https://github.com/adafruit/Adafruit_CircuitPython_MPRLS
+https://github.com/adafruit/Adafruit_CircuitPython_AT86RF233
+https://github.com/adafruit/Adafruit_CircuitPython_TFmini
+
+
+Missing license. - 1
+https://github.com/adafruit/Adafruit_CircuitPython_AT86RF233
+
+
+Token creation failed - 1
+https://github.com/adafruit/Adafruit_CircuitPython_AT86RF233
+
+
+Missing lint config - 1
+https://github.com/adafruit/Adafruit_CircuitPython_AT86RF233
+
+
+Missing CODE_OF_CONDUCT.md - 1
+https://github.com/adafruit/Adafruit_CircuitPython_AT86RF233
+
+
+Missing README.rst - 1
+https://github.com/adafruit/Adafruit_CircuitPython_AT86RF233
+
+
+Missing .travis.yml - 1
+https://github.com/adafruit/Adafruit_CircuitPython_AT86RF233
+
+
+Missing readthedocs.yml - 1
+https://github.com/adafruit/Adafruit_CircuitPython_AT86RF233
+
+
+For pypi compatibility, missing requirements.txt - 1
+https://github.com/adafruit/Adafruit_CircuitPython_AT86RF233
+
+
+Missing examples folder - 1
+https://github.com/adafruit/Adafruit_CircuitPython_AT86RF233
+
+
+Unable to find or create (no auth) GITHUB_TOKEN env variable - 1
+https://github.com/adafruit/Adafruit_CircuitPython_TFmini
+6:59 Hug reports
+
+
+7:33 @tannewt
+* Sommersoft for reviews over the weekend
+* Ladyada for libraries!
+
+
+8:24 @brennen
+* Group hug this week.
+
+
+@charlesburnaford
+* General group hug
+
+
+10:16 @Dan Halbert
+* @tannewt for massive progress on displayio
+* @ladyada libraries for new sensors
+* @arturo128 for nRF reviews
+* @hathach for nrf52 progress
+
+
+11:08 @deshipu
+* Group hug
+
+
+11:16 @jerryn
+* Group hug
+* @Dan adding PCA10059 dongle
+
+
+11:40 @sdw_nj
+* Group hug
+
+
+11:51 @sommersoft:
+* @"The nRF Crewe" (Dan, thach, Arturo, & Jerry) for continued work on that port. @tannewt for displayio foundation. Group hugus-maximus for any I'm missing!
+12:37 Status Updates
+
+
+13:11 @tannewt
+* Got displayio checked in.
+* Got grand central board definition checked in.
+* Library and adabot love on Friday. Wanted to get ImageLoad into bundle.
+* Next is breaking displayio out of board.
+
+
+16:07 @brennen
+* Just back from Burning Man, hitting the road again in a few days, catching up a bit.
+* Putting some libraries on PyPI, documentation on a project using LoRa + GPS + compass.
+
+
+16:53 @Dan Halbert
+* Many reviews, because so much code is going in
+* Pypi debugging
+* nRF52: new boards; pin definition cleanup; pin claiming
+* GPIO cleanup on nRF52
+* WIll continue to implement missing features for nRF52
+* 3.0.2 release: M4 Neopixel fix, maybe PWM bug fix, UART features and bug
+
+
+19:14 @deshipu
+* Busy at day job: no progress. Preparing for Maker Faire Zurich this week.
+
+
+19:49 @jerryn
+* Trying nrf52840 dongle
+* Trying to fix BLE scanning
+
+
+21:20 @Mike Barela
+* Mike’s new book on CPX is out: MakeCode, CircuitPython, and Arduino. E-book now and print version soon. 
+* Will be at Maker Faire NYC
+
+
+25:12 @sdw_nj
+* I'm part of the micro:bit beta testing and I'm testing a new firmware and makecode & micropython editors that implement WebUSB to allow direct flashing to the micro:bit.
+
+
+25:45 @sommersoft
+* FrequencyIn: OSCULP32K as DPLL source in work for crytaless boards. Have to establish a GCLK since it can't be sourced directly like XOSC32K. Then I should be able to assess jitter cause, as mentioned last week. Still discussing TC register usage/DMA with @tannewt.
+* Going to update VEML6070 library to match the new VEML6075 library in usage/structure.
+
+
+27:00 In the weeds
+* 27:48 Nrf52 pin definitions - jerry & Dan
+   * Tips to not short out nrf dongle
+   * A number of nrf52 pins are designated as low freq only - this is because higher frequency might interfere with the RF pins (BLE, NFC). How serious a restriction this is isn’t clear.
+   * PCA10056 DK board has a 3V, not 3.3V regulator, so pin output voltages will be no higher than 3V (could be issue with, say NeoPixels).
+   * PCA10059 dongle is easy to fry - be careful not to short VDD to ground, accidentally bridge jumpers, etc.
+
+
+37:25

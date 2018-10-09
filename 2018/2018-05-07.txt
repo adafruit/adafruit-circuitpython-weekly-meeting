@@ -1,0 +1,204 @@
+Video is available here: https://youtu.be/rA7Oiz-vwqI
+
+Join us on Discord: https://adafru.it/discord
+
+Meetings happen Mondays at 11am Pacific / 2pm Eastern.
+
+State of CircuitPython + Libraries 2:33
+* 20 pull requests merged
+  * 5 authors - jepler, jerryneedell, deanm1278, tannewt, dhalbert
+  * 5 reviewers - deanm1278, kattni, tannewt, tdicola, dhalbert
+* 1 new PRs, 1 authors - jerryneedell
+* 7 closed issues by 3 people, 9 opened by 7 people
+* 3 open pull requests
+  * https://github.com/adafruit/Adafruit_CircuitPython_RFM9x/pull/4
+  * https://github.com/adafruit/circuitpython/pull/785
+  * https://github.com/adafruit/circuitpython/pull/761
+* 132 open issues
+  * https://github.com/adafruit/Adafruit_CircuitPython_PCF8523/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/10
+  * https://github.com/adafruit/METROX-CircuitPython/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_Register/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_CharLCD/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS0/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/15
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_INA219/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_GPS/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_MPR121/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/20
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/20
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/19
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_SGP30/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP9808/issues/12
+  * https://github.com/adafruit/cookiecutter-adafruit-circuitpython/issues/25
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_seesaw/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_seesaw/issues/7
+  * https://github.com/adafruit/Adafruit_CircuitPython_RFM9x/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_SI4713/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/57
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/53
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/3
+  * https://github.com/adafruit/circuitpython/issues
+Download stats for 2.3.0
+* arduino_zero - 13
+* circuitplayground_express - 71
+* feather_huzzah - 14
+* feather_m0_adalogger - 10
+* feather_m0_basic - 9
+* feather_m0_express - 29
+* feather_m0_rfm69 - 2
+* feather_m0_rfm9x - 1
+* gemma_m0 - 22
+* itsybitsy_m0 - 4
+* metro_m0_express - 17
+* trinket_m0 - 26
+218 total
+Download stats for 3.0.0-alpha.6
+* arduino_zero - 6
+* circuitplayground_express - 26
+* feather52 - 5
+* feather_huzzah - 17
+* feather_m0_adalogger - 7
+* feather_m0_basic - 6
+* feather_m0_express - 14
+* feather_m0_rfm69 - 9
+* feather_m0_rfm9x - 2
+* gemma_m0 - 4
+* itsybitsy_m0_express - 12
+* metro_m0_express - 7
+* metro_m4_express - 39
+* trinket_m0 - 18
+172 total
+33 out of 428 repos need work.
+
+ReadTheDocs missing the latest release. (Ignore me! RTD doesn't update when a new version is released. Only on pushes.) - 27
+
+Missing .py files in examples folder - 2
+https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing
+https://github.com/adafruit/Adafruit_CircuitPython_LSM303
+
+Mismatched readthedocs.yml - 4
+https://github.com/adafruit/Adafruit_CircuitPython_CharLCD
+https://github.com/adafruit/Adafruit_CircuitPython_GPS
+https://github.com/adafruit/Adafruit_CircuitPython_DS3231
+https://github.com/adafruit/Adafruit_CircuitPython_DHT
+
+Failed to fetch latest release from GitHub - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+CircuitPython drivers page missing driver - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+
+
+Hug reports 5:32
+
+@tannewt 6:00
+* croadfeldt and dhalbert for flash corruption debugging and fix
+* larsks for ESP8266 improvements
+* mrmcwethy and jepler for help with ustruct/struct backwards compatibility
+* jerryneedell for RFM9x LoRa driver improvements and debugging with 3.x
+
+@Andon 7:29
+Group Hug, as always, because everyone's awesome. Also to @sommersoft for hopping in and helping help someone debug Arduino stuff last night
+
+@cefn 7:37
+Hug reports to all the unsung heroes, who bothered to document the edge-cases of every possible version and project configuration of Open source nonlinear video editors Flowblade and latterly Kdenlive as well as everything else I've had to fix this week - did I mention I hate Android phones
+
+@cater 8:45
+group hug!
+
+@Cgrover 8:55
+Group hug!
+Thank you to those who fixed power/bootup issue in circuitpython.
+
+@dhalbert 9:19
+* Thank to croadfelt for consistently breaking file system.
+* Thanks to jerryneedell who reliably fixes our code too. :-) Found file system permission regression that will be fixed in 2.3.1
+
+@jerryn 10:06
+* Group hug
+* dhalbert for file system help
+
+@kattni 10:25
+* dhalbert for CPX file system fix. just in time for CPX based conference badge.
+* group hug!
+
+@sommersoft 11:03
+* Just a big 'ol group hug this week!
+
+Status Update 11:28
+
+@cefn 11:55
+Been digging through the PS2 mechanical keyboards in the workshop's collection of recycled hardware. Dell AP102W (with Alps switches) might be coming your way next week !
+
+@tannewt 12:32
+* Got PDMIn checked in.
+* Working on touchio for SAMD51.
+* PyCon this week/weekend! No meeting next Monday. Will cover it the next week.
+
+@Andon 15:08
+Not at all CP related, but I hit "Fully Functional" with the code for my DigiBadges - On-board flash is working and semi-dynamic loading of SD cards now works, along with a few bugfixes. Next up: Trying to cram a menu system into the last 11% of program space on the ATMega328p - 3366 bytes!
+
+@cater 15L52
+Nothing new
+
+@cefn 16:07
+Recording Studio is built and automated with 4 cameras - Android phones for Wide and Macro, Kodak Closeup and X11Grab FFMPeg desktop recordings, synchronized automatically through audio using handy Kdenlive behaviour then edited through their handy Multi-view editing interface.  All at 720p, is that too retro? Was just a bit easier since desktop pixels were bigger/readable, and render/preview times were lesser. How important is 1080p for online vids?
+
+@CGrover 17:16
+* Not much CircuitPython. Sent PCBs off to fab house.
+* Learning Kicad!
+* Libraries are confusing in Kicad.
+* red and blue tape to create mask at 2x
+
+@Dan Halbert 19:34
+* Battery power fix
+* working on M4 cache enable and QSPI support. MPU may help
+* thanks to jepler for help
+* pycon, flying thursday
+
+@jepler
+there's a lot going on this morning! @tannewt I can't make it to the weekly meeting today due to $DAY_JOB obligations, so here's a summary of what I'm up to.  This weekend was mostly spent finding (afl-fuzz), fixing and reporting crashing bugs in uzlib to upstream.  CP and MP incorporate uzlib by copy, not by submodule; so I plan to prepare CP and MP pull requests with my fixes this week as well.  Besides that I will pick off issues blocking CP3.0 according to my time and ability.
+
+jerryn 21:30
+* Playing with LoRa. Much improved!
+* lowered default SPI rate due to flakiness
+* rfm69 may have similar issues. frequency control doesn't work
+
+kattni 23:04
+* convention this weekend and workshop with circuitplayground express.
+* wrote circuitpython for badge sophy did.
+* two plotter pages done, waiting for videos
+* guide with gemma for pycon gemmas. touch interface to change lights
+* prepping hardware for open space tutorials
+* leave for pycon on thursday
+
+MikeBarela 24:58
+* thank everyone for suggestions and pull requests!
+* newsletter comes out tomorrow!
+* no weekly meeting next week but we do have newsletter
+
+sommersoft 26:09
+Atmel Studio debugging guide is drafted. Needs review; awaiting feedback.
+
+High Frequency PulseIn: started framework for SAMD Timer/Counter capture. pulseio.FrequencyIn is my working title. Will only focus on frequency; not planning to include PWM capture. Should be portable to at least nRF52840, if not both nRFs. ESPxx, probably not...
+
+Discussion (In the weeds) 27:37
+* Anyone else found SPI issues? rfm9x radio issues including system hang and file corruption. lowered baudrate made it all ok. talk with @jerryneedell if doing radio (rfm69 and LoRa) stuff. circuitpython can talk to arduino and vice versa.
+* 30:47 Still have a puzzle around junk on input of UART of NodeMCU-M (ESP8285) - not the usual junk coming from the output pin, unless it can feed back somehow. https://forum.micropython.org/viewtopic.php?f=16&t=4707&p=27248&hilit=uart#p27248
+* 31:50 For the sprint, will discord be live? Maybe a digital/online sprint during the weekend would be easier and more fun.
+    * Schedule digital sprint!
+* 35:30 PyCon talks are posted soon after they occur.

@@ -1,0 +1,265 @@
+April 30th, 2018
+
+Video is available here: https://youtu.be/N5o_iXw2KxI
+
+State of CircuitPython + Libraries 2:38
+* 10 pull requests merged
+  * 7 authors - notro, jerryneedell, dhalbert, kattni, sommersoft, tannewt, Sigafoos
+  * 4 reviewers - caternuson, tannewt, dhalbert, kattni
+* 1 new PRs, 1 authors - notro
+* 10 closed issues by 6 people, 8 opened by 6 people
+* 2 open pull requests
+  * https://github.com/adafruit/circuitpython/pull/785
+  * https://github.com/adafruit/circuitpython/pull/761
+* 128 open issues
+  * https://github.com/adafruit/Adafruit_CircuitPython_PCF8523/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_SI4713/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/10
+  * https://github.com/adafruit/METROX-CircuitPython/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_Register/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_CharLCD/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS0/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_INA219/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_GPS/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_MPR121/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/20
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_seesaw/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_SGP30/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP9808/issues/12
+  * https://github.com/adafruit/cookiecutter-adafruit-circuitpython/issues/25
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/57
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/53
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/3
+  * https://github.com/adafruit/circuitpython/issues
+Download stats for 3.0.0-alpha.6
+* arduino_zero - 3
+* circuitplayground_express - 16
+* feather52 - 4
+* feather_huzzah - 6
+* feather_m0_adalogger - 4
+* feather_m0_basic - 5
+* feather_m0_express - 9
+* feather_m0_rfm69 - 9
+* feather_m0_rfm9x - 2
+* gemma_m0 - 1
+* itsybitsy_m0_express - 9
+* metro_m0_express - 3
+* metro_m4_express - 24
+* trinket_m0 - 11
+106 total
+Download stats for 2.2.4
+* arduino_zero - 206
+* circuitplayground_express - 1331
+* feather_huzzah - 344
+* feather_m0_adalogger - 72
+* feather_m0_basic - 102
+* feather_m0_express - 386
+* feather_m0_rfm69 - 37
+* feather_m0_rfm9x - 28
+* gemma_m0 - 462
+* itsybitsy_m0 - 108
+* metro_m0_express - 270
+* trinket_m0 - 697
+4043 total
+20 out of 424 repos need work.
+
+.py file contains reference to import ustruct without reference to import struct.  See issue https://github.com/adafruit/circuitpython/issues/782 - 2
+https://github.com/adafruit/Adafruit_CircuitPython_MMA8451
+https://github.com/adafruit/Adafruit_CircuitPython_SI4713
+
+ReadTheDocs missing the latest release. (Ignore me! RTD doesn't update when a new version is released. Only on pushes.) - 13
+
+Missing .py files in examples folder - 2
+https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing
+https://github.com/adafruit/Adafruit_CircuitPython_LSM303
+
+Mismatched readthedocs.yml - 4
+https://github.com/adafruit/Adafruit_CircuitPython_CharLCD
+https://github.com/adafruit/Adafruit_CircuitPython_GPS
+https://github.com/adafruit/Adafruit_CircuitPython_DS3231
+https://github.com/adafruit/Adafruit_CircuitPython_DHT
+
+ReadTheDocs latest build has warnings and/or errors - 1
+https://github.com/adafruit/Adafruit_CircuitPython_RTTTL
+
+Not in bundle. - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+ReadTheDocs missing as a subproject on CircuitPython - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+CircuitPython drivers page missing driver - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+Overall:
+
+Updating your Metro M4 bootloader to protect it: https://learn.adafruit.com/adafruit-metro-m4-express-featuring-atsamd51/beta-notes
+
+Hug reports 6:30
+
+tannewt 6:54
+* @mrmcwethy for ustruct/struct improvements to Adabot
+* @notro for RTC improvements
+* @dhalbert and @cater for forum support
+* @kattni, @jerryneedell and @dhalbert for temp sensor fixes
+* @kattni and @cater for LIS3DH fixes
+
+Andon 8:20
+Just a general Group Hug. Haven't been terribly active here lately.
+
+cater 8:47
+* group hug
+* kattni for letting know mic wasn't muted
+
+cefn 9:20
+Hug Report for
+...Espruino maintainers making available Javascript as an additional language on ESP8266 (multiple languages helps promote physical computing way of working for UK educators)
+....Everyone who helped directly/indirectly with me understanding Vlogging - the necessary next step for VGKits Vanguard launch...
+- Maintainers of FLOSS Flowblade (editor), Sozi (animation), Xephyr (desktop sizing), SimpleScreenRecorder (desktop recording), LosslessCut (trimming without transcoding)
+- Public domain music sharers Kevin MacLeod, Komiku and Sikh Knowledge for intro and background music
+- Tdicola for reference Micropython/Circuitpython videos
+Any suggestions which other programming/making Youtube channels I should learn from?
+
+CGrover 10:54
+* Group hug to those who provide input to learn guides.
+* ReadTheDocs great too!
+
+dhalbert 11:21
+* jerryneedell for fixing negative temperature measurements in multiple libraries
+
+deshipu 12:05
+* I'm grateful for the I2C clock stretching fixes, the RTC clock tuning, and the work on enabling code/data buffering.
+
+jerryn 12:57
+* group hug for lots of great stuff
+* tannewt for gdb help
+* sommersoft for gpio16 work on esp8266
+* cater and dhalbert for temp sensor help
+
+kattni 13:44
+* cater for help on lots of stuff
+* jerryn, dhalbert and cater for buggy am2320 debugging help and datalogging project
+
+MikeBarela 14:40
+* whole community! new so haven't seen the ins and outs
+
+sommersoft 15:08
+* @cater, @kattni, @Dan Halbert, & @jerryn for the blitzkrieg on the AM2320/DHT below freezing issue.
+* @notro for the RTC addition and refinement.
+* And, @Dan Halbert for the updated firmware build guide. Group hug!!
+
+Status Updates 16:00
+
+tannewt 16:23
+* Replaced graphics in logo directory with CircuitPython ones.
+* PDMIn is converted to register based code and compiles on both but is untested. (Doing that this week.)
+* Next are bugfixes to get to Beta
+
+andon 17:53
+* Not really! Got the M4, but need to do stuff with it first.
+
+cater 18:17
+* bno055 issue. something with bitbangio and clock stretching
+* https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/9
+
+cefn 20:00
+Have a release 0.1.0 of VGKits vanguard repo, not yet pushed up to https://github.com/vgkits/vanguard
+Logo and Graphic Animations through SVG and Sozi to support Vlogging Tweens https://vgkits.org/tmp/logo/text_16_9.sozi.html e.g. blending video tutorials with SVGs like https://github.com/vgkits/vanguard/blob/master/vector/cover.svg
+Rendering Desktops for Vlogging (non-standard pixel ratios - e.g. Half 1080p to tile with Two cameras like TonyD) through Xephyr
+So so looking forward to merging in demos of Adafruit-Blinka once the VGKits Rainbow kit and vlog launch process is over.
+
+CGrover 21:17
+Have an M4 in-hand. Tested it against 3 existing CPy projects. No issues yet. Will probably work on some comparative benchmarks in my project space.
+Working on PCB designs: 1) MIDI-DIN interface FeatherWing with integrated DSP-G1 synthesizer chip, designed for Feather M0 Express and CircuitPython.  2) Neuvo LiPo StringCar, ½ size of existing, LiPo charger, Trinket M0 and CircuitPython.  3) Various other PCB bits like LiPo charger breakout w/o USB, a mini DSP-G1 synth breakout (for inserting into an existing MIDI controller keyboard), and a panel-mount dual MIDI-DIN jack breakout with optional logic interface.
+Obviously will have to start CircuitPython coding of a bunch of MIDI control code helpers and a custom analog-ish voice catalog now…
+
+dhalbert 22:46
+* finished gamepad support. in alpha.6. need game suggestions
+* circuitpython build guide without vagrant. linux, mac and Windows subsystem for linux
+* SAMD51 cache work. breaks filesystem code but speeds up regular loop code
+* tmp36 temp sensor debugging. electrical problem
+* cpu.temperature in 3.0. compiled and works on samd21
+* discussion on library additions
+
+deshipu 25:30
+I'm working on a conference badge for Python conferences that's programmable in CircuitPython. I just got the first pixels displayed, I still need to fix the Python libraries for this, but I'm very happy with how they look. I'm also working on samd51-based version of the µGame handheld game console, for now making an Arduino-compatible shield with a display and buttons to test everything on the Metro M4. I also got the µGame 10 back in stock at Tindie again.
+
+https://hackaday.io/project/27629-game/log/145483-in-stock-again
+
+jerryn 26:36
+* sticking temp sensors in the freezer. fun! dht sensor bizarre. am2320 is i2c and dht compatible
+* stmpe610 driver up. caveat with getting it in the wrong state
+
+kattni 29:23
+* fighting with dataloggers
+* moved into new machine. still finding stuff to install
+* fixed bug in temp sensor libraries
+* guide done by Wednesday
+* code for next two plots of the week done. one guide page remaining.
+* one quick guide with gemma before pycon US. captouch with on board led!
+* This weekend is Penguicon! Workshop with CPX. Recorded? Don't think so due to privacy. still photos for blogging
+
+MikeBarela 32:02
+Nothing
+Joining Adafruit today
+Intro - first full day for Adafruit.
+Writing book for MAKE - getting started with CircuitPlayground Express. MakeCode + CircuitPython + Arduino
+Retiring from US Department of State. He's very diplomatic :-)
+
+sommersoft 34:22
+ESP8266 GPIO16 - Done!
+
+Started looking at SAMD high frequency Pulse in issue. Very likely an execution speed problem as discussed in the issue. Still researching possible alternatives.
+
+Got farther on Windows+Atmel Studio SAMD debugging guide. Have a few more screenshots left to grab, and need to write the details of how to find and view information (breakpoints, traces, etc).
+
+Discussion: 35:28
+* Any suggestions which other programming/making Youtube channels I should learn from?
+  * LazyGameReviews
+  * scanlime - Micah Scott
+  * nostalgianerd
+  * ThisDoesNotCompute
+  * short, punchy tutorials
+  * https://www.youtube.com/watch?v=fCxzA9_kg6s&list=PLA567CE235D39FA84
+* dhalbert library placement questions - 39:01
+  * arduino map in simpleio
+  * calls for better, more accurate clock and timing. anyone know of a python library equivalent.
+  * micropython has ticks_ms or
+ticks_us
+I wonder if it would make sense to have a helper function that simply delays until a certain time passes from its last call
+because that's what you usually use those ticks for
+sommersoft - Today at 11:47 AM
+That would be extending wait_until...but, yeah. Interrupts...
+cater - Today at 11:47 AM
+isn't that time.sleep()?
+deshipu - Today at 11:47 AM
+well, I use it for keeping a constant frame rate
+@cater not quite, time.sleep sleeps for a certain time, not until certain time passes since the last time
+hard to do without callbacks
+maybe with await
+* jerryn radio weeds
+  * trying to use feather combo board. bossa problems. bossa 1.9 is latest but adafruit links to 1.8
+  * offer help with radio
+* jerryn clock stretching follow up 47:02
+  * from deshipu:
+    the bitbangio has a copy of code and doesn't use extmod/i2c.c
+    well, the fix is that it doesn't use a hardcoded timeout anymore
+    but the default timeout should work in most cases
+    it's over 250µs
+    or to use code from extmod/i2c.h/.c instead of a copy
+    we will miss further fixes if we keep using a copy
+* Is there any reference information about use of Webrepl in Circuitpython? I have found Adafruit tutorial resources for its use in Micropython 50:00
+  * works the same way
+  * is support for webrepl mainstream?

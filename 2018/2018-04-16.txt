@@ -1,0 +1,242 @@
+Video available at: https://youtu.be/Ai6quAO89o0
+
+State of CircuitPython + Libraries 3:08
+* 14 pull requests merged
+  * 7 authors - dhalbert, tannewt, Moving-Electrons, jepler, ladyada, sommersoft, caternuson
+  * 5 reviewers - dhalbert, tannewt, kattni, ptorrone, deshipu
+* 4 new PRs, 3 authors - ladyada, jepler, tannewt
+* 6 closed issues by 3 people, 5 opened by 3 people
+* 7 open pull requests
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/pull/31
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/pull/29
+  * https://github.com/adafruit/circuitpython/pull/764
+  * https://github.com/adafruit/circuitpython/pull/762
+  * https://github.com/adafruit/circuitpython/pull/761
+  * https://github.com/adafruit/circuitpython/pull/760
+  * https://github.com/adafruit/circuitpython/pull/745
+* 126 open issues
+  * https://github.com/adafruit/Adafruit_CircuitPython_PCF8523/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_SI4713/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/10
+  * https://github.com/adafruit/METROX-CircuitPython/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_Register/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_CharLCD/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS0/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_MPR121/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/20
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_seesaw/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_SGP30/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/30
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/28
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_Motor/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP9808/issues/12
+  * https://github.com/adafruit/Adafruit_CircuitPython_Trellis/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/2
+  * https://github.com/adafruit/circuitpython/issues
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/57
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/53
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/3
+Download stats for 3.0.0-alpha.4
+* arduino_zero - 2
+* circuitplayground_express - 19
+* feather52 - 2
+* feather_huzzah - 5
+* feather_m0_adalogger - 2
+* feather_m0_basic - 3
+* feather_m0_express - 8
+* feather_m0_rfm69 - 2
+* feather_m0_rfm9x - 0
+* feather_m4_express - 0
+* gemma_m0 - 3
+* itsybitsy_m0_express - 5
+* metro_m0_express - 1
+* metro_m4_express - 1
+* trinket_m0 - 5
+58 total
+Download stats for 2.2.4
+* arduino_zero - 159
+* circuitplayground_express - 1004
+* feather_huzzah - 254
+* feather_m0_adalogger - 59
+* feather_m0_basic - 73
+* feather_m0_express - 283
+* feather_m0_rfm69 - 27
+* feather_m0_rfm9x - 23
+* gemma_m0 - 361
+* itsybitsy_m0 - 86
+* metro_m0_express - 222
+* trinket_m0 - 521
+3072 total
+20 out of 413 repos need work.
+
+ReadTheDocs missing the latest release. (Ignore me! RTD doesn't update when a new version is released. Only on pushes.) - 13
+
+Missing .py files in examples folder - 2
+https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing
+https://github.com/adafruit/Adafruit_CircuitPython_LSM303
+
+Mismatched readthedocs.yml - 4
+https://github.com/adafruit/Adafruit_CircuitPython_CharLCD
+https://github.com/adafruit/Adafruit_CircuitPython_GPS
+https://github.com/adafruit/Adafruit_CircuitPython_DHT
+https://github.com/adafruit/Adafruit_CircuitPython_DS3231
+
+Missing license. - 2
+https://github.com/adafruit/Adafruit_CircuitPython_LSM303
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+ReadTheDocs latest build has warnings and/or errors - 1
+https://github.com/adafruit/Adafruit_CircuitPython_RTTTL
+
+Not in bundle. - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+Unable to enable Travis build - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+Missing lint config - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+Missing CODE_OF_CONDUCT.md - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+Missing README.rst - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+Missing .travis.yml - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+Missing readthedocs.yml - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+Missing examples folder - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+ReadTheDocs missing as a subproject on CircuitPython - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+CircuitPython drivers page missing driver - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+Summary: Exciting times! Making good progress on reaching Beta and first Metro M4 Expresses go on sale this week!
+
+Hug Reports 6:06
+
+tannewt 6:36
+* jerryn and sommersoft for awesome DHT debugging
+* pt for great help with the newsletter
+* dean, ladyada and m4 metro testers for metro m4 express
+
+cater 7:48
+* jerryn for help BNO055 issues
+* deshipu for reviewing PR
+
+cefn 8:27
+* Working on ESP circuitpython things straight from aliexpress. rock bottom prices
+* vg kit identity kit
+
+CGrover 10:07
+* Text only today. Group hug including Ladyada for the release of the Metro M4!
+* Yes! PT for the great Blinka graphics!
+
+dhalbert 10:25
+* sommersoft and jerryn and DHT and pulseio core stuff
+
+Dave 10:54
+Not up to speed enough to give any sorry
+
+deshipu 11:22
+* cater for the bno055 debugging
+* notro for the RTC module — that will be super-useful for the conf badge
+
+jerryn 12:17
+* sommersoft for help with DHT and ESP8266 PGIO16
+* ladyada and adafruit team for new M4s
+
+kattni 12:49
+* group hug for the m4s
+* tannewt and dhalbert for helping with a tough personal situation
+
+sommersoft 13:24
+@jerryn for collabing on DHT/PulseIn/tick_delay. @Dan Halbert for speedy fixes on HID, and @tannewt for getting audioio out. Group hug for all that I've forgotten. Last minute: @adafruit and m4-testers for...M4
+
+ladyada 14:05
+yah! thanks to dean for helping get these m4's wrapped up, philb for the silkscreen
+scott for audio! it works better now it seems :smiley: and dan for multimedia keys which i have bene wanting for a while :smile:
+kattni has rocked out the plotter demos, and pt video'd them with some cool greenscreening
+so its a team effor :smiley:
+
+
+Status Updates 15:36
+
+tannewt 15:50
+* 3.0.0 alpha 4
+* Finished audio output work. I2S and DAC output working from buffer and wav files.
+* Discovered SAMD51G doesn't have the I2S peripheral
+* Fixed status pixel flashing.
+* PR out to enable nvm in 3.x
+* In NYC at HQ this week!
+
+cater 18:12
+* circuitpython work this week due to issue on the forum
+* circuitpython on m0 is fixed with bno055
+* esp8266 and bno055 in circuitpython still broken
+
+cefn 20:28
+* software hosting stuff.
+* back into software stuff this week
+
+CGrover 21:24
+1)  Finished CPy holiday light animations. During that process, noticed that time.monotonic and time.sleep accuracy isn’t what I originally thought (and follows what the team already knows), but it's okay for the “6-hrs on” timer. As a result, developing a suite of benchmark tests to compare performance on the various CPy processor foundations, starting with time (including PWM) and then including other features such as calculation throughput, etc. Wondering if I'm reinventing something? Are there any existing benchmark test suites out there?
+2)  Working with the ILIO9341 display (2.4” TFT FeatherWing) as part of the conversion of the corrosion detector from Arduino to CPy using Tony D’s library. Line and pixel graphics is functional. Next step is to incorporate his MicroPython bitmap font library.
+3)  Side note: my band’s CD release party extended into the weekend but is over now. Whew. Not as resilient as I once was.
+
+dhalbert 23:07
+* working on USB hid. Fixed mouse bug over the weekend
+* add gamepad and digitizer support (touch screen or tablet, aka absolute mouse)
+
+Dave 25:30
+* lurking to see circuitpython dev process
+
+deshipu 26:04
+* https://hackaday.io/project/100853
+
+jerryn 26:36
+* mostly DHT fixing
+* learned lots about tick delay. talk more in the weeds
+
+kattni 27:04
+* hiccup so taking a couple days off
+* working on datalogging with circuitpython guide
+* prepping temp and touch for plotter videos
+* audio code is done and project
+* NYC this week too!
+
+sommersoft 28:35
+@jerryn has DHT & tick_delay PRs in, so that is just about done. Will continue to push against ESP8266 GPIO16 (Magic 8 Ball: outlook not good). Might work on PulseIn for ESP/nRF.
+
+ladyada 29:50
+just metro m4 release, itsy m4 in progress
+metro m0 going thru a light revision to include THM headers
+
+Discussion (In the weeds) 30:26
+
+* DHT and tick delay. assumes interrupts are enabled to measure over a ms 30:30
+* ESP8266 and nRF pulseio implementation
+* DHT example performance 35:24
+  * M4 is more sensitive to timing issues because its faster
+* bno055 issues 40:37
+  * i2c sensor as sanity check
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/9
+* NYC 47:00

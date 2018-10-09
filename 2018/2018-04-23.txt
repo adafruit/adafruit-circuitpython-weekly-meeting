@@ -1,0 +1,249 @@
+Video is available here: https://youtu.be/rJ53Upy7mb8
+
+Join us on Discord: https://adafru.it/discord
+
+State of CircuitPython + Libraries 2:30
+* 9 pull requests merged
+  * 6 authors - notro, ladyada, jerryneedell, sommersoft, CedarGroveStudios, tannewt
+  * 2 reviewers - dhalbert, tannewt
+* 0 new PRs, 0 authors -
+* 8 closed issues by 6 people, 6 opened by 6 people
+* 3 open pull requests
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/pull/31
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/pull/29
+  * https://github.com/adafruit/circuitpython/pull/761
+* 130 open issues
+  * https://github.com/adafruit/Adafruit_CircuitPython_PCF8523/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_SI4713/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/10
+  * https://github.com/adafruit/METROX-CircuitPython/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_Register/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_CharLCD/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS0/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_INA219/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_MPR121/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/20
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_seesaw/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_SGP30/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/30
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/28
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP9808/issues/12
+  * https://github.com/adafruit/cookiecutter-adafruit-circuitpython/issues/25
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/57
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/53
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/3
+  * https://github.com/adafruit/circuitpython/issues
+Download stats for 3.0.0-alpha.4
+* arduino_zero - 12
+* circuitplayground_express - 39
+* feather52 - 6
+* feather_huzzah - 8
+* feather_m0_adalogger - 3
+* feather_m0_basic - 4
+* feather_m0_express - 22
+* feather_m0_rfm69 - 4
+* feather_m0_rfm9x - 3
+* feather_m4_express - 2
+* gemma_m0 - 11
+* itsybitsy_m0_express - 5
+* metro_m0_express - 8
+* metro_m4_express - 8
+* trinket_m0 - 9
+144 total
+Download stats for 2.2.4
+* arduino_zero - 181
+* circuitplayground_express - 1184
+* feather_huzzah - 295
+* feather_m0_adalogger - 67
+* feather_m0_basic - 95
+* feather_m0_express - 320
+* feather_m0_rfm69 - 30
+* feather_m0_rfm9x - 24
+* gemma_m0 - 413
+* itsybitsy_m0 - 96
+* metro_m0_express - 247
+* trinket_m0 - 614
+3566 total
+20 out of 421 repos need work.
+
+ReadTheDocs missing the latest release. (Ignore me! RTD doesn't update when a new version is released. Only on pushes.) - 13
+
+Missing .py files in examples folder - 2
+https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing
+https://github.com/adafruit/Adafruit_CircuitPython_LSM303
+
+Mismatched readthedocs.yml - 4
+https://github.com/adafruit/Adafruit_CircuitPython_CharLCD
+https://github.com/adafruit/Adafruit_CircuitPython_GPS
+https://github.com/adafruit/Adafruit_CircuitPython_DS3231
+https://github.com/adafruit/Adafruit_CircuitPython_DHT
+
+Missing license. - 2
+https://github.com/adafruit/Adafruit_CircuitPython_LSM303
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+ReadTheDocs latest build has warnings and/or errors - 1
+https://github.com/adafruit/Adafruit_CircuitPython_RTTTL
+
+Not in bundle. - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+Unable to enable Travis build - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+Missing lint config - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+Missing CODE_OF_CONDUCT.md - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+Missing README.rst - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+Missing .travis.yml - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+Missing readthedocs.yml - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+Missing examples folder - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+ReadTheDocs missing as a subproject on CircuitPython - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+CircuitPython drivers page missing driver - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+State:
+
+Hug Reports 4:52
+
+@tannewt 5:33
+* CGrover for first PR!
+* sommersoft for being generally awesome. GPIO16 fix investigation and forum help.
+* jerryneedell for help fixing tick_delay and DHT22 in 3.x
+* notro for RTC PR
+
+cater 7:04
+* group hug
+
+cefn 7:13
+* Hugs to the amazing Micropython/Circuitpython community. I'm so reliant on everyone's freely-shared contributions such as WebREPL to offer educators and learners nice landing experiences https://vgkits.org/ . Blows me away every day!
+
+CGrover 7:48
+Group hug to the CircuitPython team – this time for the quality of the documentation for a couple of libraries that seemed obscure at first. Wonderful job on the RTDs and the copious comments in the code itself. Very helpful. Thanks to TonyD for his CPy servo learning guides.
+
+dhalbert 8:16
+* phil and limor for hosting us in NYC
+* met other nice folks at adafruit
+* community folks helping as we were away.
+
+jerryn 8:58
+* sommersoft for help with variety of things
+* circuitpython team for Ask An Engineer appearance!
+
+kattni 9:33
+* everyone on discord who kept up with things while we were away
+* phil and limor for hosting us in NYC
+* neat to see the other side of Adafruit
+* thanks those awesome in house folks that we met
+
+Noe 10:37
+* tannewt, kattni and dhalbert for visiting NYC
+* phil and limor for hosting
+* group hug!
+
+Pedro 11:05
+* ditto Noe
+* yes, hugs for all :grinning:
+
+sommersoft 11:28
+@jerryn for "lifting the lid" on a huzzah8266 to answer a hardware question. Wasn't exactly necessary, but have a definitive answer now. @tannewt, @kattni, & @Dan Halbert for representing :blinka: on AAE. Well done, and cake much deserved!  And, a group hug to round it all out.
+
+Status Updates 12:13
+
+@tannewt 12:33
+* Home from new york. Leaky roof
+* Metro M4 Launched! ItsyBitsy M4 on order.
+* Alpha 5 release by Wednesday
+* PyCon prep
+  * Sprint day to squash small issues in 3.0 milestone
+  * Two open spaces for people to experiment with their Gemma M0
+* Audio recording before PyCon. Close to Beta then.
+
+@cater 15:32
+* nope, travel
+
+@cefn 15:47
+* finalizing 8285 as target for python in physical computing in UK
+* usb for power then REPL over wifi
+* changed to 8285 to save extra dollar
+* https://github.com/vgkits/vanguard/tree/master/vector
+
+CGrover 18:14
+Primary project (besides installing drip irrigation – an irrigation “circuit” playground of sorts) was to finish and test the CPy mirror galvanometer parameter-driven servo inertia controller helper. The goal was to achieve uniform movement speed. (The algorithm could also be used for steadying camera pan-tilt movement.) Control parameters include current x-y position (degrees), target x-y position (degrees), movement step size (degrees), maximum movement rate (seconds per 180 degrees), and a pause-at-target-position setting (seconds). Results were very good even when using micro servos with sloppy plastic gears.
+Next steps include testing projection onto the back of a sheet of translucent glow-in-the-dark plastic.
+Repository with servo helper and example: https://github.com/CedarGroveStudios/Galvanometer
+M4 arrives later today! Will start testing with previously-implemented CPy projects before trying new stuff. #HappyCamper
+
+dhalbert 19:54
+* Working on HID. Simple dynamic HID devices because some kinds of devices are incompatible with each other.
+* touchio next!
+
+jerryn 21:26
+* fun with tick_delay! yay DHT22 working
+* occasional checksum errors, pulseio may be weird still
+* fun taking top off esp8266
+* stmpe610 drivers getting very close
+* thanks for metro m4 express!
+* reset is much more reliable
+
+kattni 22:52
+* testing with m4 stuff
+* circuitpython essentials for m4 going except touchio and cpu.temperate
+* two more plotter guides
+* two more guides for plotter videos
+* datalogging guide still in progress
+* lis3dh pull request reviews
+* get laptop set up again
+
+Noe 24:19
+* took break from usb joystick
+* cardboard! 3d printed adaptors
+* barometric pressure stuff: https://www.adafruit.com/product/1893
+* can do puff at least
+
+Pedro 26:00
+* make circuitpython powered drone claw!
+* claw to go on mavic
+* CPX pcb based on dastels bisquit design. attaches to legs
+* datalogging for an egg drop scenario
+* next week or week after
+* 3d models for blinka plushy!
+
+sommersoft 27:57
+ESP8266 GPIO16 - Now that I'm chasing the actual problem, trying to get the firmware to build with the SDK's specific functions for GPIO16. Will probably still require changes in pin handling though.
+
+ESP8266/nRF PulseIn - I've peeked at ESP a little. Most of what we'll need is scattered about in the machine_ and mod files. Haven't looked at nRF yet; kind of waiting on microbuilder and Arturo to put up any recent work.
+
+Lastly, still working on a Windows+Atmel Studio SAMD debugging guide to add to the current one. Outline/structure mostly done.
+
+Discussion (In the weeds) 29:26
+* PyCon
+  * Blog post early the week of would be good.
+  * Sprint day three weeks from today.
+* Alpha 5 all good
+* 35:11 We have landing page for circuitpython already: https://www.adafruit.com/circuitpython

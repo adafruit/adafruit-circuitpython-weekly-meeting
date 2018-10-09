@@ -1,0 +1,281 @@
+Video is here: https://youtu.be/J1HfORpx1ng
+
+February 12th, 2018
+
+State of CircuitPython + Libraries 2:30
+* 22 pull requests merged
+  * 10 authors - mattytrentini, mrmcwethy, tannewt, kattni, dhalbert, arturo182, tuupola, tdicola, siddacious, jerryneedell
+  * 8 reviewers - mrmcwethy, kattni, dhalbert, tannewt, caternuson, ladyada, microbuilder, tdicola
+* 6 new PRs, 5 authors - sommersoft, kevinjwalters, arturo182, tannewt, kattni
+* 4 closed issues by 4 people, 8 opened by 7 people
+* 8 open pull requests
+  * https://github.com/adafruit/Adafruit_CircuitPython_RTTTL/pull/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_MAX9744/pull/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP4725/pull/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_TSL2591/pull/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_WS2801/pull/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_Trellis/pull/1
+  * https://github.com/adafruit/circuitpython/pull/601
+  * https://github.com/adafruit/circuitpython/pull/600
+* 115 open issues
+  * https://github.com/adafruit/Adafruit_CircuitPython_CharLCD/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_MPR121/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_seesaw/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_SGP30/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/22
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/20
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/14
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/12
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_HID/issues/10
+  * https://github.com/adafruit/Adafruit_CircuitPython_HID/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/10
+  * https://github.com/adafruit/Adafruit_CircuitPython_Register/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_PCF8523/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/57
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/53
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/3
+  * https://github.com/adafruit/cookiecutter-adafruit-circuitpython/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/10
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/9
+  * https://github.com/adafruit/circuitpython/issues
+Download stats for 2.2.3
+* arduino_zero - 27
+* circuitplayground_express - 176
+* feather_huzzah - 62
+* feather_m0_adalogger - 11
+* feather_m0_basic - 14
+* feather_m0_express - 53
+* feather_m0_rfm69 - 6
+* feather_m0_rfm9x - 2
+* gemma_m0 - 39
+* itsybitsy_m0 - 6
+* metro_m0_express - 35
+* pirkey_m0 - 1
+* trinket_m0 - 99
+531 total
+
+76 out of 266 repos need work.
+
+README missing Travis badge - 64
+
+Mismatched readthedocs.yml - 6
+
+Missing license. - 6
+
+README missing Discord badge - 14
+
+ReadTheDocs latest build has warnings and/or errors - 49
+
+Autodoc failed on ReadTheDocs. (Likely need to automock an import.) - 38
+
+Missing CODE_OF_CONDUCT.md - 8
+
+README image missing alt text - 19
+
+Missing README.rst - 3
+https://github.com/adafruit/Adafruit_CircuitPython_CharLCD
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+https://github.com/adafruit/Adafruit_CircuitPython_Trellis
+
+Sphinx missing files - 3
+https://github.com/adafruit/Adafruit_CircuitPython_CharLCD
+https://github.com/adafruit/Adafruit_CircuitPython_MPR121
+https://github.com/adafruit/Adafruit_CircuitPython_SSD1306
+
+README missing ReadTheDocs badge - 20
+
+Not in bundle. - 7
+https://github.com/adafruit/Adafruit_CircuitPython_DS18X20
+https://github.com/adafruit/Adafruit_CircuitPython_FocalTouch
+https://github.com/adafruit/Adafruit_CircuitPython_LSM303
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+https://github.com/adafruit/Adafruit_CircuitPython_Trellis
+https://github.com/adafruit/Adafruit_CircuitPython_SI4713
+https://github.com/adafruit/Adafruit_CircuitPython_MPL3115A2
+
+Missing .py files in examples folder - 2
+https://github.com/adafruit/Adafruit_CircuitPython_LSM303
+https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing
+
+Missing readthedocs.yml - 8
+
+ReadTheDocs missing the latest release. (Likely the webhook isn't set up correctly.) - 5
+https://github.com/adafruit/Adafruit_CircuitPython_TLC5947
+https://github.com/adafruit/Adafruit_CircuitPython_RFM69
+https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display
+https://github.com/adafruit/Adafruit_CircuitPython_TLC59711
+https://github.com/adafruit/Adafruit_CircuitPython_PCA9685
+
+Missing lint config - 2
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+https://github.com/adafruit/Adafruit_CircuitPython_Trellis
+
+Missing .travis.yml - 2
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+https://github.com/adafruit/Adafruit_CircuitPython_Trellis
+
+Missing examples folder - 2
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+https://github.com/adafruit/Adafruit_CircuitPython_Trellis
+
+Failed to fetch latest release from GitHub - 3
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+https://github.com/adafruit/Adafruit_CircuitPython_Trellis
+https://github.com/adafruit/Adafruit_CircuitPython_MPL3115A2
+
+* Good first issue: Fix RTD badge: https://github.com/adafruit/circuitpython/issues/613
+
+Hug reports 5:30
+* mrmcwethy for finishing up examples in all of our drivers.
+* ladyada, dhalbert, kattni and make:code folks for super cool webusb experimentation
+* thanks to tdicola, dhalbert, kattni, arturo182 and deshipu for feedback on design guide changes
+
+tdicola 7:17
+none
+
+arturo182 7:31
+Hug report for Kevin aka. microbuilder (don't think he's here, someone relay :wink: ) for being super cool about having to review all my PRs and @jerryn for testing my nRF changes :smiley:
+
+BravoDelta 8:16
+none
+
+brentr 8:24
+* dhalbert for help with gmtime. more progress this week
+
+cater 8:55
+group hug
+
+cgrover 9:03
+* go team! figured out how to peruse readthedocs
+
+dhalbert 11:02
+* jerryn as source for mysterious and interesting bugs
+* ladyada for interest in webusb. lots of work there
+
+dastels 11:45
+* tdicola for digital sand sino:bit. micropython on sino:bit
+* http://tdicola.github.io/sinobit-micropython/
+
+jerryn 12:13
+* arturo182 and microbuilder for nrf52 work
+* dhalbert and cater for help with funny bugs
+
+kattni 13:04
+* wolf for helping with guide code for ikea lamp
+* dhalbert and tannewt for sitting in on crazy debugging
+
+sommersoft 13:48
+* @tannewt for a really good review and suggestions on Trellis lib. Group hug for support efforts this week on discord; I think the community really values this, and it keeps new members coming back.
+
+Status 14:43
+
+* Heads down on 3.x. Bug me if you are blocked by me for more than 24 hours.
+* Got analogio, bitbangio merged in.
+* pulseio is next. PWMOut is implemented and compiles but doesn't work yet. Not using ASF4 at all.
+
+tdicola 16:20
+* library si4713, fm transmitter. done, guide updated
+* pressure sensor, mpl. lib done but guide skipped
+* top priority to port firmata to circuitplayground express
+* lsm303, vml6070 guide updates needed
+
+arturo182 17:55
+This week I'll try to look at #588 (Rename pins to match nRF convention), #615 (Add safe mode to nRF boards) and general nRF HAL cleanup.
+
+bravodelta 18:33
+* sprite editor for uGame. 16 x 16 pixels make easier. https://github.com/BravoDelta151/Sprite_Editor
+* self-balancing robot
+* add more wheels if it doesn't balance
+
+brentr 19:58
+* adding time.gmtime
+* metro explorer's guide for circuitpython. adding cap touch example
+* repo private now but will ask for feedback later in the week
+* micropython watch example getting updated
+
+cgrover 21:46
+* shipped string car circuitpython users to western washington
+* string car library: https://github.com/CedarGroveStudios/StringCar3v1CPy
+* text file for motor parameters separate of the code
+* next version will have lipo support instead of 9v battery
+* new holiday lights will be led and controlled by circuitpython
+
+dhalbert 27:33
+* maybe split our disk into two filesystems so you can read and write from both sides
+* uart in 3.0, asf4 found a bug about copying data into ram.
+* fixed clock init code
+* uart this week!
+* webusb stuff for @ladyada
+* really distracted by brand new itsybitsy
+
+dastels 30:41
+* new 3d printer!
+* mounting spi flash as usb drive. microlisp experimentation
+
+jerryn 32:02
+* fighting with rfm69 and esp8266. 3.0 helped a bunch. runs better but still flaky
+* breaking nrf52 for @arturo182
+* no work on stmpe
+
+kattni 33:34
+* a lot of work on ikea lamp code and its guide
+* community support this weekend, code reviews, merges and releases
+* PR for brightness on neopixel to auto-write
+* heads down on the lamp guide
+* work on learning arduino to be able to convert arduino guides to circuitpython
+* helped test webusb on more modern android phones
+
+ladyada 36:26
+* no status updates, lots of little things :smiley: played with webusb
+* hug reports to tonyd for updating firmata to CPX, lets us move away from the classic CP
+* kattni for working on ikea project
+* arturo for helping with nrf52
+* dastels for awesome guides - keep em comin!
+* ok sommersoft worked on trellis and its great
+* and danhalbert for hacking on webusb / UF2 with me
+
+nis 38:48
+This week, I was able to interface CP2104 PiUART to
+an old 8051-based microcontroller project, to replace an
+aging MAX3232 serial interface to the host PC. I also
+finally figured out how to do the RESET and C2 (two-wire
+programming) lines for this development system, which
+requires pin sharing.  The C2 interface provides in-
+circuit debugging as well as programming an uninitialized
+device.  Since the Silabs C8051F330D only has 20 pins (it
+shipped in a now-deprecated DIP-20 package) and C2 isn't
+used all that often, it makes sense to share the pins for
+both C2CK and /RST (RESET).  It all works now, exactly as
+the original amrFORTH system did.  Serial bootloader code
+tweaking on both the host PC and the microcontroller figured
+as well.
+PiUART == awesome!
+Also did a 14-segment alphanumeric display this week, the
+hard way. ;)  Kept up on discipline and have been diligently
+capturing schematics, using Fritzing.
+
+https://github.com/wa1tnr/amrforth-v7-F330
+https://github.com/wa1tnr/amrforth-v7-F330/blob/master/doc/fritzing/f330D_RRefactored__bb2a_schem_Rv.png
+
+sommersoft 40:15
+Update: fought LED changes to Trellis all day Saturday; don't try forcing class inheritance when it isn't needed. Got past that, now just working out the buffer slicing for LED & buttons. No movement on isSerialConnected, but that's a quick one to finish. Will visit open issues later in the week for next task.
+
+
+Discussion (In the weeds) 41:22
+* Anything else we need besides busio before 3.0 Beta 1? (1 open) https://github.com/adafruit/circuitpython/issues?q=is%3Aopen+is%3Aissue+milestone%3A%223.0+Beta%22
+  * what are the milestones?
+  * stable with nrf52 for 3.0? 49:17
+  *
+* wolf wants to do asyncio in circuitpython
+  * keep eyes for issue
+* 52:47 plan for uf2 bootloader on older feather m0 BOARD_FLASH_SIZE
+* 54:29 new bootloaders have webusb
+* Go over issues for 3.0. (39 open) https://github.com/adafruit/circuitpython/issues?q=is%3Aopen+is%3Aissue+milestone%3A3.0
+ * 1:10:31 common questions can go here: https://github.com/adafruit/circuitpython/issues/583

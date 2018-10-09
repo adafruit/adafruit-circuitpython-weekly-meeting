@@ -1,0 +1,277 @@
+Video recording is here: https://youtu.be/F4OR6-OZTtk
+
+January 29, 2018
+State of CircuitPython + Libraries 2:28
+* 22 pull requests merged
+  * 9 authors - caternuson, tdicola, brentru, sommersoft, mrmcwethy, jakebird451, tannewt, dhalbert, raidancampbell
+  * 5 reviewers - tdicola, kattni, ladyada, tannewt, dhalbert
+* 7 new PRs, 5 authors - deshipu, kattni, raidancampbell, tannewt, inventhouse
+* 22 closed issues by 7 people, 4 opened by 3 people
+* 11 open pull requests
+  * https://github.com/adafruit/Adafruit_CircuitPython_PCA9685/pull/10
+  * https://github.com/adafruit/Adafruit_CircuitPython_RTTTL/pull/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/pull/26
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/pull/25
+  * https://github.com/adafruit/cookiecutter-adafruit-circuitpython/pull/14
+  * https://github.com/adafruit/Adafruit_CircuitPython_Register/pull/10
+  * https://github.com/adafruit/Adafruit_CircuitPython_Register/pull/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing/pull/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP4725/pull/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_MAX9744/pull/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/pull/15
+* 91 open issues
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_CharLCD/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_MPR121/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_seesaw/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_SGP30/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/20
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/14
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/12
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_HID/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/10
+  * https://github.com/adafruit/cookiecutter-adafruit-circuitpython/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_PCF8523/issues/2
+  * https://github.com/adafruit/circuitpython/issues
+  * https://github.com/adafruit/Adafruit_CircuitPython_Register/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/3
+Download stats for 2.2.1 (5 days worth)
+* arduino_zero - 18
+* circuitplayground_express - 127
+* feather_huzzah - 42
+* feather_m0_adalogger - 19
+* feather_m0_basic - 13
+* feather_m0_express - 40
+* feather_m0_rfm69 - 4
+* feather_m0_rfm9x - 4
+* gemma_m0 - 27
+* itsybitsy_m0 - 3
+* metro_m0_express - 19
+* trinket_m0 - 80
+396 total
+
+70 out of 238 repos need work. (New checks since last week!)
+
+README missing Travis badge - 68
+
+Missing examples folder - 4
+https://github.com/adafruit/Adafruit_CircuitPython_DotStar
+https://github.com/adafruit/Adafruit_CircuitPython_MAX31855
+https://github.com/adafruit/Adafruit_CircuitPython_BNO055
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+
+ReadTheDocs latest build has warnings and/or errors - 51
+
+Mismatched readthedocs.yml - 6
+
+Missing license. - 5
+https://github.com/adafruit/Adafruit_CircuitPython_DHT
+https://github.com/adafruit/Adafruit_CircuitPython_APDS9960
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+https://github.com/adafruit/Adafruit_CircuitPython_TSL2561
+https://github.com/adafruit/Adafruit_CircuitPython_LSM303
+
+README missing Discord badge - 15
+
+Autodoc failed on ReadTheDocs. (Likely need to automock an import.) - 40
+
+Missing CODE_OF_CONDUCT.md - 7
+
+README image missing alt text - 22
+
+Missing README.rst - 2
+https://github.com/adafruit/Adafruit_CircuitPython_CharLCD
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+
+Sphinx missing files - 3
+https://github.com/adafruit/Adafruit_CircuitPython_CharLCD
+https://github.com/adafruit/Adafruit_CircuitPython_MPR121
+https://github.com/adafruit/Adafruit_CircuitPython_SSD1306
+
+README missing ReadTheDocs badge - 22
+
+Not in bundle. - 9
+https://github.com/adafruit/Adafruit_CircuitPython_DS18X20
+https://github.com/adafruit/Adafruit_CircuitPython_FocalTouch
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+https://github.com/adafruit/Adafruit_CircuitPython_LSM303
+https://github.com/adafruit/Adafruit_CircuitPython_TSL2591
+https://github.com/adafruit/Adafruit_CircuitPython_TLC59711
+https://github.com/adafruit/Adafruit_CircuitPython_MCP4725
+https://github.com/adafruit/Adafruit_CircuitPython_MAX9744
+https://github.com/adafruit/Adafruit_CircuitPython_FancyLED
+
+Token creation failed - 2
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+https://github.com/adafruit/Adafruit_CircuitPython_DS2413
+
+Missing lint config - 1
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+
+Missing .travis.yml - 1
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+
+Missing readthedocs.yml - 2
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+https://github.com/adafruit/Adafruit_CircuitPython_SSD1306
+
+Failed to fetch latest release from GitHub - 2
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+https://github.com/adafruit/Adafruit_CircuitPython_TLC59711
+
+ReadTheDocs missing the latest release. (Likely the webhook isn't set up correctly.) - 5
+https://github.com/adafruit/Adafruit_CircuitPython_DS1307
+https://github.com/adafruit/Adafruit_CircuitPython_TSL2591
+https://github.com/adafruit/Adafruit_CircuitPython_MCP4725
+https://github.com/adafruit/Adafruit_CircuitPython_MAX9744
+https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display
+
+Missing .py files in examples folder - 2
+https://github.com/adafruit/Adafruit_CircuitPython_LSM303
+https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing
+
+Unable to enable Travis build - 1
+https://github.com/adafruit/Adafruit_CircuitPython_TLC59711
+
+Hug Reports 4:59
+
+tannewt 5:15
+* @mrmcwethy, @sigafoos, @caternuson great job with examples
+* @jakebird451 update to README for RGB Display library
+* @tdicola for rocking out drivers
+* @raidancampbell for first commit
+
+tdicola 6:03
+* none
+
+deshipu 6:20
+* kattni for testing ssd175
+* tannewt for the memory improvements
+
+bravodelta 6:53
+* none
+
+cater 7:03
+* group hug
+
+dhalbert 7:22
+* tannewt for heap stuff
+* jerryn for finding important bugs
+
+dastels 7:51
+* kattni and ladyada for help with digital sand guide out
+*
+
+
+jerryn 8:25
+* kattni for help with help on sd card guide
+* dhlabert for fixing hte bugs he found
+
+kattni 8:51
+* dastesl and jerryn for their guides
+* tannewt for heap work
+* dhalbert for figuring out a bug that happened all night
+* group hug for keeping up
+* wolf helping with finding process error (mpy and py both present)
+
+nis 10:13
+* group hug for being positive!
+* hug as you go
+* kattni for reading technical stuff in real-time last week
+
+To the community for consistently responding positively and not squashing exploratory ideas I've put out in the past week.  I'm a hug-as-you-go kind of person, so I'll try to keep in mind there's a time and place to make the extra effort to give a good hug. ;)  Receptivity here in this very meeting, last week, during the In The Weeds session, was a wonderful welcome for me!  Also for Katt
+
+sommersoft 11:12
+Just a group hug this week.
+
+Status 11:41
+
+tannewt
+* No longer squash or rebase changes into our git repos. Always use a merge commit.
+* Finally finished CircuitPython in 2018 blog post.
+* Finished Motor Featherwing memory improvements.
+* Published before and after heap video. Its checked into master as well. https://www.youtube.com/watch?v=gSfmVdRejTk
+* Added docs checks to AdaBot and began fixing them. Also fixed cookiecutter template.
+* Added Travis badge to libraries
+
+tdicola 16:38
+* tsl2591 library
+* hit limits of 31 bits with maximum gain (~9000 gain).
+  * support 32 bit ints or deshipu suggests returning float
+* mcp2475 adc converter, same as analogout
+* max amp hour
+* tlc5947 spi pwm led controllers
+
+deshipu 19:27
+* uGame boards fabbed
+* added docs for it: http://ugame.readthedocs.io/
+* tutorial for bouncing ball
+* stage and gamepad into 3.0
+
+BravoDelta 20:45
+* nothing
+
+cater 20:58
+* ds2413 lib checked in and in bundle
+* looking for more stuff - doc stuff
+
+cgrover 22:34
+* no progress
+* background music for heap video
+
+dhalbert 23:11
+* took thursday off
+* stack needed to be doubleword aligned, fixed that bug
+* reorganized the adfruit support forums
+* is a forum admin
+* 3.0 uart
+* pulling new copy of asf4 and needs tannewts input
+
+dastels 25:24
+* nothing too related after guides finished
+* guide on optimization both speed and memory
+
+jerryn 26:50
+* sht31d driver
+* updates for ladyada
+* playing with rfm69, remote circuitpython to arduino base station
+* try esp8266 for base station instead
+
+kattni 28:03
+* joy featherwing library PR in
+* started dot star featherwing
+* helped out with guides
+* ds3231 real time clock featherwing up next
+* did pass over issue and PRs
+* testing bug that isn't reproducible, code is ok
+* @deshipu and @kattni talked about future for the RGB library
+* CircuitPython presentation! https://youtu.be/307Ia_mv8AA
+
+nis 30:48
+I mainly use Circuit Python in conjunction with helping newcomers with their projects.  They don't always ask in #circuitpython, either. ;)
+
+TX/RX UART pair used to connect two microcontroller projects together, but concerned with the fact both projects are connected via USB to separate laptops.  When I unplugged the Trinket M0 from the USB jack, it blinked the 'are you crazy' blink pattern, which I take to be an undervoltage condition (0.9 volts under Vcc from what I measured).
+
+Also working on an R2-R ladder net to be able to read an 8-bit binary input on a single ADC pin.  Front panel construction going on with that this week, since all resistors in the experimental version are 100k potentiometers!
+
+sommersoft 35:15
+Trellis base library complete. Starting Trellis Matrix tonight. After that, might start hitting nRF52 shared modules...not sure. (Or docs? :shrug:)
+
+Discussion (In the weeds) 36:07
+* Examples in libraries, is there a quality check?
+    * We should go over the examples to evaluate quality at some point
+    * Create individual issues
+    * 45:00 simpletest.py
+    * add check for simpletest.py
+* 47:40 at what point do we cap bundle size?
+    * 51:00 https://travis-ci.org/adafruit/Adafruit_CircuitPython_Bundle/jobs/334330088#L888
+    * 54:54 cpy file format
+    * dynamic bundling
+* 55:31 ReadTheDocs questions
+    * 56:25 - drivers list in circuitpython is out of date

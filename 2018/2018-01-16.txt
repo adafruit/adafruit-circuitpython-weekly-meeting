@@ -1,0 +1,194 @@
+Video is available here: https://www.youtube.com/watch?v=a34DH1FSqJc
+
+January 16th, 2018 - 3:00
+State of CircuitPython + Libraries
+* 18 pull requests merged
+  * 8 authors - Sigafoos, ladyada, tdicola, brentru, tannewt, mrmcwethy, deshipu, microbuilder
+  * 6 reviewers - kattni, ladyada, tannewt, dhalbert, mrmcwethy, deshipu
+* 13 new PRs, 4 authors - tannewt, sommersoft, microbuilder, dhalbert
+* 23 closed issues by 4 people, 12 opened by 5 people
+* 13 open pull requests
+  * https://github.com/adafruit/Adafruit_CircuitPython_MAX7219/pull/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_CharLCD/pull/6
+  * https://github.com/adafruit/CircuitPython_Community_Bundle/pull/7
+  * https://github.com/adafruit/Adafruit_CircuitPython_RTTTL/pull/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_SSD1306/pull/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing/pull/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_Register/pull/10
+  * https://github.com/adafruit/Adafruit_CircuitPython_Register/pull/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_PCA9685/pull/10
+  * https://github.com/adafruit/circuitpython/pull/529
+  * https://github.com/adafruit/circuitpython/pull/528
+  * https://github.com/adafruit/circuitpython/pull/527
+  * https://github.com/adafruit/circuitpython/pull/518
+* 108 open issues
+  * https://github.com/adafruit/Adafruit_CircuitPython_IS31FL3731/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_IS31FL3731/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_MAX7219/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_DS3231/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_PCF8523/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_CharLCD/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_MPR121/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_CCS811/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_CCS811/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_seesaw/issues/2
+  * https://github.com/adafruit/cookiecutter-adafruit-circuitpython/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/21
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/10
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_SGP30/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/20
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_HID/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_HID/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_Register/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/14
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/12
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/1
+  * https://github.com/adafruit/circuitpython/issues
+Download stats for 2.2.0
+* arduino_zero - 32
+* circuitplayground_express - 378
+* feather_huzzah - 103
+* feather_m0_adalogger - 26
+* feather_m0_basic - 24
+* feather_m0_express - 89
+* gemma_m0 - 66
+* metro_m0_express - 51
+* trinket_m0 - 197
+966 total +507
+
+30 out of 217 repos need work.
+
+Missing lint config - 1
+https://github.com/adafruit/Adafruit_CircuitPython_IS31FL3731 - tannewt is doing this
+
+Old travis config - 1
+https://github.com/adafruit/Adafruit_CircuitPython_IS31FL3731
+
+Mismatched readthedocs.yml - 8
+
+Missing examples folder - 12
+
+Missing license. - 3
+https://github.com/adafruit/Adafruit_CircuitPython_DHT
+https://github.com/adafruit/Adafruit_CircuitPython_TSL2561
+https://github.com/adafruit/Adafruit_CircuitPython_APDS9960
+
+Not in bundle. - 9
+https://github.com/adafruit/Adafruit_CircuitPython_AMG88xx
+https://github.com/adafruit/Adafruit_CircuitPython_seesaw
+https://github.com/adafruit/Adafruit_CircuitPython_Thermal_Printer
+https://github.com/adafruit/Adafruit_CircuitPython_Fingerprint
+https://github.com/adafruit/Adafruit_CircuitPython_APDS9960
+https://github.com/adafruit/Adafruit_CircuitPython_DS18X20
+https://github.com/adafruit/Adafruit_CircuitPython_FancyLED
+https://github.com/adafruit/Adafruit_CircuitPython_FocalTouch
+https://github.com/adafruit/Adafruit_CircuitPython_RFM69
+
+Missing readthedocs.yml - 2
+https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display
+https://github.com/adafruit/Adafruit_CircuitPython_SSD1306
+
+Hug Reports 5:40
+* sommersoft for great job with uid on all platforms esp, samd and nrf.
+* jerryn for living on the 3.x edge for m4 and nrf
+* codingpro for helping folks get started
+* sigafoos for library improvements
+* all the awesome newcomers
+
+tdicola 7:38
+
+deshipu 7:51
+
+bravodelta 8:00
+
+brentr 8:12
+nope
+
+cater 8:26
+group hug and happy new year
+
+dastels 8:41
+thanks for feedback on accel/mag library you wrote. LSM303
+
+jerryn 9:30
+@microbuilder for nrf52 work
+
+kattni 9:47
+@tannewt for sphinx help
+@dhalbert for help before vacation
+group hug for everyone getting back into the swing of things
+
+sommersoft 10:40
+@tannewt @jerryn for putting up with my myriad of windows + toolchain = headache issues. And @tonyd for his awesome videos on setting up the VMs.
+
+Status 11:00
+* One more library to lint, is31fl37
+* Got distracted by memory errors. Got a couple PRs out to reduce memory use of motor featherwing.
+* Working on a change to reduce memory errors (failed to allocate 512 bytes) in REPL.
+* Full draft of blog post here: https://docs.google.com/document/d/1lAzMxgs1_QW_iPu2FD9_vIWT-1WV9nFuSOl7p7JjZDQ/edit
+* 3.0 beta work next. starting by checking in analogio work
+
+tdicola 16:03
+* ds18b20 guide temp sensor and in bundle
+* updated servo guide for new motor library
+* RFM69 packet radio library. not yet lora or large messages (60+ bytes)
+
+deshipu 18:03
+* blinka boards from osh park came in
+* see how small osh park can do. microblinka pin: https://oshpark.com/shared_projects/yhqhVjre
+
+BravoDelta 19:55
+Nothing this week
+
+brentr 20:15
+metro express explorers guide code is now linted (thx kattni/mrmcwethy) and conforms to 2.2.x instead of what it ran over the summer and runtime errors are gonee, physical booklet for the metrox classic kit is almost done too (it's really awesome - just wait for the cirpy edition..SOON!),  and I started a badge design for the BSides security conference in boston (its gonna use circuit python whooo)...oh and I applied to grad school so fingers crossed (my thesis proposal incorporates  circuitpython)
+
+cater 21:02
+* back!
+* lotsa forum support
+
+dastels 22:22
+* dotstar featherwing guide (show and tell tomorrow hopefully)
+* joywing + dotstar wing game
+* digital sand on dotstar featherwing. fairly smooth
+  * less division, more bit shift
+* more debugging capabilities for 3.x
+
+jerryn 24:38
+* lotsa testing
+* tracking down 3.x import hang. ssd1306 fails due to it
+* managed to import libraries from sd card
+* playing with nrf52 and has come a long way
+  * sommersoft created useful issue of new stuff needed in nrf52:
+* want to play with rfm69 as well
+
+kattni 29:38
+* working on featherwing library
+  * ina219 lib is done, PR incoming
+  * joy featherwing back burnered
+  * dotstar featherwing is next
+* tested and merged bno055, second to last lint list
+* all circuitpython guides updated to include new quickstart install plus mirrored info
+
+sommersoft 31:30
+uid as you said earlier is done (minus pending PR). Started working on a Trellis library...+/- wires crossed... :sparky: came to town. So up next: start working on VEML6070 UV Sensor library, and practicing SMD repair once a new HT16K33 chip shows up. Other than that, cruising the Issues pages for ideas.
+
+Discussion 32:45
+* two boards connected at once, two CIRCUITPY drives
+  * default should try to be unique
+  * function to change label
+* downloads as rates instead of absolute values
+* add sdcard mounting and importing to adalogger
+* rosie - import and catalog memory use for all libraries
+* deshipu pointed out there is an issue for micropython's parser memory

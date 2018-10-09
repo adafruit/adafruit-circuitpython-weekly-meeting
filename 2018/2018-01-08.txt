@@ -1,0 +1,206 @@
+CircuitPython weekly held every week on http://adafru.it/discord Mondays at 11am Pacific / 2pm Eastern.
+
+Video recording for this meeting is here: https://youtu.be/4QYz0BDKKTI
+
+State of CircuitPython + Libraries 2:00
+* 42 pull requests merged
+  * 9 authors - ladyada, microbuilder, raidancampbell, dhalbert, brentru, tannewt, Sigafoos, mrmcwethy, kattni
+  * 5 reviewers - ladyada, dhalbert, tannewt, mrmcwethy, kattni
+* 4 new PRs, 3 authors - brentru, Sigafoos, tannewt
+* 18 closed issues by 8 people, 6 opened by 4 people
+* 8 open pull requests
+  * https://github.com/adafruit/Adafruit_CircuitPython_PCA9685/pull/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_MAX7219/pull/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_HID/pull/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_CharLCD/pull/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/pull/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_RTTTL/pull/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_SSD1306/pull/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_Waveform/pull/2
+* 185 open issues
+  * https://github.com/adafruit/Adafruit_CircuitPython_IS31FL3731/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_IS31FL3731/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_PCA9685/issues/7
+  * https://github.com/adafruit/Adafruit_CircuitPython_PCA9685/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_MAX7219/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_DS3231/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_PCF8523/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_HID/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_HID/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_CharLCD/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_MPR121/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_Register/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_CCS811/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_CCS811/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_seesaw/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/issues/8
+  * https://github.com/adafruit/cookiecutter-adafruit-circuitpython/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/21
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/14
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/12
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/41
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/21
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/10
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_SGP30/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/20
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/11
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/1
+  * https://github.com/adafruit/circuitpython/issues
+
+Download stats for 2.2.0
+* arduino_zero - 14
+* circuitplayground_express - 181
+* feather_huzzah - 45
+* feather_m0_adalogger - 15
+* feather_m0_basic - 12
+* feather_m0_express - 35
+* gemma_m0 - 35
+* metro_m0_express - 22
+* trinket_m0 - 100
+459 total
+
+34 out of 209 repos need work.
+
+Missing lint config - 3
+https://github.com/adafruit/Adafruit_CircuitPython_IS31FL3731
+https://github.com/adafruit/Adafruit_CircuitPython_PCA9685
+https://github.com/adafruit/Adafruit_CircuitPython_BNO055
+
+Old travis config - 3
+https://github.com/adafruit/Adafruit_CircuitPython_IS31FL3731
+https://github.com/adafruit/Adafruit_CircuitPython_PCA9685
+https://github.com/adafruit/Adafruit_CircuitPython_BNO055
+
+Mismatched readthedocs.yml - 9
+
+Missing examples folder - 17
+
+Missing readthedocs.yml - 3
+https://github.com/adafruit/Adafruit_CircuitPython_PCA9685
+https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display
+https://github.com/adafruit/Adafruit_CircuitPython_SSD1306
+
+Missing license. - 3
+https://github.com/adafruit/Adafruit_CircuitPython_DHT
+https://github.com/adafruit/Adafruit_CircuitPython_TSL2561
+https://github.com/adafruit/Adafruit_CircuitPython_APDS9960
+
+Not in bundle. - 12
+
+Missing .py files in examples folder - 1
+https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing
+
+Hug reports: 4:30
+* @mrmcwethy and @sigafoos for adding examples to repos. https://github.com/adafruit/circuitpython/issues/493
+* @tdicola for adding bundle checking to Adabot and excellent polish on top of it.
+* @dhalbert for 2.2.0 merge into master.
+* @sommersoft for working on merged vagrant VM for building both M0 and ESP8266.
+
+7:05 tdicola
+no updates
+
+7:20 bravodelta
+@ntoll new build of mu before christmas. fixed a windows bug
+
+8:24 brentr
+I'm not going to turn my mic on because the factory is loud. hug report to tony for waveforms (tone), kattni and mr mcwethy for reviewing the metrox circs code
+
+8:58 cgrover
+@dhalbert and @kattni, getting going with github
+@dhalbert, books for conceptual side of python
+@ladyada for pomodoro timer code, avr programmer
+
+9:52 dhalbert
+@tannewt for library bundle automation work
+@kattni and @ladyada for tap detection improvements before 2.2.0
+@jerryn continuing to test releases
+
+10:40 jerryn
+@dhalbert for producing the releases
+@deshipu for help with i2c bitbanging on ESP8266, ccs811 sensor debugging
+
+11:28 Kattni
+@jerryn and @siddacious for the metrowing design
+@deshipu and @sommersoft for help with linting library help
+@tdicola for help with backwards osldered leds
+@dhalbert and @tannewt for random help
+@wolf for behind the scenes help
+
+12:55 sommersoft
+@tannewt for help on uid and vagrant, and for his earlier thanks to @Dan Halbert and @jerryn. And...thanks to @Dan Halbert and @jerryn for troubleshooting esp-vagrant. Lastly, GROUP HUG!!
+
+Status 13:28
+
+@tannewt 13:37
+* PCA9685 lint work
+* BNO055 linting
+
+@tdicola 16:52
+* holidays
+* thermal printer
+* verified 9dof, fxas...
+* drv2605 haptic feedback motor
+* bcnl4010 distance sensor
+* updated adabot
+* rfm69
+* updated piezo learn guide
+* update ds18x20 temp sensor guide updates
+
+@BravoDelta 19:00
+* playground color sense guide, working with @kattni
+* open to more things
+
+@brentr 19:40
+kattni and mr mcwethy (thanks again) are reviewing code for the MetroX circuitpython edition guide. tone() got reworked in simpleio a bit. Waveforms has a square wave now! (or should, there's a PR)
+
+@cgrover 20:18
+* string car out in the snow
+* able to abstract main.py code so no pin initialization is needed
+* https://youtu.be/d1Q9OenC9Kk
+* https://github.com/CedarGroveStudios/StringCar3v1CPy
+
+21:46 dhalbert
+* 2.2.0 released!
+* fixed M4 issues with latest gcc
+* merged 2.2.0 changes into master
+* ssd1306 libraries now support reset pin
+* @oldcrow found feather m0 express driver not correct in latest win 7 drivers
+
+23:28 @jerryn
+* lots of testing
+* circuitpython 3 now tested but theres an issue with safe mode. both m0 and m4
+* lots of m0 and esp8266 bitbangio stuff
+
+25:40 @kattni
+* times blurring together
+* lis3dh tap detection stuff for cpx. gotten into 2.2
+* gemma guide has welcome to cpy guide mirrored in
+* cpx and metro guide gonna get updated
+* testing and merging lint PRs
+* presentation tomorrow night on circuitpython, 6:30pm farmington hills library in farmington michigan.
+* review @tannewts PCA9685 PR
+* reviewing brentr's MetroX work
+
+28:58 @sommersoft
+Update: none really. nRF board should be here this week, so I can start working 'uid' on that. VEML6070 is also showing up this week; giving a library a go for that. And rotary encoder, though I don't have a M4...so we'll see. <Insert obligatory "curse you esp-vagrant+windows"> Have a fork/branch for combining the esp & samd vagrants; working on updating the docs (will add some notes on my current problem). I thinks that's it...
+
+Discussion (the weeds) 30:15
+* Talk CircuitPython in 2018
+  * https://docs.google.com/document/d/1lAzMxgs1_QW_iPu2FD9_vIWT-1WV9nFuSOl7p7JjZDQ/edit#
+
+46:00 motivations behind circuitpython and commitment
+
+1:03:00 M4 vs M0
+* improve on differentation between board tiers

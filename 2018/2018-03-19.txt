@@ -1,0 +1,242 @@
+Video is available here: https://youtu.be/G_br7smHsvU
+
+March 19th, 2018
+State of CircuitPython + Libraries 2:41
+* 20 pull requests merged
+  * 7 authors - caternuson, sommersoft, jerryneedell, tannewt, deshipu, vesperk38, kevinjwalters
+  * 4 reviewers - kattni, dhalbert, tannewt, sommersoft
+* 3 new PRs, 3 authors - sommersoft, Sigafoos, kattni
+* 9 closed issues by 6 people, 3 opened by 2 people
+* 4 open pull requests
+  * https://github.com/adafruit/cookiecutter-adafruit-circuitpython/pull/24
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/pull/27
+  * https://github.com/adafruit/circuitpython/pull/683
+  * https://github.com/adafruit/circuitpython/pull/628
+* 123 open issues
+  * https://github.com/adafruit/Adafruit_CircuitPython_PCF8523/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_SI4713/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_HID/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/10
+  * https://github.com/adafruit/Adafruit_CircuitPython_Register/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_CharLCD/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS0/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_MPR121/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/20
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/12
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_seesaw/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_SGP30/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/57
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/53
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/3
+  * https://github.com/adafruit/circuitpython/issues
+Download stats for 3.0.0-alpha.3
+* arduino_zero - 4
+* circuitplayground_express - 5
+* feather52 - 3
+* feather_huzzah - 6
+* feather_m0_adalogger - 2
+* feather_m0_basic - 2
+* feather_m0_express - 2
+* feather_m0_rfm69 - 2
+* feather_m0_rfm9x - 3
+* gemma_m0 - 3
+* itsybitsy_m0_express - 1
+* metro_m0_express - 2
+* metro_m4_express_revb - 1
+* trinket_m0 - 3
+39 total
+Download stats for 2.2.4
+* arduino_zero - 50
+* circuitplayground_express - 318
+* feather_huzzah - 62
+* feather_m0_adalogger - 20
+* feather_m0_basic - 25
+* feather_m0_express - 100
+* feather_m0_rfm69 - 11
+* feather_m0_rfm9x - 10
+* gemma_m0 - 41
+* itsybitsy_m0 - 19
+* metro_m0_express - 43
+* trinket_m0 - 137
+836 total
+21 out of 397 repos need work.
+
+Missing license. - 2
+https://github.com/adafruit/Adafruit_CircuitPython_LSM303
+
+Not in bundle. - 2
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+https://github.com/adafruit/Adafruit_CircuitPython_FocalTouch
+
+ReadTheDocs latest build has warnings and/or errors - 2
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+https://github.com/adafruit/Adafruit_CircuitPython_APDS9960
+
+CircuitPython drivers page missing driver - 3
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+https://github.com/adafruit/Adafruit_CircuitPython_MCP230xx
+https://github.com/adafruit/Adafruit_CircuitPython_FXAS21002C
+
+ReadTheDocs missing the latest release. (Ignore me! RTD doesn't update when a new version is released. Only on pushes.) - 12
+
+Missing .py files in examples folder - 2
+https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing
+https://github.com/adafruit/Adafruit_CircuitPython_LSM303
+
+Mismatched readthedocs.yml - 4
+https://github.com/adafruit/Adafruit_CircuitPython_CharLCD
+https://github.com/adafruit/Adafruit_CircuitPython_GPS
+https://github.com/adafruit/Adafruit_CircuitPython_DHT
+https://github.com/adafruit/Adafruit_CircuitPython_DS3231
+
+Hug Reports 6:23
+* siddacious and sommersoft for helping TG-Techie get building
+* sigafoos for named tuple accelerometer PR
+* sommersoft and kattni for more doc work and PRs
+* jerryn for dotstar gemma fix
+* kevin j walters for ws2801 library
+
+Andon 8:15
+Group Hug. Still busy with other things, so havent' paid much attention, but I'm sure you are all doing awesome stuff.
+
+brentr 8:35
+hug report for @tannewt for being on one of my favorite podcasts (the amp hour). I listened to it on my flight and it made time fly.
+
+cater 9:01
+fly on the wall mode for me this week. no mic. no updates. group hug.
+
+cefn 9:22
+
+cgrover 9:41
+Group hug for all the work on 2.2.4!
+
+dhalbert 9:53
+* hug to tannewt@ for shared-bindings refactor is very nice
+
+deshipu 10:44
+* group hug!
+* congrats on alpha 3!
+
+hukuzatuna 11:17
+* kattni who has been working very hard on dotstar express vs non-express
+
+jerryn 11:46
+* congrats on alpha 3. happy to have it all working
+* haven't found anything broken yet
+* kattni for helping newcomer to #projecthelp on discord
+
+kattni 12:25
+* hukuzatuna testing help for guides
+* sommersoft for doc PRs and dotstar pointers
+* group hug for everyone helping
+
+nis 13:00
+* tdicola for documentation on how to build CircuitPython
+* Hug report to Tony DiCola for the initial work on documenting the building of CircuitPython from source:
+https://learn.adafruit.com/micropython-for-samd21/build-firmware
+(Initially this was Micropython for Adafruit product line, more than a year ago)
+The present Vagrantfile is verified correct by me. ;)  There's enough info in the Vagrantfile to build everything, if you look. ;)
+Was able to build the 3.0.0. Alpha-2 from those instructions, this week!
+@Dan Halbert for pointing out the presence of 74HC595 Shift Register in the AF LCD backpack.
+
+noe 13:29
+Group hug!
+
+sommersoft 13:50
+Group hug this week. And @Noe for ATizing last week's project.
+
+wolf 14:10
+Hug from me, then.  A Vagrantfile is just what I need!
+
+cefn 16:10
+Apparently couldn't connect mic, sorry. Looking forward to trying out alpha3, thanks to tannewt for guiding me on conformance for  https://github.com/adafruit/Adafruit_Micropython_Blinka and tannewt and ladyada for comments/feedback. Had a sprint on prepping @ShrimpingIt kits last week but now available again
+
+Status 14:48
+
+tannewt 15:17
+* Fixed up USB and pulseio in Alpha 2 and released Alpha 3
+* Brain is chewing on audio API tweaks. Goal is to separate audio sources from destinations so we can use PWM, DAC, I2S or PDM interchangeably.
+* Found and tweak SVD based GDB helper which makes it easy to read peripheral memory.
+* Revamping Python on MicroControllers newsletter. Join at Adafruit Daily: https://www.adafruitdaily.com/
+
+andon 19:23
+Nothing CP-related. Main project is continuing to re-chip the DigiBadges for a convention at the end of the month, but I've also taken up writing a standard python program to generate random tectonic plates. It's absolutely not something I need to make, but... Well, I'm going to do it anyway.
+
+brentr 20:00
+nothing cp related, spinning back up from vacation
+
+cefn 20:36
+Next is SPI
+
+CGrover 20:57
+Running 2.2.4 on all projects and its working great!
+Working on motor driver for string car. Merged with model train controller
+still a newbie
+
+dhalbert 24:00
+* usb hid descriptor work
+* reproduced the descriptors from 2.2.4 with 3.0.0
+* turning on hid in asf4 not documented at all
+* verifying hid report version
+
+deshipu 25:15
+nothing CP-related
+
+hukuzatuna 25:50
+* finished up testing of various boards and devices for kattni
+* played with laser cutter in maker space
+* ready for next round of testing
+* UART is next
+
+jerryn 26:42
+* played with am23 temp sensor. replacing dht11s. i2c is better!
+* scroll phat from pimoroni (7 x 17 dotstars). easy to use with charlieplex circuitpython driver
+* lis3dh found issue with tap example on any version
+* gemma m0 dotstar, pirkey may need dotstar enabled too
+
+kattni 29:21
+* working on essentials guide, pwm, servo, cap touch, internal rgb led. UART, i2c, storage and cpu temp left
+* already available in board guides
+* lots of PR review
+
+nis 31:12
+Tracebacks (vs gforth). vector graphics oscope netpbm. 74HC595 (shift register driving 7-segment LED array) in CircuitPython quickest route this week over Arduino (SPI ready in CircuitPython due to prior work by me). Status LED CircuitPython proving useful.
+See scrollback for a more detailed (haha) report.
+
+Noe 32:52
+circuitpython foot switch. published wednesday
+Put cad drawings into github: https://github.com/adafruit/Adafruit_CAD_Parts
+
+sommersoft 34:38
+Got debug working over the weekend on the "128char max paste in REPL". Still working my way to grabbing fully useful data with atmel studio & GDB, but the picture is a getting clearer. And to retract my statement from last week: docs are never done. :D
+
+wolf 35:31
+I’m currently working on two things in the pursuit of asyncio: selectors and deque.  Not much progress yet since I’ve had a busy week here at work, but I’m still on-track for delivery of asyncio before PyCon; no impassible road-blocks yet.  I’ve got all the hardware I need and I’m gonna start running things on the CPX.  My goal remains asyncio to allow rainbows and IR to coexist.
+
+Discussion (in the weeds) 36:34
+* suggestions for Adafruit_CircuitPython_Motor (CGrover) 36:44
+  * DC motor control
+  * they are linear so you can calculate distance once you know speed
+  * Add initial voltage required for spinning
+  * recalculate optimum speed based on battery depletion. know when to head home and charge
+  * TODO: file an issue on Adafruit_CircuitPython_Motor
+* dotstar weirdness 41:52 kattni
+  * dotstar updating varies for each board
+  * TODO: follow up with circuitpython issue
+* write up issue for testing 3.0, expand existing issue
+* noe 56:08 key repeat is an OS thing
+* 58:37 python on microcontroller newsletters
+  * https://github.com/adafruit/python-for-microcontrollers-newsletter
+* circuitpython written in rust
+  * initial samd21 work is coming
+  * https://github.com/rust-lang-nursery/embedded-wg/issues/61

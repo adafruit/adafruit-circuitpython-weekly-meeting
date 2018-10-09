@@ -1,0 +1,115 @@
+Join here for the chat all week: <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/redirect?redir_token=34iWDwmoFP_pMYwd0L-shdLGH6t8MTUzOTEzMjQ2NEAxNTM5MDQ2MDY0&amp;v=REeKXoromIg&amp;q=http%3A%2F%2Fadafru.it%2Fdiscord&amp;event=video_description" rel="nofollow">http://adafru.it/discord</a>
+
+The weekly happens normally at 2pm ET/11am PT on Mondays. Check the <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/results?search_query=%23circuitpython">#circuitpython</a> channel for notices of change in time and links to past episodes.
+
+State of CircuitPython <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/watch?v=REeKXoromIg&amp;t=80s">1:20</a>
+* 9 pull requests merged, 5 committers. (2 more direct commits)
+* 7 closed issues by 5 people, 1 opened by 1 person
+* 2.1 released four weeks ago but still latest. <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/redirect?redir_token=34iWDwmoFP_pMYwd0L-shdLGH6t8MTUzOTEzMjQ2NEAxNTM5MDQ2MDY0&amp;v=REeKXoromIg&amp;q=https%3A%2F%2Fapi.github.com%2Frepos%2Fadafruit%2Fcircuitpython%2Freleases%2Flatest&amp;event=video_description" rel="nofollow">https://api.github.com/repos/adafruit...</a>
+    * trinket m0 292 +57
+    * circuitplayground_express 352 +58
+    * feather_huzzah 134 +18
+    * gemma m0 102 +17
+    * Feather m0 express 158 +27
+    * metro m0 express 88 +10
+    * feather m0 basic 58 +5
+    * feather m0 adalogger 42 +9
+    * arduino_zero 39 +4
+1265 total +205
+
+Scott's hug reports <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/watch?v=REeKXoromIg&amp;t=158s">2:38</a>
+* @mrmcwethy for the status LED fix on master and @kattni for the review.
+* @dhalbert for the reviews
+* @stewmystre for pin mapping and doc fixes for adalogger
+
+tdicola:
+no hug reports
+
+bravodelta:
+group hug
+
+carter:
+no hug Reports
+
+dan halbert:
+scott for the automated bundle
+deshipu for being helpful in chat
+
+deshipu:
+siddacious for discussions on chat
+
+jerryn:
+ktown/microbuilder fixing up feather52 so it works with ampy
+
+kattni:
+group hug to everyone
+dhalbert for help with bundle issues, cpx
+
+microwattbott:
+group hug!
+thank you for kattni for help on chat
+
+stewmystre:
+kattni and tannewt for help getting started
+
+cgrover:
+lurking
+
+Status Updates <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/watch?v=REeKXoromIg&amp;t=450s">7:30</a>
+
+
+tdicola:
+short week, guide updates.
+bme680 feeback
+microsd card
+ampy pull requests
+distance sensor
+
+adafruitdaily.com
+
+bravodelta:
+eating and recovering from eating
+
+cater:
+onewirebus stuff
+
+cgrover:
+string cars in gen 2
+predictive breaking
+learning guides
+
+dan halbert:
+out of town
+spi flash working in master/3.x
+half works
+relatives enjoyed drum machine demo on CPX
+
+deshipu:
+made more generic
+can also make it with feather and display
+almost finished with platformer game
+still want to test m4 SPI
+
+jerryn:
+progress with nrf52
+got mu working on linux box in venv
+renovating bathroom
+
+kattni:
+shake detection to lis3dh driver rather than cpx lib
+cpx changes ready for lis3dh
+
+hug reports:
+carter and wolf for shake detection help
+
+microwattbott:
+working through express experimenters guide
+
+stewmystre:
+adalogger for gps
+sd card detection
+
+free form: <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/watch?v=REeKXoromIg&amp;t=1377s">22:57</a>
+another release for 2.x
+library release details
+cpx sold out

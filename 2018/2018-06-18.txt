@@ -1,0 +1,298 @@
+June 18th, 2018
+
+Video is available at: https://youtu.be/whU_QRlOk2I
+
+Meeting happens regularly on Mondays at 11am Pacific / 2pm Eastern on Discord. Join at https://adafru.it/discord.
+
+State of CircuitPython + Libraries 2:24
+* 26 pull requests merged
+  * 6 authors - microbuilder, brentru, tannewt, kattni, dhalbert, sommersoft
+  * 6 reviewers - brentru, caternuson, tannewt, kattni, dhalbert, ladyada
+* 6 new PRs, 3 authors - rhooper, caternuson, willingc
+* 6 closed issues by 5 people, 9 opened by 7 people
+* 11 open pull requests
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP230xx/pull/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/pull/28
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/pull/23
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/pull/22
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/pull/11
+  * https://github.com/adafruit/Adafruit_CircuitPython_Code_of_Conduct/pull/3
+  * https://github.com/adafruit/circuitpython_kernel/pull/12
+  * https://github.com/adafruit/circuitpython_kernel/pull/11
+  * https://github.com/adafruit/circuitpython_kernel/pull/10
+  * https://github.com/adafruit/circuitpython/pull/943
+  * https://github.com/adafruit/circuitpython/pull/839
+* 128 open issues
+  * https://github.com/adafruit/METROX-CircuitPython/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_CharLCD/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS0/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_INA219/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_MPR121/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/20
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/19
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_SD/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP9808/issues/12
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/12
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/11
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_RFM69/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_RTTTL/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_STMPE610/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_SI4713/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/27
+  * https://github.com/adafruit/Adafruit_CircuitPython_RFM9x/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_Register/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/10
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/25
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/21
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/7
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_SGP30/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_Trellis/issues/6
+  * https://github.com/adafruit/circuitpython_kernel/issues/9
+  * https://github.com/adafruit/circuitpython_kernel/issues/8
+  * https://github.com/adafruit/circuitpython/issues
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/78
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/77
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/57
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/53
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/3
+Download stats for 3.0.0-beta.1
+* arduino_zero - 2
+* circuitplayground_express - 17
+* circuitplayground_express_crickit - 6
+* feather52 - 5
+* feather_huzzah - 12
+* feather_m0_adalogger - 2
+* feather_m0_basic - 10
+* feather_m0_express - 13
+* feather_m0_express_crickit - 2
+* feather_m0_rfm69 - 1
+* feather_m0_rfm9x - 2
+* gemma_m0 - 5
+* itsybitsy_m0_express - 6
+* itsybitsy_m4_express - 11
+* metro_m0_express - 10
+* metro_m4_express - 15
+* pirkey_m0 - 2
+* trinket_m0 - 13
+134 total
+Download stats for 2.3.1
+* arduino_zero - 154
+* circuitplayground_express - 933
+* feather_huzzah - 272
+* feather_m0_adalogger - 65
+* feather_m0_basic - 89
+* feather_m0_express - 297
+* feather_m0_rfm69 - 25
+* feather_m0_rfm9x - 30
+* gemma_m0 - 330
+* itsybitsy_m0 - 101
+* metro_m0_express - 130
+* trinket_m0 - 462
+2888 total +469
+36 out of 480 repos need work.
+
+ReadTheDocs missing the latest release. (Ignore me! RTD doesn't update when a new version is released. Only on pushes.) - 28
+
+Mismatched readthedocs.yml - 4
+https://github.com/adafruit/Adafruit_CircuitPython_CharLCD
+https://github.com/adafruit/Adafruit_CircuitPython_DS3231
+https://github.com/adafruit/Adafruit_CircuitPython_DHT
+https://github.com/adafruit/Adafruit_CircuitPython_GPS
+
+Failed to fetch latest release from GitHub - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+CircuitPython drivers page missing driver - 6
+
+Not in bundle. - 4
+https://github.com/adafruit/Adafruit_CircuitPython_LED_Animation
+https://github.com/adafruit/Adafruit_CircuitPython_CPython
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+https://github.com/adafruit/Adafruit_CircuitPython_Code_of_Conduct
+
+Unable to enable Travis build - 4
+https://github.com/adafruit/Adafruit_CircuitPython_LED_Animation
+https://github.com/adafruit/Adafruit_CircuitPython_CPython
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+https://github.com/adafruit/Adafruit_CircuitPython_Code_of_Conduct
+
+ReadTheDocs missing as a subproject on CircuitPython - 4
+https://github.com/adafruit/Adafruit_CircuitPython_LED_Animation
+https://github.com/adafruit/Adafruit_CircuitPython_CPython
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+https://github.com/adafruit/Adafruit_CircuitPython_Code_of_Conduct
+
+Missing license. - 1
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+
+Missing lint config - 2
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+https://github.com/adafruit/Adafruit_CircuitPython_Code_of_Conduct
+
+Missing CODE_OF_CONDUCT.md - 2
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+https://github.com/adafruit/Adafruit_CircuitPython_Code_of_Conduct
+
+Missing README.rst - 2
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+https://github.com/adafruit/Adafruit_CircuitPython_Code_of_Conduct
+
+Missing .travis.yml - 2
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+https://github.com/adafruit/Adafruit_CircuitPython_Code_of_Conduct
+
+Missing readthedocs.yml - 2
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+https://github.com/adafruit/Adafruit_CircuitPython_Code_of_Conduct
+
+Missing examples folder - 2
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+https://github.com/adafruit/Adafruit_CircuitPython_Code_of_Conduct
+
+Overall status: Turning the corner on the 3.0 release. Release candidate coming soon and main dev
+focused on next version.
+
+Hug Reports 4:45
+
+@tannewt 5:02
+* @dhalbert for working through the last few 3.0 issues.
+* @deshipu for awesome foundation for gaming with CircuitPython
+* @PaintYourDragon for 8bit parallel display driving experiments
+
+@brentr 6:06
+* sommersoft and willingc for helping with RTD and Jupyter
+* Jupyter help
+
+@cater 6:45
+* GroUp hUg!
+
+@Cgrover 7:12
+* Group hug!
+
+@Dan Halbert 7:27
+* @tannewt for sounding board wrt difficult bugs
+
+@jepler 7:51
+* Hug reports to everyone who is reviewing pull requests!  This is valuable work but I think it is often underappreciated.
+
+@jerryn 8:13
+* Group hug. Spent week watching everyone rock.
+* Catching up!
+
+@kattni 8:37
+* cater and sommersoft for help work through two PRs so they can be used in upcoming learn guide.
+
+@nis 9:17
+* dastels for notcing M4 forth
+* grays for wicd mention
+* dhalbert, cater and ladyada for help forking circuitpython
+* sdw_nj for git background info
+dastels for noticing my forth for the M4.
+  greys for mentioning the capabilities of WICED.
+  Dan and LadyAda for asistance with forking
+     circuitpython (no sync on new code issue).
+   and cater too.
+   sdw_nj for deep background on github use.
+
+@Noe 10:43
+just text today. Group hug ya'll
+
+@Roy 10:56
+* tannewt and dhalbert and others for encouragement finding off by one error
+
+@sdw_nj 11:30
+* gRoUp HuG
+
+@sommersoft 11:52
+* @kattni for all the work she's putting in on learn guides. @Dan Halbert for the PR review & testing help. @Roy for Blinky speed improvements; I think the community will really appreciate this. Group hug for any and all that escapes me.
+
+Status Updates 12:29
+
+@tannewt 13:08
+* Released beta.1
+* Working on gaming handheld
+* Starting with @deshipu's work and expanding it.
+* Adding more flexible bmp loading based on bmp export from Aseprite
+* Adding scaling on output so most work is done at lower res. (which is fine since its 8bit style)
+* Also want to support 8x8 sprites to match pico-8 and save memory
+* post-3.0 release planning
+  * Gaming work
+  * nRF52840 support
+  * ESP32 support
+  * heads up, will be adding lots of new issues
+  * everyone ok if we cut a release candidate and branch 3.x? master will become 4.x
+
+@brentr 15:53
+* Finished up jupyter kernel work. Screencast for it this week. Waiting on one PR. Releasing 0.3
+* using cpyboard with it
+* https://github.com/adafruit/circuitpython_kernel
+
+@cater 16:49
+* ht16k33 work
+
+@CGrover 17:25
+* Finalized midi microsynth project. PCBs coming. Similar to trinket. All in CircuitPython
+* Landscaping!
+* Blues playground musical instrument. mimics percussion instruments. Plays blues chords
+* Destined to learn guide
+* Demo 19:12
+
+@Dan Halbert 20:49
+* Fixed PDMIn properly
+* Fixed SD card bugs that were remaining
+* Prevented mounting SD card over existing file
+* fixed os.listdir to print mount point
+* merge in 1.9.4 from upstream
+
+@jepler 24:15
+Trying to stay hydrated.  I remain heads-down on my day job, so my time for CP is limited.
+
+@jerryn 24:40
+* getting back into the swing of things after travelling
+* start breaking this ASAP
+
+@kattni 25:11
+* Finished up guide on rotaryio. designed about new stuff. test code and volume knob examples. live this week
+* GitHub git workflow guide. how to contribute to a project
+* itsybitsy m4 guide is live and needs essentials mirrored in and verified
+* i2c basics guide needs updating
+* code for pixie LEDs needs grooming
+
+@nis 29:29
+Forth for nearly all Adafruit SAMD21 and SAMD51 targets.  Uses compiler flags (boards.txt) in the Arduino IDE to pull in the correct support, for each target board.
+
+(YAFFA-ARM).  Now with good support for every onboard LED (dotstar, NeoPixel, red D13 LED).
+
+https://github.com/wa1tnr/ainsuForth-gen-exp-m4 BEST version
+
+Looking into possible use of QSPI flashROM on SAMD51 targets, using SPI mode.
+
+@Noe 32:20
+working on guide/video for an LED glowing slime project for this week. Next week will be a simple captive touch project using circuit python and makecode.
+
+@Roy 32:40
+Visual status update!  Left 8 pixels is accelerated. Right is current performance. Using wheel() colour loop and then a quick brightness ramp up/down.
+
+@sdw_nj 35:00
+* Finished up work on mu and PR is out. got feedback from nicholas
+* https://github.com/ScottDWebster/uflash
+* aivar started plugin documentation for thonny
+
+Discussion (In the weeds) 37:43
+* everyone ok if we cut a release candidate and branch 3.x? master will become 4.x
+  * ok doing 3.0.0 now
+  * likely a 3.1
+* code of conduct final review 41:55
+* 45:21 @dhalbert overhead camera setup advice for presentation
+* 50:10 Which nrf52840 exact version

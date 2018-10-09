@@ -1,0 +1,156 @@
+Join here for the chat all week: <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/redirect?q=http%3A%2F%2Fadafru.it%2Fdiscord&amp;event=video_description&amp;v=vp5_u3oV9Ro&amp;redir_token=4DyoPY9nOS06gnnR9HdddaDN3UJ8MTUzOTEzMTg4OEAxNTM5MDQ1NDg4" rel="nofollow">http://adafru.it/discord</a>
+
+The weekly happens normally at 2pm ET/11am PT on Mondays. Check the <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/results?search_query=%23circuitpython">#circuitpython</a> channel for notices of change in time and links to past episodes.
+
+-----------------------------
+
+State of CircuitPython + Libraries <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/watch?v=vp5_u3oV9Ro&amp;t=123s">2:03</a>
+* 38 pull requests merged, 5 authors.
+* 11 closed issues by 6 people, 6 opened by 5 people
+* 2.1 released many weeks ago but still latest stable. <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/redirect?q=https%3A%2F%2Fapi.github.com%2Frepos%2Fadafruit%2Fcircuitpython%2Freleases%2Flatest&amp;event=video_description&amp;v=vp5_u3oV9Ro&amp;redir_token=4DyoPY9nOS06gnnR9HdddaDN3UJ8MTUzOTEzMTg4OEAxNTM5MDQ1NDg4" rel="nofollow">https://api.github.com/repos/adafruit...</a>
+    * trinket m0 494 +57
+    * circuitplayground_express 749 +283
+    * feather_huzzah 223 +14
+    * gemma m0 162 +15
+    * Feather m0 express 287 +26
+    * metro m0 express 117 +6
+    * feather m0 basic 86 +8
+    * feather m0 adalogger 66 +3
+    * arduino_zero 69 +13
+2253 total +425
+* 2.2.0 released on friday <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/redirect?q=https%3A%2F%2Fapi.github.com%2Frepos%2Fadafruit%2Fcircuitpython%2Freleases%2Flatest&amp;event=video_description&amp;v=vp5_u3oV9Ro&amp;redir_token=4DyoPY9nOS06gnnR9HdddaDN3UJ8MTUzOTEzMTg4OEAxNTM5MDQ1NDg4" rel="nofollow">https://api.github.com/repos/adafruit...</a>
+    * trinket m0 8
+    * circuitplayground_express 30
+    * feather_huzzah 14
+    * gemma m0 6
+    * Feather m0 express 11
+    * metro m0 express 4
+    * feather m0 basic 4
+    * feather m0 adalogger 4
+    * arduino_zero 0
+81 total
+In general, lots of newcomers due to holidays and adabox. We'll refocus on 3.x in January.
+
+Scott's hug reports <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/watch?v=vp5_u3oV9Ro&amp;t=288s">4:48</a>
+* @kattni, @jerryn, @dhalbert, @ladyada and @mr. mcwethy for helping with lint work
+* @kattni, @ladyada, @johnpark for adabox and CPX library work
+* dan for awesome forum support
+* Welcome to newcomers!
+* Everybody for testing 2.2.0-rc.1
+
+tdicola hug reports
+* none
+
+bravodelta hug reports
+* kattni thanks for help earlier in the week
+
+carter
+* kattni for help with the linter
+
+cgrover
+* group hug for knowledge available from conversations
+
+Dan
+* kattni, jerryn and mr mcwethy for library work. keep it up!
+
+deshipu
+* subscribed to libraries, thanks to kattni
+
+jerryn
+* group hug, lots of good work
+* kattni, dan, and ladyada for all the updates
+
+kattni
+* dan for helping with sensor, not her a bug
+* group hug, for library improvements
+
+mr mcwethy
+* group hug, ladyada knows he exists!
+
+sommersoft
+* tannewt and dan for uid help
+* group hug, everyones rocking it
+
+Scott's status <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/watch?v=vp5_u3oV9Ro&amp;t=704s">11:44</a>
+* Fixed cpx bug on 2.1.0
+* Helped with debugging IR memory crash for jp
+* Lots of reviews including CPX and OneWire
+* Redid tap detection in LIS3DH to support double tap without single tap
+  * Also renamed to tap vs click
+
+tdicola
+* bunch of updates on guides
+* 31865 thermocouple, servo piezo
+* pretty much all updated
+* merged some lint
+  * separate api changes from lint happy
+
+BravoDelta
+* testing with new release
+* ported arduino color sense example to circuitpython
+* 1302 rtc driver
+
+cater
+* onewire bus/device/driver done!
+* ds18x20 temp sensor done
+* clean up docs and example folders
+* ds2413 driver next
+
+cgrover
+* not much, autonomous string car going
+* python version of corrosion detectors
+* band has 10/14 songs recorded. herding cats
+
+dan halbert
+* 2.2.0-rc.1 out
+* thanks tdicola for finding analogin was slow
+* mic support improved
+* fixed busdevice doc
+* testing text editors for file sync status
+
+deshipu
+* uGame prototypes sent
+* prepared for fabrication
+* got test project going
+* problems programming the samd21. some have bootprot flag set, wipe may or may not reset flag
+
+jerryn
+* light at end of bathroom tunnel
+* testing here and there
+* more back in the swing of things next week
+
+kattni
+* rework on welcome to circuitpython guide
+  * replacing getting started section of other guides
+  * space issues stuff in troubleshooting page
+* added double tap detection add to cpx
+* updated linting issue to match whats remaining
+  * tested a few more, merged and released
+
+mr mcwethy
+* lots of linting, 10 or so
+* reviewed a couple
+* RTD lacking in some cases
+
+sommersoft
+* no real updates
+* virtual box going, testing going
+* want to help with RTD consistency stuff too
+
+
+Discussion <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/watch?v=vp5_u3oV9Ro&amp;t=2073s">34:33</a>
+Monday, Tuesday and Friday ok.
+After 5pm eastern ok Wednesday/Thursday.
+Next meeting is: Thursday December 28th, 6pm Eastern / 3pm Pacific. If you can't make it thats OK! Enjoy the holidays.
+
+<a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/watch?v=vp5_u3oV9Ro&amp;t=2680s">44:40</a>
+google summer of code discussion
+
+amg PR needs to be rebased
+
+<a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/watch?v=vp5_u3oV9Ro&amp;t=3206s">53:26</a>
+thoughts on making analog reads faster
+
+<a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/watch?v=vp5_u3oV9Ro&amp;t=3374s">56:14</a>
+bluetooth and interrupts over break
+m0 bluefruit support

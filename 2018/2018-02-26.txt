@@ -1,0 +1,435 @@
+Video available here: https://youtu.be/qxelxv7MScI
+
+State of CircuitPython + Libraries
+* 69 pull requests merged
+  * 11 authors - tannewt, siddacious, sommersoft, caternuson, mrmcwethy, microbuilder, jamesadevine, tdicola, brentru-2, dhalbert, brentru
+  * 6 reviewers - tannewt, microbuilder, ladyada, tdicola, dhalbert, kattni
+* 11 new PRs, 4 authors - jerryneedell, dhalbert, brentru, sommersoft
+* 10 closed issues by 7 people, 10 opened by 7 people
+* 14 open pull requests
+  * https://github.com/adafruit/Adafruit_CircuitPython_GPS/pull/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_RFM69/pull/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_WS2801/pull/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/pull/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_FXOS8700/pull/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_FXAS21002C/pull/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_Fingerprint/pull/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_MAX9744/pull/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_APDS9960/pull/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_INA219/pull/3
+  * https://github.com/adafruit/circuitpython/pull/643
+  * https://github.com/adafruit/circuitpython/pull/628
+  * https://github.com/adafruit/Adafruit_CircuitPython_DS3231/pull/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_DHT/pull/4
+* 121 open issues
+  * https://github.com/adafruit/Adafruit_CircuitPython_MPR121/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_HID/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_PCF8523/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_RFM69/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_Register/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_SI4713/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_seesaw/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/12
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_SGP30/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/20
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/68
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/57
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/53
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/3
+  * https://github.com/adafruit/circuitpython/issues
+  * https://github.com/adafruit/Adafruit_CircuitPython_CharLCD/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/10
+  * https://github.com/adafruit/cookiecutter-adafruit-circuitpython/issues/19
+  * https://github.com/adafruit/cookiecutter-adafruit-circuitpython/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/10
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/9
+
+Download stats for 2.2.3
+* arduino_zero - 80
+* circuitplayground_express - 558
+* feather_huzzah - 146
+* feather_m0_adalogger - 35
+* feather_m0_basic - 48
+* feather_m0_express - 156
+* feather_m0_rfm69 - 15
+* feather_m0_rfm9x - 11
+* gemma_m0 - 151
+* itsybitsy_m0 - 22
+* metro_m0_express - 131
+* pirkey_m0 - 7
+* trinket_m0 - 318
+1678 total
+
+README missing Travis badge - 61
+https://github.com/adafruit/Adafruit_CircuitPython_BME680
+https://github.com/adafruit/Adafruit_CircuitPython_GPS
+https://github.com/adafruit/Adafruit_CircuitPython_MPR121
+https://github.com/adafruit/Adafruit_CircuitPython_IRRemote
+https://github.com/adafruit/Adafruit_CircuitPython_SI7021
+https://github.com/adafruit/Adafruit_CircuitPython_SD
+https://github.com/adafruit/Adafruit_CircuitPython_Motor
+https://github.com/adafruit/Adafruit_CircuitPython_BusDevice
+https://github.com/adafruit/Adafruit_CircuitPython_HID
+https://github.com/adafruit/Adafruit_CircuitPython_Waveform
+https://github.com/adafruit/Adafruit_CircuitPython_TSL2561
+https://github.com/adafruit/Adafruit_CircuitPython_MAX7219
+https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing
+https://github.com/adafruit/Adafruit_CircuitPython_PCA9685
+https://github.com/adafruit/Adafruit_CircuitPython_MAX31855
+https://github.com/adafruit/Adafruit_CircuitPython_Register
+https://github.com/adafruit/Adafruit_CircuitPython_TLC5947
+https://github.com/adafruit/Adafruit_CircuitPython_MCP9808
+https://github.com/adafruit/Adafruit_CircuitPython_MAX31865
+https://github.com/adafruit/Adafruit_CircuitPython_VL53L0X
+https://github.com/adafruit/Adafruit_CircuitPython_TCS34725
+https://github.com/adafruit/Adafruit_CircuitPython_seesaw
+https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1
+https://github.com/adafruit/Adafruit_CircuitPython_Thermistor
+https://github.com/adafruit/Adafruit_CircuitPython_VC0706
+https://github.com/adafruit/Adafruit_CircuitPython_HT16K33
+https://github.com/adafruit/Adafruit_CircuitPython_FXOS8700
+https://github.com/adafruit/Adafruit_CircuitPython_FXAS21002C
+https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH
+https://github.com/adafruit/Adafruit_CircuitPython_LSM303
+https://github.com/adafruit/Adafruit_CircuitPython_OneWire
+https://github.com/adafruit/Adafruit_CircuitPython_AVRprog
+https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS0
+https://github.com/adafruit/Adafruit_CircuitPython_IS31FL3731
+https://github.com/adafruit/Adafruit_CircuitPython_Fingerprint
+https://github.com/adafruit/Adafruit_CircuitPython_VCNL4010
+https://github.com/adafruit/Adafruit_CircuitPython_FocalTouch
+https://github.com/adafruit/Adafruit_CircuitPython_Thermal_Printer
+https://github.com/adafruit/Adafruit_CircuitPython_VL6180X
+https://github.com/adafruit/Adafruit_CircuitPython_MAX9744
+https://github.com/adafruit/Adafruit_CircuitPython_SHT31D
+https://github.com/adafruit/Adafruit_CircuitPython_SGP30
+https://github.com/adafruit/Adafruit_CircuitPython_VEML6070
+https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel
+https://github.com/adafruit/Adafruit_CircuitPython_ADS1x15
+https://github.com/adafruit/Adafruit_CircuitPython_APDS9960
+https://github.com/adafruit/Adafruit_CircuitPython_BME280
+https://github.com/adafruit/Adafruit_CircuitPython_INA219
+https://github.com/adafruit/Adafruit_CircuitPython_RTTTL
+https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO
+https://github.com/adafruit/Adafruit_CircuitPython_DS3231
+https://github.com/adafruit/Adafruit_CircuitPython_CircuitPlayground
+https://github.com/adafruit/Adafruit_CircuitPython_BMP280
+https://github.com/adafruit/Adafruit_CircuitPython_BNO055
+https://github.com/adafruit/Adafruit_CircuitPython_CCS811
+https://github.com/adafruit/Adafruit_CircuitPython_DHT
+https://github.com/adafruit/Adafruit_CircuitPython_DotStar
+https://github.com/adafruit/Adafruit_CircuitPython_DS18X20
+https://github.com/adafruit/Adafruit_CircuitPython_DS1307
+https://github.com/adafruit/Adafruit_CircuitPython_DS2413
+https://github.com/adafruit/Adafruit_CircuitPython_DRV2605
+
+Mismatched readthedocs.yml - 6
+https://github.com/adafruit/Adafruit_CircuitPython_GPS
+https://github.com/adafruit/Adafruit_CircuitPython_BusDevice
+https://github.com/adafruit/Adafruit_CircuitPython_Register
+https://github.com/adafruit/Adafruit_CircuitPython_CharLCD
+https://github.com/adafruit/Adafruit_CircuitPython_DS3231
+https://github.com/adafruit/Adafruit_CircuitPython_DHT
+
+ReadTheDocs latest build has warnings and/or errors - 36
+https://github.com/adafruit/Adafruit_CircuitPython_MPR121
+https://github.com/adafruit/Adafruit_CircuitPython_HID
+https://github.com/adafruit/Adafruit_CircuitPython_Waveform
+https://github.com/adafruit/Adafruit_CircuitPython_MAX7219
+https://github.com/adafruit/Adafruit_CircuitPython_FancyLED
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+https://github.com/adafruit/Adafruit_CircuitPython_Register
+https://github.com/adafruit/Adafruit_CircuitPython_TLC5947
+https://github.com/adafruit/Adafruit_CircuitPython_MAX31865
+https://github.com/adafruit/Adafruit_CircuitPython_VL53L0X
+https://github.com/adafruit/Adafruit_CircuitPython_TCS34725
+https://github.com/adafruit/Adafruit_CircuitPython_seesaw
+https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1
+https://github.com/adafruit/Adafruit_CircuitPython_Thermistor
+https://github.com/adafruit/Adafruit_CircuitPython_HT16K33
+https://github.com/adafruit/Adafruit_CircuitPython_FXOS8700
+https://github.com/adafruit/Adafruit_CircuitPython_FXAS21002C
+https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH
+https://github.com/adafruit/Adafruit_CircuitPython_LSM303
+https://github.com/adafruit/Adafruit_CircuitPython_AVRprog
+https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS0
+https://github.com/adafruit/Adafruit_CircuitPython_IS31FL3731
+https://github.com/adafruit/Adafruit_CircuitPython_Fingerprint
+https://github.com/adafruit/Adafruit_CircuitPython_VCNL4010
+https://github.com/adafruit/Adafruit_CircuitPython_Thermal_Printer
+https://github.com/adafruit/Adafruit_CircuitPython_VL6180X
+https://github.com/adafruit/Adafruit_CircuitPython_MAX9744
+https://github.com/adafruit/Adafruit_CircuitPython_AMG88xx
+https://github.com/adafruit/Adafruit_CircuitPython_SGP30
+https://github.com/adafruit/Adafruit_CircuitPython_APDS9960
+https://github.com/adafruit/Adafruit_CircuitPython_INA219
+https://github.com/adafruit/Adafruit_CircuitPython_CharLCD
+https://github.com/adafruit/Adafruit_CircuitPython_DS3231
+https://github.com/adafruit/Adafruit_CircuitPython_DHT
+https://github.com/adafruit/Adafruit_CircuitPython_DS2413
+https://github.com/adafruit/Adafruit_CircuitPython_DRV2605
+
+Sphinx missing files - 2
+https://github.com/adafruit/Adafruit_CircuitPython_MPR121
+https://github.com/adafruit/Adafruit_CircuitPython_CharLCD
+
+README missing Discord badge - 9
+https://github.com/adafruit/Adafruit_CircuitPython_IRRemote
+https://github.com/adafruit/Adafruit_CircuitPython_HID
+https://github.com/adafruit/Adafruit_CircuitPython_Waveform
+https://github.com/adafruit/Adafruit_CircuitPython_MAX31855
+https://github.com/adafruit/Adafruit_CircuitPython_IS31FL3731
+https://github.com/adafruit/Adafruit_CircuitPython_RTTTL
+https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO
+https://github.com/adafruit/Adafruit_CircuitPython_DS3231
+https://github.com/adafruit/Adafruit_CircuitPython_DHT
+
+Missing license. - 5
+https://github.com/adafruit/Adafruit_CircuitPython_TSL2561
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+https://github.com/adafruit/Adafruit_CircuitPython_LSM303
+https://github.com/adafruit/Adafruit_CircuitPython_APDS9960
+https://github.com/adafruit/Adafruit_CircuitPython_DHT
+
+Missing .py files in examples folder - 2
+https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing
+https://github.com/adafruit/Adafruit_CircuitPython_LSM303
+
+Missing readthedocs.yml - 23
+https://github.com/adafruit/Adafruit_CircuitPython_PCF8523
+https://github.com/adafruit/Adafruit_CircuitPython_SI5351
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+https://github.com/adafruit/Adafruit_CircuitPython_MMA8451
+https://github.com/adafruit/Adafruit_CircuitPython_SSD1306
+https://github.com/adafruit/Adafruit_CircuitPython_SI4713
+https://github.com/adafruit/Adafruit_CircuitPython_AMG88xx
+https://github.com/adafruit/Adafruit_CircuitPython_Trellis
+https://github.com/adafruit/Adafruit_CircuitPython_MPL3115A2
+https://github.com/adafruit/Adafruit_CircuitPython_VEML6070
+https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel
+https://github.com/adafruit/Adafruit_CircuitPython_ADS1x15
+https://github.com/adafruit/Adafruit_CircuitPython_APDS9960
+https://github.com/adafruit/Adafruit_CircuitPython_BME280
+https://github.com/adafruit/Adafruit_CircuitPython_CircuitPlayground
+https://github.com/adafruit/Adafruit_CircuitPython_BMP280
+https://github.com/adafruit/Adafruit_CircuitPython_BNO055
+https://github.com/adafruit/Adafruit_CircuitPython_CCS811
+https://github.com/adafruit/Adafruit_CircuitPython_DotStar
+https://github.com/adafruit/Adafruit_CircuitPython_DS18X20
+https://github.com/adafruit/Adafruit_CircuitPython_DS1307
+https://github.com/adafruit/Adafruit_CircuitPython_DS2413
+https://github.com/adafruit/Adafruit_CircuitPython_DRV2605
+
+ReadTheDocs missing the latest release. (Likely the webhook isn't set up correctly.) - 46
+https://github.com/adafruit/Adafruit_CircuitPython_RFM69
+https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display
+https://github.com/adafruit/Adafruit_CircuitPython_TLC59711
+https://github.com/adafruit/Adafruit_CircuitPython_PCA9685
+https://github.com/adafruit/Adafruit_CircuitPython_MMA8451
+https://github.com/adafruit/Adafruit_CircuitPython_TSL2591
+https://github.com/adafruit/Adafruit_CircuitPython_MCP4725
+https://github.com/adafruit/Adafruit_CircuitPython_SI4713
+https://github.com/adafruit/Adafruit_CircuitPython_MAX31865
+https://github.com/adafruit/Adafruit_CircuitPython_VL53L0X
+https://github.com/adafruit/Adafruit_CircuitPython_TCS34725
+https://github.com/adafruit/Adafruit_CircuitPython_seesaw
+https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1
+https://github.com/adafruit/Adafruit_CircuitPython_HT16K33
+https://github.com/adafruit/Adafruit_CircuitPython_FXOS8700
+https://github.com/adafruit/Adafruit_CircuitPython_FXAS21002C
+https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH
+https://github.com/adafruit/Adafruit_CircuitPython_LSM303
+https://github.com/adafruit/Adafruit_CircuitPython_OneWire
+https://github.com/adafruit/Adafruit_CircuitPython_AVRprog
+https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS0
+https://github.com/adafruit/Adafruit_CircuitPython_IS31FL3731
+https://github.com/adafruit/Adafruit_CircuitPython_Fingerprint
+https://github.com/adafruit/Adafruit_CircuitPython_VCNL4010
+https://github.com/adafruit/Adafruit_CircuitPython_FocalTouch
+https://github.com/adafruit/Adafruit_CircuitPython_Thermal_Printer
+https://github.com/adafruit/Adafruit_CircuitPython_VL6180X
+https://github.com/adafruit/Adafruit_CircuitPython_MAX9744
+https://github.com/adafruit/Adafruit_CircuitPython_SHT31D
+https://github.com/adafruit/Adafruit_CircuitPython_AMG88xx
+https://github.com/adafruit/Adafruit_CircuitPython_SGP30
+https://github.com/adafruit/Adafruit_CircuitPython_MPL3115A2
+https://github.com/adafruit/Adafruit_CircuitPython_VEML6070
+https://github.com/adafruit/Adafruit_CircuitPython_APDS9960
+https://github.com/adafruit/Adafruit_CircuitPython_BME280
+https://github.com/adafruit/Adafruit_CircuitPython_INA219
+https://github.com/adafruit/Adafruit_CircuitPython_RTTTL
+https://github.com/adafruit/Adafruit_CircuitPython_CharLCD
+https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO
+https://github.com/adafruit/Adafruit_CircuitPython_BMP280
+https://github.com/adafruit/Adafruit_CircuitPython_BNO055
+https://github.com/adafruit/Adafruit_CircuitPython_CCS811
+https://github.com/adafruit/Adafruit_CircuitPython_DS18X20
+https://github.com/adafruit/Adafruit_CircuitPython_DS1307
+https://github.com/adafruit/Adafruit_CircuitPython_DS2413
+https://github.com/adafruit/Adafruit_CircuitPython_DRV2605
+
+Not in bundle. - 5
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+https://github.com/adafruit/Adafruit_CircuitPython_LSM303
+https://github.com/adafruit/Adafruit_CircuitPython_FocalTouch
+https://github.com/adafruit/Adafruit_CircuitPython_Trellis
+https://github.com/adafruit/Adafruit_CircuitPython_DS18X20
+
+Missing lint config - 1
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+
+Missing CODE_OF_CONDUCT.md - 6
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+https://github.com/adafruit/Adafruit_CircuitPython_Register
+https://github.com/adafruit/Adafruit_CircuitPython_MCP9808
+https://github.com/adafruit/Adafruit_CircuitPython_DS3231
+https://github.com/adafruit/Adafruit_CircuitPython_CCS811
+https://github.com/adafruit/Adafruit_CircuitPython_DS1307
+
+Missing README.rst - 2
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+https://github.com/adafruit/Adafruit_CircuitPython_CharLCD
+
+Missing .travis.yml - 1
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+
+Missing examples folder - 1
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+
+Failed to fetch latest release from GitHub - 2
+https://github.com/adafruit/Adafruit_CircuitPython_WS2801
+https://github.com/adafruit/Adafruit_CircuitPython_Trellis
+
+Autodoc failed on ReadTheDocs. (Likely need to automock an import.) - 15
+https://github.com/adafruit/Adafruit_CircuitPython_MAX31865
+https://github.com/adafruit/Adafruit_CircuitPython_VL53L0X
+https://github.com/adafruit/Adafruit_CircuitPython_TCS34725
+https://github.com/adafruit/Adafruit_CircuitPython_seesaw
+https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1
+https://github.com/adafruit/Adafruit_CircuitPython_HT16K33
+https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH
+https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS0
+https://github.com/adafruit/Adafruit_CircuitPython_Fingerprint
+https://github.com/adafruit/Adafruit_CircuitPython_VCNL4010
+https://github.com/adafruit/Adafruit_CircuitPython_MAX9744
+https://github.com/adafruit/Adafruit_CircuitPython_AMG88xx
+https://github.com/adafruit/Adafruit_CircuitPython_APDS9960
+https://github.com/adafruit/Adafruit_CircuitPython_INA219
+https://github.com/adafruit/Adafruit_CircuitPython_CharLCD
+
+README image missing alt text - 1
+https://github.com/adafruit/Adafruit_CircuitPython_DS3231
+
+Very 3.0 focused because we're close to releasing new hardware.
+
+Hug Reports 5:46
+
+tannewt 6:05
+* Thanks to everyone for being awesome while I was away. This community is very strong.
+
+tdicola 6:48
+* none
+
+brentr 6:55
+* kattni for reviewing doc fixes
+
+cater 7:27
+8 group hug
+
+dan 7:43
+* jerryneedell keeping us honest about esp8266 port
+* sommersoft has been a huge help off the todo list
+
+jerryn 8:14
+* dhalbert being patient with uart problem. just configuration issue
+* dhalbert for reminding him about bossac and the correct version
+* sommersoft helping someone else with spi issues
+
+kattni 10:30
+* sommersoft and brentr for rocking doc update PRs. all mostly perfect and fast improvements otherwise
+* group hug for everyone keeping up over the weekend. support on discord has been very good
+
+nis 11:30
+* deshipu for help with LCD screen stuff
+* happy for m4 chips, @atmel
+* group hug, everyone is warm and friendly
+
+sommersoft 12:27
+@kattni for the many reviews/merges with doc updates; and catching some stuff I missed. @jerryn for always being out front on testing; it really helps out when troubleshooting with people, like we did with RFM69 yesterday.
+
+Status 13:05
+
+tannewt 13:45
+* Deleted a bunch of old docs and drivers from 2.x.
+* Back and focused after hosting folks at our house all weekend. We got engaged!
+* After catch up focus on DMA.
+
+tdicola 15:32
+* MOnday cleanup of ampy.
+* jupyter micropython notebook issue combing
+* trying to verify RDS transmission for fm radio. ladyada did it
+* wrote up guide for sino:bit
+* lsm303 guide up
+* veml6070 uv light sensor
+* sht31d humidity sensor
+* lora radio driver next
+
+brentr 18:11
+* finished metro x circuitpython repo is public. passing travis
+  * longer than original
+  * review this week
+  * https://github.com/adafruit/METROX-CircuitPython
+* telegraph project working
+* nokia lcd library
+
+cater 19:50
+* added pixel_order to neopixel library
+
+dhalbert 20:20
+* UART done in 3.0. tested with gps
+* fix esp8266 build
+* forum support over the weekend
+* usb hid next
+
+jerryn 21:21
+* gps and uart testing
+* 3.0 works for all projects already
+* used 3.0 for rfm69 spi. had trouble with breakout board rfm69. fixed by lower baudrate
+  * pending PR for kwarg and baudrate
+* stmpe610 driver started. all spi connected
+
+kattni 25:23
+* finished ikea lamp guide!!!
+* bunch of PR reviews for documentation updates
+* started unification of circuitpython quickstarts
+  * under CircuitPython Playgrounds in learn guides
+* expanding circuitpython expectations page as a central FAQ
+* want to do featherwing libraries in the future too
+* translating trinket guides to circuitpython as well
+
+nis 28:00
+* ST7565. trying to figure out framebuffer geometry
+* was blaming circuitpython but found issue sending 7 bits instead of 8.
+* print to repl at the same time as LCD
+
+sommersoft 30:50
+about 1/3 of the way through doc updates/breaking the learn system. :D New Adafruit goodie-box should be delivered today, so FRAM & VS1053 drivers may get started. Will also be assisting Kattni with guide transcription/testing.
+
+wolf 31:31
+* finished transcribing david beasley's stripped down asyncio
+
+Discussion 32:33
+* VS1053 discussion in text
+* 3.0 Alpha ready? 35:00
+  * :thumbsup:
+* tdicola guide broken notifications 38:00
+  * github embed links
+* broken links in learn guides 42:58
+* workflow improvements for moving sample code 44:00

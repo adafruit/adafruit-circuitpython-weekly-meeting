@@ -1,0 +1,462 @@
+Adafruit CircuitPython Weekly September 23rd, 2018
+Video is available here: https://youtu.be/2s0lKuoJfos
+
+Thanks to @kattni and @Dan Halbert for taking notes!
+
+Join here for the chat all week: http://adafru.it/discord
+
+The weekly happens normally at 2pm ET/11am PT on Mondays. Check the #circuitpython channel for notices of change in time and links to past episodes.
+02:04 State of CircuitPython + Libraries
+* 16 pull requests merged
+  * 10 authors - dhalbert, caternuson, kattni, tannewt, hathach, C47D, ladyada, brennen, deanm1278, arofarn
+  * 4 reviewers - dhalbert, brennen, kattni, tannewt
+* 2 new PRs, 2 authors - siddacious, kattni
+* 11 closed issues by 6 people, 12 opened by 7 people
+* 17 open pull requests
+* 7 open PRs on CP
+* (3:33 libraries report) 10 open PRs on libraries
+  * https://github.com/adafruit/Adafruit_CircuitPython_DHT/pull/14
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/pull/28
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/pull/23
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/pull/22
+  * https://github.com/adafruit/Adafruit_CircuitPython_EPD/pull/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/pull/28
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP3xxx/pull/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP3xxx/pull/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP3xxx/pull/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoTrellis/pull/1
+  * https://github.com/adafruit/circuitpython/pull/1193
+  * https://github.com/adafruit/circuitpython/pull/1188
+  * https://github.com/adafruit/circuitpython/pull/1167
+  * https://github.com/adafruit/circuitpython/pull/1164
+  * https://github.com/adafruit/circuitpython/pull/1144
+  * https://github.com/adafruit/circuitpython/pull/943
+  * https://github.com/adafruit/circuitpython/pull/839
+* 149 open issues
+* 137 open on CircuitPython
+* ~55 open on Libraries
+  * https://github.com/adafruit/METROX-CircuitPython/issues/3
+  * https://github.com/adafruit/awesome-circuitpython/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/16
+  * https://github.com/adafruit/Adafruit_CircuitPython_SD/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_SD/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_HID/issues/25
+  * https://github.com/adafruit/Adafruit_CircuitPython_RTTTL/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/33
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/10
+  * https://github.com/adafruit/Adafruit_CircuitPython_AM2320/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/12
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/11
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_CharLCD/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_CircuitPlayground/issues/40
+  * https://github.com/adafruit/Adafruit_CircuitPython_CircuitPlayground/issues/37
+  * https://github.com/adafruit/Adafruit_CircuitPython_OneWire/issues/7
+  * https://github.com/adafruit/Adafruit_CircuitPython_INA219/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/27
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/25
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/21
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/21
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/20
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/19
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_TCS34725/issues/11
+  * https://github.com/adafruit/Adafruit_CircuitPython_TCS34725/issues/10
+  * https://github.com/adafruit/Adafruit_CircuitPython_TCS34725/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_TCS34725/issues/7
+  * https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_BME680/issues/11
+  * https://github.com/adafruit/Adafruit_CircuitPython_BME680/issues/10
+  * https://github.com/adafruit/Adafruit_CircuitPython_TSL2591/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_TSL2591/issues/7
+  * https://github.com/adafruit/Adafruit_CircuitPython_CCS811/issues/25
+  * https://github.com/adafruit/Adafruit_CircuitPython_SI4713/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_L3GD20/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_L3GD20/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_TLC5947/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_EPD/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/27
+  * https://github.com/adafruit/Adafruit_CircuitPython_RFM9x/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_seesaw/issues/19
+  * https://github.com/adafruit/Adafruit_CircuitPython_SGP30/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP3xxx/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_ImageLoad/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1/issues/11
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_PN532/issues/7
+  * https://github.com/adafruit/Adafruit_CircuitPython_MPR121/issues/1
+  * https://github.com/adafruit/circuitpython/issues
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/83
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/77
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/57
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/53
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/3
+(4:20) Download stats for 4.0.0-alpha.1 (duplicates below represent different languages; we’ll add language labels next week)
+* arduino_zero - 1
+* arduino_zero - 1
+* arduino_zero - 1
+* arduino_zero - 0
+* arduino_zero - 0
+* circuitplayground_express - 1
+* circuitplayground_express - 4
+* circuitplayground_express - 0
+* circuitplayground_express - 0
+* circuitplayground_express - 0
+* circuitplayground_express_crickit - 0
+* circuitplayground_express_crickit - 0
+* circuitplayground_express_crickit - 0
+* circuitplayground_express_crickit - 0
+* circuitplayground_express_crickit - 0
+* feather_huzzah - 0
+* feather_huzzah - 2
+* feather_huzzah - 0
+* feather_huzzah - 0
+* feather_huzzah - 0
+* feather_m0_adalogger - 0
+* feather_m0_adalogger - 1
+* feather_m0_adalogger - 1
+* feather_m0_adalogger - 0
+* feather_m0_adalogger - 0
+* feather_m0_basic - 1
+* feather_m0_basic - 0
+* feather_m0_basic - 1
+* feather_m0_basic - 0
+* feather_m0_basic - 0
+* feather_m0_basic - 0
+* feather_m0_basic - 0
+* feather_m0_basic - 0
+* feather_m0_basic - 0
+* feather_m0_basic - 0
+* feather_m0_express - 0
+* feather_m0_express - 3
+* feather_m0_express - 0
+* feather_m0_express - 0
+* feather_m0_express - 0
+* feather_m0_express_crickit - 0
+* feather_m0_express_crickit - 1
+* feather_m0_express_crickit - 0
+* feather_m0_express_crickit - 0
+* feather_m0_express_crickit - 0
+* feather_m0_rfm69 - 0
+* feather_m0_rfm69 - 0
+* feather_m0_rfm69 - 0
+* feather_m0_rfm69 - 0
+* feather_m0_rfm69 - 0
+* feather_m0_rfm9x - 0
+* feather_m0_rfm9x - 0
+* feather_m0_rfm9x - 1
+* feather_m0_rfm9x - 0
+* feather_m0_rfm9x - 1
+* feather_m4_express - 0
+* feather_m4_express - 1
+* feather_m4_express - 0
+* feather_m4_express - 0
+* feather_m4_express - 0
+* feather_nrf52832 - 0
+* feather_nrf52832 - 0
+* feather_nrf52832 - 0
+* feather_nrf52832 - 0
+* feather_nrf52832 - 0
+* feather_nrf52840_express - 0
+* feather_nrf52840_express - 1
+* feather_nrf52840_express - 0
+* feather_nrf52840_express - 0
+* feather_nrf52840_express - 0
+* gemma_m0 - 0
+* gemma_m0 - 2
+* gemma_m0 - 0
+* gemma_m0 - 0
+* gemma_m0 - 0
+* hallowing_m0_express - 0
+* hallowing_m0_express - 0
+* hallowing_m0_express - 0
+* hallowing_m0_express - 0
+* hallowing_m0_express - 0
+* itsybitsy_m0_express - 0
+* itsybitsy_m0_express - 1
+* itsybitsy_m0_express - 0
+* itsybitsy_m0_express - 0
+* itsybitsy_m0_express - 0
+* itsybitsy_m4_express - 0
+* itsybitsy_m4_express - 2
+* itsybitsy_m4_express - 0
+* itsybitsy_m4_express - 0
+* itsybitsy_m4_express - 0
+* metro_m0_express - 1
+* metro_m0_express - 0
+* metro_m0_express - 0
+* metro_m0_express - 0
+* metro_m0_express - 0
+* metro_m4_express - 0
+* metro_m4_express - 1
+* metro_m4_express - 0
+* metro_m4_express - 0
+* metro_m4_express - 0
+* pirkey_m0 - 0
+* pirkey_m0 - 1
+* pirkey_m0 - 0
+* pirkey_m0 - 0
+* pirkey_m0 - 0
+* trinket_m0 - 0
+* trinket_m0 - 2
+* trinket_m0 - 0
+* trinket_m0 - 0
+* trinket_m0 - 1
+33 total
+(05:20) Download stats for 3.0.2
+* arduino_zero - 47
+* circuitplayground_express - 269
+* circuitplayground_express_crickit - 77
+* feather52832 - 6
+* feather_huzzah - 70
+* feather_m0_adalogger - 13
+* feather_m0_basic - 31
+* feather_m0_express - 51
+* feather_m0_express_crickit - 9
+* feather_m0_rfm69 - 13
+* feather_m0_rfm9x - 7
+* feather_m4_express - 56
+* gemma_m0 - 57
+* hallowing_m0_express - 8
+* itsybitsy_m0_express - 42
+* itsybitsy_m4_express - 32
+* metro_m0_express - 42
+* metro_m4_express - 54
+* pirkey_m0 - 3
+* trinket_m0 - 109
+996 total
+104 out of 644 repos need work.
+
+
+PyLint version very out of date - 92
+
+
+For pypi compatibility, missing Adafruit-Blinka in requirements.txt - 25
+
+
+ReadTheDocs missing the latest release. (Ignore me! RTD doesn't update when a new version is released. Only on pushes.) - 19
+
+
+PyLint version not fixed - 10
+
+
+Unable to enable Travis build - 2
+https://github.com/adafruit/Adafruit_CircuitPython_LED_Animation
+https://github.com/adafruit/Adafruit_CircuitPython_CAP1188
+
+
+For pypi compatibility, missing pypi provider in .travis.yml - 14
+
+
+For pypi compatibility, missing setup.py - 15
+
+
+ReadTheDocs latest build has warnings and/or errors - 3
+https://github.com/adafruit/Adafruit_CircuitPython_LED_Animation
+https://github.com/adafruit/Adafruit_CircuitPython_MCP3xxx
+https://github.com/adafruit/Adafruit_CircuitPython_ImageLoad
+
+
+CircuitPython drivers page missing driver - 10
+
+
+Not listed on PyPi for CPython use - 18
+
+
+Not in bundle. - 8
+https://github.com/adafruit/Adafruit_CircuitPython_CPython
+https://github.com/adafruit/Adafruit_CircuitPython_VEML6075
+https://github.com/adafruit/Adafruit_CircuitPython_MPRLS
+https://github.com/adafruit/Adafruit_CircuitPython_AT86RF233
+https://github.com/adafruit/Adafruit_CircuitPython_TFmini
+https://github.com/adafruit/Adafruit_CircuitPython_HTU21D
+https://github.com/adafruit/Adafruit_CircuitPython_miniQR
+https://github.com/adafruit/Adafruit_CircuitPython_CAP1188
+
+
+ReadTheDocs missing as a subproject on CircuitPython - 10
+
+
+Mismatched readthedocs.yml - 4
+https://github.com/adafruit/Adafruit_CircuitPython_DHT
+https://github.com/adafruit/Adafruit_CircuitPython_CharLCD
+https://github.com/adafruit/Adafruit_CircuitPython_DS3231
+https://github.com/adafruit/Adafruit_CircuitPython_GPS
+
+
+ReadTheDocs project missing adabot as owner - 1
+https://github.com/adafruit/Adafruit_CircuitPython_Crickit
+
+
+Wiki should be disabled - 8
+
+
+Only allow merges, disallow rebase and squash - 8
+
+
+Missing license. - 2
+https://github.com/adafruit/Adafruit_CircuitPython_AT86RF233
+https://github.com/adafruit/Adafruit_CircuitPython_CAP1188
+
+
+Token creation failed - 1
+https://github.com/adafruit/Adafruit_CircuitPython_AT86RF233
+
+
+Missing lint config - 2
+https://github.com/adafruit/Adafruit_CircuitPython_AT86RF233
+https://github.com/adafruit/Adafruit_CircuitPython_CAP1188
+
+
+Missing CODE_OF_CONDUCT.md - 2
+https://github.com/adafruit/Adafruit_CircuitPython_AT86RF233
+https://github.com/adafruit/Adafruit_CircuitPython_CAP1188
+
+
+Missing README.rst - 2
+https://github.com/adafruit/Adafruit_CircuitPython_AT86RF233
+https://github.com/adafruit/Adafruit_CircuitPython_CAP1188
+
+
+Missing .travis.yml - 2
+https://github.com/adafruit/Adafruit_CircuitPython_AT86RF233
+https://github.com/adafruit/Adafruit_CircuitPython_CAP1188
+
+
+Missing readthedocs.yml - 2
+https://github.com/adafruit/Adafruit_CircuitPython_AT86RF233
+https://github.com/adafruit/Adafruit_CircuitPython_CAP1188
+
+
+For pypi compatibility, missing requirements.txt - 2
+https://github.com/adafruit/Adafruit_CircuitPython_AT86RF233
+https://github.com/adafruit/Adafruit_CircuitPython_CAP1188
+
+
+Missing examples folder - 2
+https://github.com/adafruit/Adafruit_CircuitPython_AT86RF233
+https://github.com/adafruit/Adafruit_CircuitPython_CAP1188
+
+
+README image missing alt text - 1
+https://github.com/adafruit/Adafruit_CircuitPython_HCSR04
+
+
+Likely missing CircuitPythonLibrarians team. - 1
+https://github.com/adafruit/Adafruit_CircuitPython_CAP1188
+
+
+06:38 Hug reports
+8:30 @kattni
+* Phil and Limor and everyone at Adafruit for welcoming us to Adafruit HQ
+* Echoing Scott, everyone who made it to the Discord meetups at Maker Faire
+* And to everyone who has been keeping up with Discord while we’re gone
+* Thanks to MrCertainly and caitlinsdad for becoming community helpers
+* Scott and Dan for our first alpha release
+* Thanks to Digikey for being our home base for meetups at Maker Faire
+>06:38 @tannewt
+* Limor, phil and the rest of adafruit for having us at HQ.
+
+
+* Jerry, andon, sommersoft, siddacious and everyone else for holding down the discord fort as we travel.
+* Techniak, charlesburnaford, blitzcity, brent, madbodger, mr certainly, drew, jazz, sophy, kim, einsteinunicorn, and caitlinsdad for meeting up at maker faire.
+* Mr certainly and caitlinsdad for leveling up to community helpers.
+* Digi-Key for hosting the meetup and being supportive in general.
+
+
+9:20 @dhalbert
+* @tannewt for 4.0.0 alpha release
+* @thach for nRF52 implementation, most recently UART
+* @jerryn for immediately starting to test 4.0 alpha
+
+
+@brennen - group hug this week.
+
+
+@cater - group hug, and to Scott Dan and Kattni for travelling, and Kattni for taking on all the library stuff.
+
+
+11:59 @charlesburnaford - wonderful to see your faces at Maker Faire, gave ideas for helping with the ocarina project.
+
+
+12:23 @deshipu - group hug
+
+
+12:33 @drew - Great to meet you all at the meetup at Maker Faire, was good to talk more about CircuitPython, to talk to Scott Kattni and Dan and figure out more
+
+
+13:20 @jerry - group hug this week
+
+
+13:30 @siddacious - hug report: @jerryn for helping me think through a saleae “issue” wherein I discovered a new setting in the SPI analyzer. @maholli for a tip on a sweet micro usb socket (Amphenol FCI 10118194-0001LF). Group hug to the community for writing and maintaining drivers I could use for reference and documentation on how to do it properly for CP.
+
+
+14:04 @sommersoft - @adafruit +  :blinka:  folks for attending and supporting Maker Faire (from a #JealousNonAttendee). @hathach for continuing to push through on nRF. @tannewt for additional review and suggestions. Group hug beyond all that!
+15:00 Status Updates
+17:14 @kattni
+* Was out of town before this trip, the last few days was getting caught up.
+* Maker Faire this weekend. - great to meet everyone
+* Getting back into PyPiland, being thwarted by Sphinx, as usual.
+* Travel to Boston tomorrow, OHS on Thursday. Head home Friday.
+* Taking over libraries - coordinating everything with libs and everyone involved.
+
+
+15:05 @tannewt
+* Got distracted by gameboy before travelling.
+* Released Alpha.1 on Friday.
+* Lots of good discussions in NYC/maker faire. Good discussion about Discord and weekly meeting.
+* More discussions to come. At HQ now, travel tomorrow and OHS on Thursday. Fly home Friday.
+
+
+20:05 @dhalbert
+* nRF multiple peripheral instances
+* Merge 3.x fixes to master (4.0)
+
+
+21:34 @brennen
+* Still working on some docs on my first real CircuitPython project.
+* Pi library testing / updating.
+
+
+21:51 @cater - PR in for MPR121, first of maybe many. CAP1188, started working on this lib - get PR submitted for that soon. Handful of others but no need to mention those.
+
+
+22:41 @charlesburnaford - MPR121, that’s going to be a help on the music project. Working on the fingerboard for the ocarina, issue with 11 and 12 hole too close together. Trying to get it to work with CP.
+
+
+23:47 @deshipu - sick, no progress
+
+
+24:00 @drew fustini - Got a PR in to add the GPIO pins for the Beaglebone Black to Blinka, travelling to OHS, once I get home from there, adding SPI and I2C to Blinka for BBB, seems most important thing to have working.
+
+
+24:45 @jerryn - spent a bunch of time playing with Alpha 4 release, finding little issues, but working pretty well, dongle board with I2C and SPI, and working really well. False alarm bug, one board may have an issue.
+
+
+26:20 @MagicSquirrel_Gord - lurking
+
+
+26:31 @siddacious - status:
+Spent half of the weekend writing the MAX31856 driver and was able to finish up a decent looking first pass. I’ll work with Kattni to get it checked in an reviewed. Ping me if you can test it. 
+
+Spent the rest of the weekend working with the wife to prep and pour the first half of the mold for the her baby raptor sculpture:
+https://www.instagram.com/p/BoGapTUHtkq/?hl=en&taken-by=vanessa_ditullio 
+
+This week I’ll be helping V with finishing the mold, pulling casts, and general prep for designer con (https://www.designercon.com/). I’m out of town starting Thursday into the weekend but if I can get USPS to give me my 1x1 inch board, I’ll try and get it assembled and running CP before I leave.
+
+Also I haven’t forgotten the tutorial I’m working on. I’ve spent many a precious shower minute working on an outline that I’ll actually write down and flesh out when I’m flying later this week.
+
+
+28:00 @sommersoft
+* **FrequencyIn**: Now reading `COUNT` successfully; stumbled upon `CMD.READSYNC` as a step I was missing there. Now to just adjust value calculation accordingly. 
+* Started FRAM library. Not too far with it yet, beyond cookiecutter and initial "what do I need".
+
+
+28:25 @josh - Short Status Update: Working on updating EduBlocks to use Scratch blocks on the micro:bit version then will bring it it adafruit.edublocks.org
+
+
+28:50 In the Weeds 
+* @jerryn - slow enable of /tty/ACM0 on Ubuntu 18.04. May need to `apt purge modem-manager` [jerryn tried during chat, and that worked!]
+* 34:33 @Cater - PyPi for new libs, how to? Add requirements.txt and setup.py to cookie-cutter to handle PyPi. 
+* 39:40 @josh Chances of a Circuit Playground extension for Scratch 3.0? We don’t know, but would be happy to be informed.

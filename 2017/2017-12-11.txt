@@ -1,0 +1,133 @@
+Join here for the chat all week: <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/redirect?v=n10D0yZsmkk&amp;redir_token=kWN8uf-CWRiueMgQn_n7Qmg3cl98MTUzOTEzMjI5OUAxNTM5MDQ1ODk5&amp;event=video_description&amp;q=http%3A%2F%2Fadafru.it%2Fdiscord" rel="nofollow">http://adafru.it/discord</a>
+
+The weekly happens normally at 2pm ET/11am PT on Mondays. Check the <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/results?search_query=%23circuitpython">#circuitpython</a> channel for notices of change in time and links to past episodes.
+
+--------------------------------------
+
+State of CircuitPython
+* 3 pull requests merged, 2 committers.
+* 2 closed issues by 2 people, 2 opened by 2 people
+* 2.1 released many ago but still latest. <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/redirect?v=n10D0yZsmkk&amp;redir_token=kWN8uf-CWRiueMgQn_n7Qmg3cl98MTUzOTEzMjI5OUAxNTM5MDQ1ODk5&amp;event=video_description&amp;q=https%3A%2F%2Fapi.github.com%2Frepos%2Fadafruit%2Fcircuitpython%2Freleases%2Flatest" rel="nofollow">https://api.github.com/repos/adafruit...</a>
+    * trinket m0 437 +78
+    * circuitplayground_express 466 +59
+    * feather_huzzah 209 +23
+    * gemma m0 147 +25
+    * Feather m0 express 261 +54
+    * metro m0 express 111 +8
+    * feather m0 basic 78 +10
+    * feather m0 adalogger 63 +5
+    * arduino_zero 56 +9
+1828 total +281
+In general, prepping for lots of newcomers due to holidays. We'll refocus on 3.x in January.
+
+Scott's hug reports <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/watch?v=n10D0yZsmkk&amp;t=220s">3:40</a>
+* @ryespy for finding the issue with the MCP9808 in subzero temps and fixing it.
+* @Coldreactor for helping @CrimsonKringle with TeraTerm
+* @kattni, @jerryn, @dhalbert, @ladyada and @mr. mcwethy for helping with lint work
+* @andon, @sommersoft for board id discussion
+
+tdicola
+no hug reports
+
+andon
+sommersoft for unique id work
+
+cater
+group hug
+
+dhalbert
+ladyada for helping with PDM code
+
+deshipu
+nothing
+
+jerryn
+group hug for weekend work. dan halbert and kattni
+
+kattni - <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/watch?v=n10D0yZsmkk&amp;t=450s">7:30</a>
+dhalbert help over the weekend
+tannewt for help and support
+johnpark for adabox projects
+wolf hacked on circuitplayground express with coworkers
+kurt working his way back into circuitpython community
+
+<a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/watch?v=n10D0yZsmkk&amp;t=525s">8:45</a> status updates
+
+tannewt - lots lint and build stuff
+
+tdicola:
+guide and library updates
+9 dof sensors
+lsm9ds0, lsm9ds1
+platinum thermocouple working
+charlcd backpack update
+infrared breakpoint updated
+photocell updated
+
+andon:
+learning the learn system
+figuring out how to tackle a guide for the examples he has
+
+cater:
+distracted by non-adafruit stuff
+cookiecutter onewire
+
+cgrover:
+hug report for dan's atom plug in to flush files well
+status: stopped developing algorithms. circuitpython survival environment
+circuitpython reference materials
+moving fast to build something friendly
+
+dan halbert:
+bidirectional SPI into 2.x for upcoming eink boards
+making audio recording more reliable on CPX
+making mic clock run all the time
+audio bugs are fixed, half second of audio recording only
+
+deshipu:
+practically nothing
+v6 of the uConsole, v8 sent out shortly
+
+jerryn:
+renovating bathrooms
+create and edit guide permissions
+updated bme280 guide
+forum post amg88xx about readinto error
+
+kattni:
+busy!
+published welcome to community guide
+basically done with welcome to circuitpython guide
+testing libraries
+helping with adabox projects
+cpx api change to have touch threshold adjustment
+soundmeter basically ready for api as well. just waiting for mic fixes
+
+ladyada:
+I did a bunch of work on PDM mic, dan is being awesomely helpful
+john park is writing up some guides for Adabox 006 which is CPX based
+and tested a bunch of drivers that are linted
+OH WAIT one more thing i tested M4 metro. its great! nice work dan
+
+discussion:
+
+tdicola:
+don't feel bad if you get corrected by the linter
+vertical alignment for consts: disable temporarily
+discussion of small variables
+
+maybe download pylint into the repo rather than have it copied to each one
+test runner tox for python
+must be able to run pylint locally
+inline disabled of pylint are good because they document the decision
+
+todo: see if we can disable disables by number rather than name
+
+dhalbert <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/watch?v=n10D0yZsmkk&amp;t=2598s">43:18</a>
+kattni, what people are looking for on the forums
+suggested order of guides too
+top level learn category for circuitpython instead of under something, ladyada will ask learn to do it today
+hand pick circuitpython search results
+
+<a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/watch?v=n10D0yZsmkk&amp;t=4098s">1:08:18</a>
+discussion about our audience and forum support

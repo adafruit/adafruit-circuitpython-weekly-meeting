@@ -1,0 +1,18 @@
+Join here for the chat all week: <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/redirect?v=1c8-Cs3bmiw&amp;redir_token=IEYUxRJmQQ6W4l413mxu-B2Akpl8MTUzOTEzMjYzN0AxNTM5MDQ2MjM3&amp;event=video_description&amp;q=http%3A%2F%2Fadafru.it%2Fdiscord" rel="nofollow">http://adafru.it/discord</a>
+
+The weekly happens normally at 2pm ET/11am PT on Mondays. Check the <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/results?search_query=%23circuitpython">#circuitpython</a> channel for notices of change in time and links to past episodes.
+
+Time codes:
+<a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/watch?v=1c8-Cs3bmiw&amp;t=100s">1:40</a> State of CircuitPython
+<a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/watch?v=1c8-Cs3bmiw&amp;t=164s">2:44</a> Hug Reports
+<a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/watch?v=1c8-Cs3bmiw&amp;t=610s">10:10</a> Status Updates
+<a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/watch?v=1c8-Cs3bmiw&amp;t=1907s">31:47</a> Discussion
+* GitHub "good first issue" label.
+* more microphone discussion
+* busio.SPI DMA work and SPI flash work
+  * focus on existing modules first before new functionality
+* scott finish uf2
+* dan discussion of spi register configuration
+* mr mcwethy - release tags and process
+  * maybe automate validation that driver repos are set up correctly
+  * TODO tannewt: link to manual setup of instructions travis

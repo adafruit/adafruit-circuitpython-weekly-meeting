@@ -1,0 +1,206 @@
+Video is here: https://youtu.be/aXZcRvgJWDI
+Join our Discord: https://adafru.it/discord
+
+April 2nd, 2018
+
+State of CircuitPython + Libraries 2:26
+* 32 pull requests merged
+  * 6 authors - deshipu, sommersoft, ladyada, jepler, ptorrone, tannewt
+  * 5 reviewers - sommersoft, kattni, deanm1278, dhalbert, tannewt
+* 2 new PRs, 2 authors - tannewt, jepler
+* 11 closed issues by 5 people, 6 opened by 5 people
+* 6 open pull requests
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/pull/31
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/pull/29
+  * https://github.com/adafruit/cookiecutter-adafruit-circuitpython/pull/24
+  * https://github.com/adafruit/Adafruit_CircuitPython_Motor/pull/3
+  * https://github.com/adafruit/circuitpython/pull/730
+  * https://github.com/adafruit/circuitpython/pull/628
+* 128 open issues
+  * https://github.com/adafruit/Adafruit_CircuitPython_PCF8523/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_SI4713/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_HID/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/10
+  * https://github.com/adafruit/METROX-CircuitPython/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_Register/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_CharLCD/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS0/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_MPR121/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/20
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_seesaw/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_SGP30/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/30
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/28
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_RTTTL/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/57
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/53
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_Motor/issues/2
+  * https://github.com/adafruit/circuitpython/issues
+Download stats for 3.0.0-alpha.3
+* arduino_zero - 13
+* circuitplayground_express - 38
+* feather52 - 8
+* feather_huzzah - 15
+* feather_m0_adalogger - 4
+* feather_m0_basic - 8
+* feather_m0_express - 11
+* feather_m0_rfm69 - 5
+* feather_m0_rfm9x - 5
+* gemma_m0 - 7
+* itsybitsy_m0_express - 7
+* metro_m0_express - 11
+* metro_m4_express_revb - 4
+* trinket_m0 - 11
+147 total
+Download stats for 2.2.4
+* arduino_zero - 103
+* circuitplayground_express - 646
+* feather_huzzah - 148
+* feather_m0_adalogger - 42
+* feather_m0_basic - 61
+* feather_m0_express - 196
+* feather_m0_rfm69 - 21
+* feather_m0_rfm9x - 17
+* gemma_m0 - 169
+* itsybitsy_m0 - 49
+* metro_m0_express - 116
+* trinket_m0 - 352
+1920 total
+20 out of 408 repos need work.
+
+ReadTheDocs missing the latest release. (Ignore me! RTD doesn't update when a new version is released. Only on pushes.) - 15
+
+Missing .py files in examples folder - 2
+https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing
+https://github.com/adafruit/Adafruit_CircuitPython_LSM303
+
+Mismatched readthedocs.yml - 4
+https://github.com/adafruit/Adafruit_CircuitPython_CharLCD
+https://github.com/adafruit/Adafruit_CircuitPython_GPS
+https://github.com/adafruit/Adafruit_CircuitPython_DHT
+https://github.com/adafruit/Adafruit_CircuitPython_DS3231
+
+Missing license. - 1
+https://github.com/adafruit/Adafruit_CircuitPython_LSM303
+
+Overall: Lots of 3.x fixes. Will likely release new alpha version by wednesday to get it out.
+
+Hug reports 5:09
+
+tannewt - 5:53
+* cgrover for helping powermeep on discord
+* deshipu for gamepad fixes
+* dhalbert for helping folks on the forums
+* ptorrone for newsletter help and discord wellness
+* ladyada for m4 hardware party
+
+BravoDelta 6:54
+
+CGrover 7:01
+* group hug - stable 2.2.4 release. 5 holiday light controllers creation went flawlessly
+
+dhalbert 7:37
+* jepler for cleanup of outstanding bugs and fixes for crashes
+
+deshipu 8:08
+* tg techie for PR for rgb library text support
+* tannewt for discussion on insane ideas
+
+kattni 8:57
+* noe and pedro for super great collaboration
+* group hug!
+
+nis 9:27
+* group hug
+* adafruit youtube stuff with his brother. brother enjoyed it
+
+noe 10:03
+* group hug
+* kattni helping with this weeks project!
+
+sommersoft 10:51
+kattni for perserving on guide work
+cater for troubleshooting on discord
+group hug
+
+ladyada 11:10
+i gotz a hug for @kattni for helping noe & pedro with this weeks 3D printing project, the trampoled
+
+
+Status 12:29
+
+tannewt 12:44
+* Polished the AS726x driver
+* Fixed 3.x hang due to SERCOM3 weirdness. busio.I2C now tests for pull ups and raises an exception if not found. May need a little timing tuning
+* Newsletter goes out tomorrow!
+* Hard at work on audio. Got DAC stereo output on M4 and mono on M4. Like the new API. I2SOut compiles but hasn't been tested.
+
+BravoDelta 15:11
+* CPX hid mouse accelerometer.
+* rpi broken when taking it out of a case
+* CPX controller for rpi
+
+cgrover 16:35
+* production mode on holiday light controllers
+* replacing rope lights with neopixel
+* timer turns on and off automatically
+* string car conversion arduino -> circuitpython made it simpler
+* adapt motor control analysis for steadicam with johnpark
+* Gotta drill cases this week
+* not selling them but github repo has contents
+* piezo for status sounds
+
+cefn 21:00
+
+dhalbert 21:13
+* hid workign finally. testing on m4
+* multimedia key support!
+* out tomorrow - thursday
+* probably touchio next
+
+deshipu 22:00
+* conference badge for european python conference! samd21!
+* oled/lcd library https://bitbucket.org/thesheep/micropython-oled
+* researching displays
+* working on fonts for simple displays
+
+drc3po 24:28
+
+wolf 24:36
+* won fight with vagrant!
+* building and running circuitpython!
+
+kattni 25:00
+* working on code portion of light up trampoline with noe and pedro
+* making her friend one as well!
+* next data logger project. there is arduino guide but not circuipython (yet!)
+
+noe 27:05
+* led trampoline thing
+* hardware limitations with 180 neopixels
+* difficult to trigger, vibration sensor is tricky
+* wednesday or thursday
+* hosting show and tell this week!
+* next week, circuitpython usb joystick mouse. more kattni code!
+
+sommersoft 28:39
+Narrowing in on SAMD21 PulseIn debug (DHT22 issue; should probably see if it goes beyond that). Battery arrives today, so I can do the last test for serial_connected. 3.x issue list will determine next project.
+
+cefn 29:24
+Trying to create some cashflow putting together kits for UK educators, using Circuitpython compatibility layer for NodeMcu-M boards
+
+Discussion 30:56
+* kattni - writing circuitpython page for trampoline guide
+* kattni will show off on show and tell

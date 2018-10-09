@@ -1,0 +1,201 @@
+Adafruit CircuitPython Weekly August 13th, 2018
+Video is available here: https://youtu.be/gBxo6uz6Yfw
+
+Thanks to @kattni for taking notes!
+
+Join here for the chat all week: http://adafru.it/discord
+
+The weekly happens normally at 2pm ET/11am PT on Mondays. Check the #circuitpython channel for notices of change in time and links to past episodes.
+
+State of CircuitPython + Libraries 3:16
+* 77 pull requests merged
+  * 9 authors - ladyada, brennen, jepler, tannewt, TheKitty, jerryneedell, Rvice, rlake, kattni
+  * 6 reviewers - brennen, tannewt, dhalbert, caternuson, ladyada, kattni
+* 1 new PRs, 1 authors - tannewt
+* 7 closed issues by 4 people, 18 opened by 11 people
+* 12 open pull requests
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP3xxx/pull/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP3xxx/pull/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP3xxx/pull/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/pull/28
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/pull/23
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/pull/22
+  * https://github.com/adafruit/Adafruit_CircuitPython_EPD/pull/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP230xx/pull/1
+  * https://github.com/adafruit/circuitpython/pull/1064
+  * https://github.com/adafruit/circuitpython/pull/944
+  * https://github.com/adafruit/circuitpython/pull/943
+  * https://github.com/adafruit/circuitpython/pull/839
+* 141 open issues
+  * https://github.com/adafruit/METROX-CircuitPython/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP3xxx/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_AM2320/issues/3
+  * https://github.com/adafruit/awesome-circuitpython/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_BME280/issues/11
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/12
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/11
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_CharLCD/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/27
+  * https://github.com/adafruit/Adafruit_CircuitPython_CircuitPlayground/issues/37
+  * https://github.com/adafruit/Adafruit_CircuitPython_OneWire/issues/7
+  * https://github.com/adafruit/Adafruit_CircuitPython_INA219/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/25
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/21
+  * https://github.com/adafruit/Adafruit_CircuitPython_EPD/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS0/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_L3GD20/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_MPR121/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/21
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/20
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/19
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_SD/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_SD/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_SGP30/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_SI4713/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/issues/19
+  * https://github.com/adafruit/Adafruit_CircuitPython_RFM9x/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_RFM9x/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_HID/issues/25
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/10
+  * https://github.com/adafruit/Adafruit_CircuitPython_RTTTL/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/83
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/77
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/57
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/53
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/3
+  * https://github.com/adafruit/circuitpython/issues
+  * https://github.com/adafruit/Adafruit_CircuitPython_BME680/issues/10
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/40
+  * https://github.com/adafruit/Adafruit_CircuitPython_TSL2591/issues/5
+Download stats for 3.0.0
+* arduino_zero - 131
+* circuitplayground_express - 894
+* circuitplayground_express_crickit - 273
+* feather52832 - 38
+* feather_huzzah - 239
+* feather_m0_adalogger - 73
+* feather_m0_basic - 79
+* feather_m0_express - 222
+* feather_m0_express_crickit - 34
+* feather_m0_rfm69 - 23
+* feather_m0_rfm9x - 33
+* feather_m4_express - 183
+* gemma_m0 - 189
+* itsybitsy_m0_express - 124
+* itsybitsy_m4_express - 129
+* metro_m0_express - 126
+* metro_m4_express - 135
+* pca10056 - 20
+* pirkey_m0 - 11
+* trinket_m0 - 380
+3336 total 2807
+
+92 out of 585 repos need work.
+
+Not in bundle. - 4
+https://github.com/adafruit/Adafruit_CircuitPython_MCP3xxx
+https://github.com/adafruit/Adafruit_CircuitPython_LED_Animation
+https://github.com/adafruit/Adafruit_CircuitPython_CPython
+https://github.com/adafruit/Adafruit_CircuitPython_MLX90614
+
+For pypi compatibility, missing pypi provider in .travis.yml - 6
+
+For pypi compatibility, missing setup.py - 6
+
+For pypi compatibility, missing Adafruit-Blinka in requirements.txt - 21
+
+ReadTheDocs missing as a subproject on CircuitPython - 3
+https://github.com/adafruit/Adafruit_CircuitPython_MCP3xxx
+https://github.com/adafruit/Adafruit_CircuitPython_LED_Animation
+https://github.com/adafruit/Adafruit_CircuitPython_CPython
+
+CircuitPython drivers page missing driver - 10
+
+Old travis config - 86
+
+ReadTheDocs missing the latest release. (Ignore me! RTD doesn't update when a new version is released. Only on pushes.) - 65
+
+Unable to enable Travis build - 2
+https://github.com/adafruit/Adafruit_CircuitPython_LED_Animation
+https://github.com/adafruit/Adafruit_CircuitPython_CPython
+
+Mismatched readthedocs.yml - 4
+https://github.com/adafruit/Adafruit_CircuitPython_DHT
+https://github.com/adafruit/Adafruit_CircuitPython_CharLCD
+https://github.com/adafruit/Adafruit_CircuitPython_DS3231
+https://github.com/adafruit/Adafruit_CircuitPython_GPS
+
+ReadTheDocs project missing adabot as owner - 1
+https://github.com/adafruit/Adafruit_CircuitPython_Crickit
+
+Hug Reports 7:44
+11:18 @brennen
+Kattni for extensive guide re-mangling, Fritzing, etc.
+18:05 @brentr - Group hug to everybody, especially larger hug to Kattni and Brennen for getting everything on PyPi, working on a guide that uses it and it works
+12:12 @cater - Standard group hug. One to @deshipu for idea on TCA multiplexer, make it worth writing a driver for it.
+12:53 @dakotah.redstone - no work, just play ;) but hugs all round, community is SO inspiring :O
+13:34 @deshipu - thanks to Scott for getting on right path with timers. 
+13:53 @kattni
+Brennen for working on getting hardware tested on Raspberry Pi, helping out with everything PyPi
+@ladyada for getting some more hardware tested over the weekend
+@sommersoft for working on getting more patching capabilities into Adabot
+@tannewt for playing backup support through all of the PyPi stuff
+14:58 @MikeBarela - Team of Kattni and Brennen have been a blur of code in a good way my email shows all this work coming through on GitHub, also noticed that Ladyada put in some sweat and tears working on some issues too this weekend. Looking good as far as things shaping up. The new hat coming out will be really good stuff that the RPi just hasn’t had. Requires a lot of work on people’s part - Kattni and Brennen - to get all the pieces working together. Creating the atmosphere of It All Just Works™. Group hug for the hard work.
+@sdw_nj - lurking today.
+17:48 @sommersoft - Group hug this week!
+@tannewt 8:30
+Aaronaverill for helping others on the forums.
+@notro for the CircuitPython code browser. http://elixir.tronnes.org/circuitpython/latest/source
+@kattni and @brennan for pypi and raspberry pi work.
+Rvice for first time commit to fix TSL2591 with 100ms integration time.
+Carlos for spanish translation @carl0s
+@jerryn 11:07
+Group hug!
+Status Updates 18:44
+22:26 @brennen
+Testing libraries on the Raspberry Pi.
+23:12 @brentr - as of last friday, finished up all the CP ports for AdafruitIO guides. If you have Raspi, the AIO guides work with it. This week building environmental logger, everything, all over I2C, Arduino version and CP version. 
+24:28 @cater - nothing super new, ordering up some of the TCA hardware. Got here Friday, didn’t play this weekend, start this week to make a first pass at CP driver for it. Forgot to thank Scott for jumping in on discussion for driver.
+26:34 @dakotah.redstone - still learning ( newb status )
+26:55 @deshipu - Got code for working with LED matrix, still have questions, have it working for regular matrix. Make educational device that lets you write simple games that would cost a couple of dollars. I will create some issues asking about ideas to make this do something in the background.
+28:50 @kattni 
+PyPiland. All of the libraries but 1 are deployed to PyPi.
+Featherwing helper lib not in PyPi, library structure causing issues with Sphinx docs. Will circle back to getting this in eventually.
+Now we’re testing all the hardware - Brennen is on that (with help from Limor)
+Updating the guides to include Python usage. Updated 18 out of 87 so far.
+Adding the updated guides to the newsletter.
+Blogging every updated guide in batches of 5: 1 post so far.
+Filed an issue for libraries that have docs issues in CP repo. Will update as I continue to find them: https://github.com/adafruit/circuitpython/issues/1108
+Need to file an issue for libraries that have pylint: disable that should be refactored out when the lib can be tested. List compiled, issue not yet filed. 
+Figuring out getting updated READMEs for Python libs that we’re deprecating pushed to PyPi on the first 6 that were already archived.
+Eventually will be archiving and deprecating all the Python libs.
+34:35 @MikeBarela - late hug report to Brent, wrapping up work on AIO guides. 3 things - how to use serial comm with CPX, not using the built in USB connection, guide for that this week. Guide for how to log data using CP and MakeCode sensor data directly to spreadsheet - using HID. Book has how to use SD card to log csv. Android phones logging directly to Google Sheets. Have a guide for Make it Switch, using external switches, pull ups and pull downs and so on, hopefully in the next week or two we’ll have enough time to review and get that going. Newsletter will be out tomorrow.
+@sdw_nj - lurking today.
+38:29 @sommersoft - 
+Adabot Patching: finished adding the ability to pass command line arguments to the git calls. Then discovered that only certain git apply flags can be used with git am, so I added the option to force the use of git apply + git commit -a -m "patch message from patch file" to allow all flags. The main difference between git am and git apply is that am does a commit automatically and apply doesn't. Buuuut, turned out that using zero lines of context for the .travis.yml patch results in duplicated lines for the ones that are already updated (see below). Will work one more approach for the patch file (1 line of context), but may just have to cleanup after. I'm also going to work on the .pylint.rc patch that @kattni brought up. And, while typing this, I figure I can add some "test run" ability. #featurecreep
+
+install:
+- pip install -r requirements.txt
+- pip install circuitpython-build-tools Sphinx sphinx-rtd-theme
+- pip install --force-reinstall pylint==1.9.2
+- pip install --force-reinstall pylint==1.9.2
+
+19:21 @tannewt
+All the internationalisation stuff is checked in. 
+Revived my test gaming code, been working on it in June, 2 months old, rebased it on 4.0. At the time I was working on it, loading all the python code took 17 seconds. Someone else found the import bug - now takes 1.2 seconds. Porting Pico8 version of Celeste, they’ve ok’d open sourcing the port - working on that.
+Working on graphics this week. Building on the awesome work that @deshipu did with the stage stuff. Adding more shape rendering for upcoming product. Heads down on graphics this week, building out the stage stuff.
+Newsletter.
+21:38 @jerryn
+Should be back this weekend and will pick up on some testing, especially some of the Blinka modules. I did a quick test of  the RFM9x and had to make a minor change to the rfm9x_simpletest.py to convert a string to bytestring for the .send() test.  That is new with the  latest Blinka update, but I have not had time to  dig into it.  Should be able to followup on that this weekend.
+
+Discussion (In the weeds) 40:15
+40:59 pylint.rc updates. Ignore the attribute checks.
+42:42 3.0.1
+
+Wrap 43:48

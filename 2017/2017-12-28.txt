@@ -1,0 +1,184 @@
+Video URL - https://youtu.be/GMJXIFo2HvI
+
+State of CircuitPython + Libraries 3:13
+* 21 pull requests merged
+  * 7 authors - dastels, dhalbert, deanm1278, jerryneedell, kattni, tannewt, ladyada
+  * 7 reviewers - dhalbert, tdicola, kattni, tannewt, mrmcwethy, ladyada, caternuson
+* 3 new PRs, 2 authors - raidancampbell, jerryneedell
+* 4 closed issues by 3 people, 5 opened by 4 people
+* 11 open pull requests
+  * https://github.com/adafruit/Adafruit_CircuitPython_SD/pull/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_VC0706/pull/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/pull/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_MAX7219/pull/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_CharLCD/pull/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/pull/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_SSD1306/pull/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_SSD1306/pull/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_SI7021/pull/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/pull/10
+  * https://github.com/adafruit/circuitpython/pull/496
+* 115 open issues
+  * https://github.com/adafruit/Adafruit_CircuitPython_IS31FL3731/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_IS31FL3731/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_PCA9685/issues/7
+  * https://github.com/adafruit/Adafruit_CircuitPython_PCA9685/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_MAX7219/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_DS3231/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_PCF8523/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_HID/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_HID/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_CharLCD/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/11
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_MPR121/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_Register/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_CCS811/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_seesaw/issues/2
+  * https://github.com/adafruit/cookiecutter-adafruit-circuitpython/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/14
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/12
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/21
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/19
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/10
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/24
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/23
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/22
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_SI7021/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/1
+  * https://github.com/adafruit/circuitpython/issues
+51 out of 58 repos need work.
+
+* 2.1.0
+    * arduino_zero 83 +14
+    * circuitplayground_express 1171 +422
+    * feather_huzzah 254 +31
+    * feather m0 adalogger 76 +10
+    * feather m0 basic 99 +13
+    * Feather m0 express 337 +50
+    * gemma m0 206 +44
+    * metro m0 express 144 +27
+    * trinket m0 638 +144
+3008 total +755
+* 2.2.0-rc1 released
+    * arduino_zero 9 +9
+    * circuitplayground_express 85 +55
+    * feather_huzzah 42 + 28
+    * feather m0 adalogger 15 +11
+    * feather m0 basic 13 +9
+    * Feather m0 express 27 +16
+    * gemma m0 21 +15
+    * metro m0 express 13 +9
+    * trinket m0 44 +36
+269 total +188
+
+Hug reports: 6:19
+* cater, jerryn, dan halbert and kattni for tsl fix. jmo85331 for the report on the forum.
+* cascade for the boomy emoji
+* dhalbert for mic fixes
+* mr mcwethy for more library checks: https://github.com/adafruit/circuitpython/issues/493
+* everybody thank you for an awesome 2017!
+
+Andon
+Hug Report: Lady Ada, as she updated Kattni's wonderful "Intro to CP" with instructions on how to install CP onto non-Express boards and ESP boards, in a matter of minutes, in the middle of the night, when someone was looking for how to do it. Also, group hug because everyone here is awesome and I won't be able to do another one until next year.
+
+cgrover 9:56
+* kattni for helping a github challenged person
+* ramping up on github, updating the helper code
+
+dan halbert 10:56
+* hug report to library folks: ladyada, deshipu, kattni, tannewt and mr mcwethy
+* tannewt for automated bundle building. much less mental overhead
+* group hug for the last year, especially since discord started in june
+
+deshipu 12:29
+* kattni for testing and fixing rgb display library
+* jerryn for fixing stuff as well
+
+jerryn 13:38
+* deshipu and dhalbert si7021 fixed
+* group hug for amazing time since he started in the spring
+
+kattni 14:55
+* bravodelta all over discord with helping lots of folks
+* andon for working on their first guide
+* deshipu for help with RGB display libs
+* dhalbert for being around to help answer all sorts of questions
+* tannewt for championing her to be more involved
+
+Status updates 17:02
+
+Andon 20:44
+Begun work on "Migrating from Arduino to CP" guide. Not much yet, but if anyone wants to peek at it feel free to prod me. That's also my plan for the next week, too.
+
+CGrover 21:15
+* worked with andon on the guide, neophyte observations are helpful!
+* string car, 220 lines of code. code worked first time
+* trinket m0 left enough room for buzzer and potential
+* data logging in the future
+* made good progress
+
+dan halbert 24:18
+* cleaned up mic code for 2.2
+* misc things for 2.2
+* waiting for tap detection stuff to release 2.2.0-rc.2
+* 3.x, trying to fix issues with gcc 7 and m4
+
+deshipu 26:11
+* 24 megabit SPI on the m4. master can't set 0. off by one error somewhere
+* pcbs for final uGame. tested ok. need testing process for fab house
+* pretty diagram from hackadday: https://cdn.hackaday.io/images/4955251514252282765.png
+* smaller version of the console: https://cdn.hackaday.io/images/388361514475842212.jpg 1" square, 2.6cm. coin cell powered. no flash storage. simple demos would doable
+* instructions on how to build out of adafruit modules: https://hackaday.io/project/27629-game/log/70845-homebrew
+* maybe make _stage built in
+
+jerryn 32:48
+* trying to break things and succeeding somewhat
+* head scratching about gcc 7. also impacts nrf52
+* si7021 problem found by using nrf52, m4 didn't work either but was a different error. deshipu and dhalbert helped debug
+* may have fundamental i2c bug
+* fun to help new folks
+* bathrooms are done and functional!
+
+kattni 36:12
+* all over the place!
+* updating guides and mirrored it everywhere, gemma next
+* fixing tap detection with lis3dh. incredibly complicated
+* helped johnpark with last adabox stuff
+* testing and linting libraries
+* slowly working on the rgb library testing and linting
+* helped folks out guides
+* next:
+  * gemma guide
+  * board specific quick install plus general info mirrored in
+  * feather next
+  * finalize tap stuff
+  * whatevers needed
+  * library testing
+
+Discussion (aka the weeds) 40:35
+* gcc 7 on m4 isn't reliable 40:35
+  * only happens with lto
+  * gdb hangs when you tab complete gdb. 100% cpu in 3 minutes
+  * gdb only hangs on lto output from gcc 7
+  * gdb backtrace hangs too
+  * only on m4 and not m0
+* trinket m0 and expectations (jerryn) 51:33
+  * sensor with lcd display
+  * deshipu alternate set of display drivers that only do text
+    * arduino example: https://github.com/greiman/SSD1306Ascii
+    * one font at a time
+  * hid + char lcd and hundreds of lines of main code
+* lis3dh tap detection (kattni) 58:08

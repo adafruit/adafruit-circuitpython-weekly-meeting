@@ -1,0 +1,327 @@
+Adafruit CircuitPython Meeting June 4th, 2018
+
+Video is available here: https://youtu.be/QTwU0tLXZm4
+
+State of CircuitPython + Libraries 2:32
+* 16 pull requests merged
+  * 5 authors - deshipu, tannewt, notro, brentru, dhalbert
+  * 3 reviewers - kattni, tannewt, dhalbert
+* 5 new PRs, 5 authors - godlygeek, kattni, tannewt, notro, mikepschneider
+* 9 closed issues by 5 people, 7 opened by 5 people
+* 10 open pull requests
+  * https://github.com/adafruit/CircuitPython_Community_Bundle/pull/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP230xx/pull/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/pull/23
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/pull/22
+  * https://github.com/adafruit/Adafruit_CircuitPython_SGP30/pull/7
+  * https://github.com/adafruit/Adafruit_CircuitPython_Code_of_Conduct/pull/3
+  * https://github.com/adafruit/circuitpython/pull/893
+  * https://github.com/adafruit/circuitpython/pull/891
+  * https://github.com/adafruit/circuitpython/pull/839
+  * https://github.com/adafruit/circuitpython/pull/818
+* 127 open issues
+  * https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing/issues/4
+  * https://github.com/adafruit/METROX-CircuitPython/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_CharLCD/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS0/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_INA219/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_MPR121/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/20
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/19
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_BME280/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_RFM69/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP9808/issues/12
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/11
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_RTTTL/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_STMPE610/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_SI4713/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/27
+  * https://github.com/adafruit/Adafruit_CircuitPython_RFM9x/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_Register/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/10
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/25
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/21
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/7
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_SGP30/issues/1
+  * https://github.com/adafruit/circuitpython/issues
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/77
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/57
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/53
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/3
+Download stats for 3.0.0-beta.0
+* arduino_zero - 11
+* circuitplayground_express - 40
+* feather52 - 2
+* feather_huzzah - 21
+* feather_m0_adalogger - 2
+* feather_m0_basic - 9
+* feather_m0_express - 14
+* feather_m0_rfm69 - 1
+* feather_m0_rfm9x - 3
+* gemma_m0 - 12
+* itsybitsy_m0_express - 8
+* metro_m0_express - 13
+* metro_m4_express - 27
+* pirkey_m0 - 2
+* trinket_m0 - 17
+182 total
+Download stats for 2.3.1
+* arduino_zero - 115
+* circuitplayground_express - 682
+* feather_huzzah - 159
+* feather_m0_adalogger - 52
+* feather_m0_basic - 62
+* feather_m0_express - 207
+* feather_m0_rfm69 - 17
+* feather_m0_rfm9x - 25
+* gemma_m0 - 267
+* itsybitsy_m0 - 66
+* metro_m0_express - 98
+* trinket_m0 - 293
+2043 total
+36 out of 470 repos need work.
+
+ReadTheDocs missing the latest release. (Ignore me! RTD doesn't update when a new version is released. Only on pushes.) - 27
+
+Mismatched readthedocs.yml - 4
+https://github.com/adafruit/Adafruit_CircuitPython_CharLCD
+https://github.com/adafruit/Adafruit_CircuitPython_DS3231
+https://github.com/adafruit/Adafruit_CircuitPython_DHT
+https://github.com/adafruit/Adafruit_CircuitPython_GPS
+
+Failed to fetch latest release from GitHub - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+CircuitPython drivers page missing driver - 6
+
+Not in bundle. - 5
+https://github.com/adafruit/Adafruit_CircuitPython_LED_Animation
+https://github.com/adafruit/Adafruit_CircuitPython_CPython
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+https://github.com/adafruit/Adafruit_CircuitPython_MatrixKeypad
+https://github.com/adafruit/Adafruit_CircuitPython_Code_of_Conduct
+
+Unable to enable Travis build - 4
+https://github.com/adafruit/Adafruit_CircuitPython_LED_Animation
+https://github.com/adafruit/Adafruit_CircuitPython_CPython
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+https://github.com/adafruit/Adafruit_CircuitPython_Code_of_Conduct
+
+ReadTheDocs missing as a subproject on CircuitPython - 5
+https://github.com/adafruit/Adafruit_CircuitPython_LED_Animation
+https://github.com/adafruit/Adafruit_CircuitPython_CPython
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+https://github.com/adafruit/Adafruit_CircuitPython_MatrixKeypad
+https://github.com/adafruit/Adafruit_CircuitPython_Code_of_Conduct
+
+Missing license. - 1
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+
+Missing lint config - 2
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+https://github.com/adafruit/Adafruit_CircuitPython_Code_of_Conduct
+
+Missing CODE_OF_CONDUCT.md - 2
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+https://github.com/adafruit/Adafruit_CircuitPython_Code_of_Conduct
+
+Missing README.rst - 2
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+https://github.com/adafruit/Adafruit_CircuitPython_Code_of_Conduct
+
+Missing .travis.yml - 2
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+https://github.com/adafruit/Adafruit_CircuitPython_Code_of_Conduct
+
+Missing readthedocs.yml - 2
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+https://github.com/adafruit/Adafruit_CircuitPython_Code_of_Conduct
+
+Missing examples folder - 2
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+https://github.com/adafruit/Adafruit_CircuitPython_Code_of_Conduct
+
+Likely missing CircuitPythonLibrarians team. - 2
+https://github.com/adafruit/Adafruit_CircuitPython_MatrixKeypad
+https://github.com/adafruit/Adafruit_CircuitPython_Code_of_Conduct
+
+Only allow merges, disallow rebase and squash - 2
+https://github.com/adafruit/Adafruit_CircuitPython_MatrixKeypad
+https://github.com/adafruit/Adafruit_CircuitPython_Code_of_Conduct
+
+Unable to find or create (no auth) GITHUB_TOKEN env variable - 1
+https://github.com/adafruit/Adafruit_CircuitPython_MatrixKeypad
+
+Overall: Beta.0 seems good. Beta.1 this week and getting closer to release candidate.
+
+Hug Reports 4:55
+
+@tannewt 5:43
+* Thanks to notro for clock rework
+* brentr for unified driver naming work
+* dhalbert and notro for reviews
+* dhalbert and kattni for lib improvements including shrinking lis3dh
+* kattni for first draft of code of conduct
+
+@sommersoft 7:21
+Hugs: @tannewt for making the SAMD peripheral functions more modular; really opens up some future growth. @Dan Halbert for the myriad of troubleshooting on GitHub & Discord (and probably the forums, too) this week. @CGrover for the MIDI boards and exploration; its inspirational to see that stuff pop up. And a group hug for all the things my exhausted mind can't conjure up right now.
+
+@cater 7:54
+* group hug
+
+@cefn 8:05
+Group hug and hugs to all the PyPI, Thonny and other maintainers (Punyforth, Espressif) for the work they've done and for patiently and capably handling issues.
+
+CGrover 8:27
+Group hug and thanks to Dan and Scott for giving some suggestions for how to work with some memory limitations. Thank you!
+
+dan halbert 8:38
+* notro for lots of work. make work for others
+* tannewt for rotaryio and nested interrupt handler bug.
+
+dastels 9:23
+* group hug. beta and 3.0.0 look good!
+* group hug in advance.
+
+jerryn 9:54
+* Not much. back from vacation
+
+kattni 10:15
+* dhalbert for help building with libraries
+* tannewt for getting started with adabot
+* group hug!
+
+
+Mike Barela 11:03
+* group hug for hardwork
+* dhalbert for writing good code and shrinking it all at once
+
+Roy 11:49
+* group hug!
+
+sdw_nj 12:10
+General kudos to all (group hug).
+
+brentr 57:30
+tannewt for driver help
+kattni and dhalbert for rotary encoder
+
+Status Updates 12:50
+
+@tannewt 13:22
+* Added rotary encoder support
+* Fixed AudioOut
+* Fixed brownout detection
+* samd21 uses external clock and saves calibration now
+
+@sommersoft 16:29
+Status: didn't get much further on FrequencyIn. Did manage to rebase to current master with the peripheral function changes.  That was my mushy brain limit. Will re-attack when I get back later this week.
+
+@cater 16:52
+* nothing last week.
+* this week start work on ht16k33 led backpack work:
+https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/8
+
+@cefn 20:42
+Hammering out dents: see recording for image.
+
+Built landscape and double-landscape Hackintosh and Windows 10 images for testing of cross-platform tools.
+
+Built https://vgkits.org/blog/connecting-intro/ information - cross platform instructions for getting started (fairly generic to any ESP8266).
+
+Built cross-platform vgkits-vanguard package to deliver command line tools to adopters of Vanguard, cutting the install steps and complexity opening up use of Circuitpython, Espruino, Adafruit_Blinka, and even Punyforth to a single command and a <20 second flashing routine.
+
+See https://pypi.org/project/vgkits-vanguard/ for my first ever tool published to PyPI! It works too
+
+Started just trying to build out to this, and as it became more and more insane had to solve it via building my own PyPI package. https://vgkits.org/blog/connecting-with-miniterm/
+
+Guide and feedback welcome: https://vgkits.org/blog/pip3-howto/
+
+Sorry this is the best landing page for connecting to Vanguard (or any other CircuitPython/Micropython ESP8266 assuming you have the drivers) over USB using vgkits-vanguard https://vgkits.org/blog/vanguard-usb-howto/ welcome feedback and issues if this can be of use to anyone else. All the other links I shared are not so useful.
+
+@CGrover 24:21
+Besides pushing memory limits due to some large string arrays and trying to use OLED and TFT display libraries for text, been predominately heads-down revising some PCB designs. Reached my limit for hand-soldering and needed to make some adjustments. (Met my hand-soldering nemeses: SOT-723 and SOT23-5.) Still need to experiment with CPy memory management approaches but I’m enjoying the learning process.
+Will complete the CPy-based DSP-G1 MIDI synth this week. Also plan to send the next batch of four “Rover” PCBs to OSH Park in a couple of days.
+Off topic: my band’s final gig is Saturday. A great 15-year run with my brothers from another mother. Mixed emotions.
+
+@dhalbert 25:35
+* Debugging PDMIn mic issues on CPX. Seemingly fixed by tannewt's changes.
+* Finding space on CPX build by shrinking/optimizing libraries.
+* sdcard next
+* notro difficult to recover bug
+* crickit project, adabot semaphore
+
+@dastels 28:28
+* book project! sophy, blitz city diy and dastels Apress, circuitpython book. outlining it now
+* M0 through M4 example projects. contributing guidelines. 0-60 using circuitpython
+* digital guide series. last was microcontrollers w/serial io. next designing and building mcu out of 8 bit mcu components. last would be the black box of the cpu. maybe build simple four bit cpu
+* eeprom emulator with circuitpython. beautiful on m4
+* partner is building pinbox 3000 and crickit is perfect for supplementing it. definitely a guide
+* cool to do circuitpython segway/balancing robot
+* watch hackspace magazine for basic electronics column
+
+@jerryn 35:16
+* crickit! got back from vacation. wheels and driving around
+* ran into some issues with IR so trying to understand how it works
+* rfm69 driver on 433 mhz doesn't actually work. will fix that issue
+
+@kattni 37:35
+* did blog post
+* filed issue on concurrent recording and playback of audio
+* updated circuitpython essentials example that was missing import
+* finishing up cpx library guide. likely live today
+* finish up code of conduct
+* 3.0.0 issue: expanding circuitpython expectations
+* packaging up matrixkeypad library
+* update crickit guide to match cpx library guide
+* seesaw changes break joywing featherwing library.
+* a bunch of new project ideas.
+* loose ends this week. guide next
+
+@MikeBarela 42:00
+* book! started around christmas and its now in pre-production. Getting Started with Adafruit CircuitPlayground Express
+  * get a good idea of what the publisher wants. put time estimates into it
+  * editing screenshots take time
+  * content management system takes time too
+  * 3-4 years between is a good break
+* helping pt with robots and crickit
+* capsela building kit is next!
+
+@Roy 47:23
+* neopixel and dotstar acceleration. issues on github. pixelbuf helper for dotstar and neopixel libraries
+* lots of time is spent processing the bytes. 5-10x speedup
+* how to make brightness make more sense and fast
+* very good at crashing code now
+
+@sdw_nj 50:42
+I just did a bit of reading/research last week.  This week I'm going to concentrate on working my way through the micro:bit micropython documentation and trying as many of the examples as I have the ability to try.  I've found a few things to recommend documentation improvements for.
+After getting through the documentation I'll check out bitio.  Then I'll figure out what to do next.
+
+@brentr 58:16
+* updated sgp30 to use new naming for gas sensors. updated learn guides
+* adafruit.io stuff now
+* IR sending library example pull request
+
+Discussion (In the weeds):
+* spi flash eraser/ zombies 51:48
+  * main.py caused continuous interrupts thus freezing out the repl
+  * safemode uf2 might be too much
+  * very rare, documentation on erase might be best solution
+  * watchdog timer to safe mode could work as well
+* #offtopic still valid 54:55
+  * behavior changes vs closing the channel down
+  * moderation should occur on every channel including #offtopic
+* gameboy update 59:20
+* jerryn how to check out repo 1:03:05
+  * tags not found for submodules
+  * update possible without pulling new tags
+
+1:10:00 wrap up

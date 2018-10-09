@@ -1,0 +1,206 @@
+Video is available here: https://youtu.be/vo-aCPO9IPA
+
+State of CircuitPython + Libraries 2:33
+* 20 pull requests merged
+  * 6 authors - jepler, dhalbert, tannewt, deshipu, ptorrone, sommersoft
+  * 3 reviewers - tannewt, kattni, sommersoft
+* 2 new PRs, 2 authors - dhalbert, notro
+* 12 closed issues by 4 people, 3 opened by 2 people
+* 5 open pull requests
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/pull/31
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/pull/29
+  * https://github.com/adafruit/cookiecutter-adafruit-circuitpython/pull/24
+  * https://github.com/adafruit/circuitpython/pull/746
+  * https://github.com/adafruit/circuitpython/pull/745
+* 128 open issues
+  * https://github.com/adafruit/Adafruit_CircuitPython_PCF8523/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_SI4713/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_BusDevice/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/10
+  * https://github.com/adafruit/METROX-CircuitPython/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_Register/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_CharLCD/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS0/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_MPR121/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/20
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_seesaw/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_SGP30/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/30
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/28
+  * https://github.com/adafruit/Adafruit_CircuitPython_LIS3DH/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_Motor/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/57
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/53
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP9808/issues/12
+  * https://github.com/adafruit/Adafruit_CircuitPython_Trellis/issues/4
+  * https://github.com/adafruit/circuitpython/issues
+Download stats for 3.0.0-alpha.3
+* arduino_zero - 25
+* circuitplayground_express - 49
+* feather52 - 11
+* feather_huzzah - 21
+* feather_m0_adalogger - 5
+* feather_m0_basic - 13
+* feather_m0_express - 20
+* feather_m0_rfm69 - 6
+* feather_m0_rfm9x - 9
+* gemma_m0 - 15
+* itsybitsy_m0_express - 9
+* metro_m0_express - 24
+* metro_m4_express_revb - 8
+* trinket_m0 - 17
+232 total
+Download stats for 2.2.4
+* arduino_zero - 122
+* circuitplayground_express - 817
+* feather_huzzah - 205
+* feather_m0_adalogger - 51
+* feather_m0_basic - 70
+* feather_m0_express - 243
+* feather_m0_rfm69 - 21
+* feather_m0_rfm9x - 21
+* gemma_m0 - 301
+* itsybitsy_m0 - 71
+* metro_m0_express - 208
+* trinket_m0 - 439
+2569 total
+19 out of 410 repos need work.
+
+ReadTheDocs missing the latest release. (Ignore me! RTD doesn't update when a new version is released. Only on pushes.) - 13
+
+Missing .py files in examples folder - 2
+https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing
+https://github.com/adafruit/Adafruit_CircuitPython_LSM303
+
+Mismatched readthedocs.yml - 4
+https://github.com/adafruit/Adafruit_CircuitPython_CharLCD
+https://github.com/adafruit/Adafruit_CircuitPython_GPS
+https://github.com/adafruit/Adafruit_CircuitPython_DHT
+https://github.com/adafruit/Adafruit_CircuitPython_DS3231
+
+Missing license. - 1
+https://github.com/adafruit/Adafruit_CircuitPython_LSM303
+
+ReadTheDocs latest build has warnings and/or errors - 1
+https://github.com/adafruit/Adafruit_CircuitPython_RTTTL
+
+Hug reports 5:21
+
+tannewt 5:47
+* sommersoft and cater for helping rvadad
+* jepler for ESP fixes
+* notro for native RTC support along with support for changing time source.
+* dhalbert for USB HID awesomeness
+* kattni, dhalbert, cater, jerryn and sommersoft for helping keep Discord welcoming
+
+cater 7:28
+* Group hug!
+
+CGrover 7:43
+* Group hug!
+* Cater thanks for Arduino BLE help and insight. Helped get past the distraction
+
+dhalbert 8:19
+* ladyada for HID testing
+* kattni for churning things out. CircuitPython essentials guide!
+
+jepler 8:55
+but group hugs to everyone helping me with questions about circuitpython and helping me find existing issues about the problems I'm hitting that means you @tannewt
+
+jerryn 9:56
+* group hug to everyone
+* kattni and sommersoft for moderating
+
+kattni 10:22
+* sommersoft, jerryn and cater for keeping up with discord
+* tannewt for helping teach heap stuff. memory optimize libraries
+* wolf for code help
+* noe and pedro for trampoline pieces
+* group hug for awesome people!
+* desk of ladyada about m4 tester!
+
+wolf 11:30
+* tannewt for vagrant .git! (maybe tony instead)
+
+Noe 12:19
+* kattni for software page in trampoline project
+* group hug!
+
+sommersoft 12:47
+@tannewt and @Dan Halbert for the constructive feedback on my long-lived PRs. And again, @kattni for churning out guides and code like a tornado. Group hugs beyond that!
+
+ladyada
+yep great work from dan on getting HID working on m4, kattni+noe+pedro on the trampoline guide, pt for working on the Awesome List for circuitPython: https://github.com/adafruit/awesome-circuitpython
+
+Status 14:00
+
+tannewt 14:19
+* Close to getting wave file playback going. Including stereo and to I2S
+* Found a memory hogging bug that is from an old heap pointer on the stack.
+* Found a memory bug resulting from unknown register state.
+* Newsletter goes out tomorrow!
+* Any mission critical things that need to be fixed before Alpha that ships on Metro M4?
+* Hobby: Brainstorming CircuitPython on Game Boy / Game Gear.
+
+cater 18:59
+* helpin people out
+
+CGrover 19:13
+* arduino BLE distraction
+* circuitpython holiday lighting enclosure work
+* lipo circuitpython string car
+* band released first and last CD: https://www.youtube.com/user/TheHighway12Band
+* learning, learning
+
+dhalbert 21:21
+* finished HID in 3.0
+* includes consumer controls/ multimedia keys. PLAY, STOP, etc
+* probably adding joystick too.
+* jerryn trying REPL based file system erase
+
+jepler 22:40
+This last week, I got up to speed on building for ESP8266, and submitted a PR for that.  I am still working on getting all the fuzzing bug reports from 2-3 weeks ago filed.  I did two simple projects, one to help with "intermediate frequency alignment" of radio receivers (generating some analog signals and controlling an AD9850), and one to show accurate time from on the OLED feather wing.  Neither is up on github yet; I may be asking for help to turn the NTP stuff into a library for CircuitPython though.
+
+jerryn 24:05
+* Connecting m0 to wifi through esp8266. CPX logging to adafruit.io. Write-up please!
+* back to stmpe driver. need template repo
+
+kattni 26:32
+* starting working on datalogging project. ran into a bunch of problems
+* log data and import it into a graphing program
+* wrote up software page for led trampoline
+* guide with Mu plotter videos
+* heads down on datalogging guide
+* traveling wednesday
+
+Noe 28:30
+* usb hid joystick mouse using kattni's sample code
+  * https://learn.adafruit.com/circuitpython-essentials/circuitpython-hid-keyboard-and-mouse#circuitpython-mouse-emulator
+* make something similar to: https://www.thingiverse.com/thing:1090461
+
+@sommersoft 30:55
+Still working PulseIn; reached the limits of debug I think. Saleae should be delivered Thursday, so that will help. Might pick up an "easy" 3.x issue in the meantime, or focus on some writing/documentation.
+
+Discussion (In the weeds)
+* Joystick discussion 31:50
+  * what features/buttons should our stock "gamepad" device support?
+  * xbox vs ps4
+* fun project from noe 41:30
+  * thanks dan for gamepad support! blank slate vs hacking an existing one
+  * saturn 5 lego project
+  * light up blume below the rocket: https://medium.com/@realasa/making-a-lego-saturn-v-blast-off-af5adc55d6f
+  * rocket launch in your bedroom
+  * countdown timer with sound effects
+* usb mouse and joystick
+  * how to click and drag
+  * https://circuitpython.readthedocs.io/projects/hid/en/latest/

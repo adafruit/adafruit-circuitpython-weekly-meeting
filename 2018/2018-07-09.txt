@@ -1,0 +1,236 @@
+July 9th, 2018
+
+Video is available at: https://youtu.be/eVSq5JjHlv8
+
+Join Discord here: https://adafru.it/discord
+
+State of CircuitPython + Libraries 3:00
+* 7 pull requests merged
+  * 3 authors - TheKitty, dhalbert, brentru
+  * 3 reviewers - tannewt, dhalbert, brentru
+* 7 new PRs, 4 authors - arturo182, caternuson, tannewt, kattni
+* 5 closed issues by 4 people, 15 opened by 9 people
+* 14 open pull requests
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/pull/28
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/pull/23
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/pull/22
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP230xx/pull/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_ADS1x15/pull/12
+  * https://github.com/adafruit/circuitpython/pull/1000
+  * https://github.com/adafruit/circuitpython/pull/999
+  * https://github.com/adafruit/circuitpython/pull/992
+  * https://github.com/adafruit/circuitpython/pull/991
+  * https://github.com/adafruit/circuitpython/pull/985
+  * https://github.com/adafruit/circuitpython/pull/944
+  * https://github.com/adafruit/circuitpython/pull/943
+  * https://github.com/adafruit/circuitpython/pull/839
+  * https://github.com/adafruit/circuitpython-weekly-newsletter/pull/35
+* 133 open issues
+  * https://github.com/adafruit/Adafruit_CircuitPython_OneWire/issues/7
+  * https://github.com/adafruit/METROX-CircuitPython/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_CharLCD/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS0/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_INA219/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_MPR121/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/21
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/20
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/19
+  * https://github.com/adafruit/Adafruit_CircuitPython_RGB_Display/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_SD/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_LSM9DS1/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_MCP9808/issues/12
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/12
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/11
+  * https://github.com/adafruit/Adafruit_CircuitPython_BNO055/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_RFM69/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_RTTTL/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_STMPE610/issues/3
+  * https://github.com/adafruit/Adafruit_CircuitPython_SI4713/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel/issues/27
+  * https://github.com/adafruit/Adafruit_CircuitPython_RFM9x/issues/5
+  * https://github.com/adafruit/Adafruit_CircuitPython_SimpleIO/issues/10
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/25
+  * https://github.com/adafruit/Adafruit_CircuitPython_DotStar/issues/21
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/9
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_IRRemote/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_SGP30/issues/1
+  * https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing/issues/6
+  * https://github.com/adafruit/Adafruit_CircuitPython_FeatherWing/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_CircuitPlayground/issues/37
+  * https://github.com/adafruit/Adafruit_CircuitPython_L3GD20/issues/2
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/8
+  * https://github.com/adafruit/Adafruit_CircuitPython_HT16K33/issues/7
+  * https://github.com/adafruit/Adafruit_CircuitPython_Register/issues/4
+  * https://github.com/adafruit/Adafruit_CircuitPython_ADS1x15/issues/11
+  * https://github.com/adafruit/Adafruit_CircuitPython_Motor/issues/11
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/83
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/78
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/77
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/57
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/53
+  * https://github.com/adafruit/Adafruit_CircuitPython_Bundle/issues/3
+  * https://github.com/adafruit/circuitpython/issues
+Download stats for 3.0.0-rc.1
+* arduino_zero - 3
+* circuitplayground_express - 29
+* circuitplayground_express_crickit - 7
+* feather52832 - 1
+* feather_huzzah - 12
+* feather_m0_adalogger - 4
+* feather_m0_basic - 4
+* feather_m0_express - 19
+* feather_m0_express_crickit - 1
+* feather_m0_rfm69 - 0
+* feather_m0_rfm9x - 1
+* feather_m4_express - 13
+* gemma_m0 - 9
+* itsybitsy_m0_express - 8
+* itsybitsy_m4_express - 14
+* metro_m0_express - 14
+* metro_m4_express - 23
+* pca10056 - 0
+* pirkey_m0 - 0
+* trinket_m0 - 22
+184 total
+Download stats for 2.3.1
+* arduino_zero - 202
+* circuitplayground_express - 1293
+* feather_huzzah - 382
+* feather_m0_adalogger - 82
+* feather_m0_basic - 122
+* feather_m0_express - 410
+* feather_m0_rfm69 - 28
+* feather_m0_rfm9x - 37
+* gemma_m0 - 442
+* itsybitsy_m0 - 138
+* metro_m0_express - 200
+* trinket_m0 - 726
+4062 total
+47 out of 497 repos need work.
+
+ReadTheDocs missing the latest release. (Ignore me! RTD doesn't update when a new version is released. Only on pushes.) - 32
+
+Mismatched readthedocs.yml - 4
+https://github.com/adafruit/Adafruit_CircuitPython_CharLCD
+https://github.com/adafruit/Adafruit_CircuitPython_DS3231
+https://github.com/adafruit/Adafruit_CircuitPython_DHT
+https://github.com/adafruit/Adafruit_CircuitPython_GPS
+
+Failed to fetch latest release from GitHub - 1
+https://github.com/adafruit/Adafruit_CircuitPython_STMPE610
+
+CircuitPython drivers page missing driver - 9
+
+Not in bundle. - 5
+https://github.com/adafruit/Adafruit_CircuitPython_LED_Animation
+https://github.com/adafruit/Adafruit_CircuitPython_CPython
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+https://github.com/adafruit/Adafruit_CircuitPython_MLX90614
+https://github.com/adafruit/Adafruit_CircuitPython_MCP3xxx
+
+Unable to enable Travis build - 3
+https://github.com/adafruit/Adafruit_CircuitPython_LED_Animation
+https://github.com/adafruit/Adafruit_CircuitPython_CPython
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+
+ReadTheDocs missing as a subproject on CircuitPython - 4
+https://github.com/adafruit/Adafruit_CircuitPython_LED_Animation
+https://github.com/adafruit/Adafruit_CircuitPython_CPython
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+https://github.com/adafruit/Adafruit_CircuitPython_MCP3xxx
+
+Missing license. - 1
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+
+Missing lint config - 1
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+
+Missing CODE_OF_CONDUCT.md - 1
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+
+Missing README.rst - 1
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+
+Missing .travis.yml - 1
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+
+Missing readthedocs.yml - 1
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+
+Missing examples folder - 1
+https://github.com/adafruit/Adafruit_CircuitPython_TMP007
+
+Old travis config - 12
+
+Token creation failed - 1
+https://github.com/adafruit/Adafruit_CircuitPython_MLX90614
+
+ReadTheDocs latest build has warnings and/or errors - 1
+https://github.com/adafruit/Adafruit_CircuitPython_MCP230xx
+
+ReadTheDocs project missing adabot as owner - 1
+https://github.com/adafruit/Adafruit_CircuitPython_Crickit
+
+
+
+Hug Reports 6:10
+@andon -  7:47 not related to CircuitPython, but @Greys has been helping a lot of people in Discord. And as always, a group hug because you all are awesome
+8:25 @brentr - Scott for Blinka work, and the CP team for pushing towards that 3.0 goal
+8:43 @cater - hug to Ladyada for coming back on an issue I posted that was ambiguous, and pointed out a direction to go, and hug to @Radomir for reviewing the lib. @Dan Halbert for helping out on 4 July with Code.org firmata stuff.
+9:35 @cgrover - Hugs to the CPy team for the thoroughness of the ReadTheDocs collection. Been using it a lot lately! Big thanks to @JohnPark and @oldcrow for musical synth advice, guidance, and examples. JP’s Trellis synth project was the tipping point that started me on my current tangent. OldCrow’s brilliant Modular Playground design broke through a couple of conceptual barriers as I tried to learn about analog trigger and control voltages.
+11:32 @Dan Halbert - thanks to ladyada and Mike for doing some final testing on the Crickit library
+12:02 @dastels - nothing too specific, just a general hug report, especially for the 3.0 team.
+12:27 @jerryn - group hug this week, good work all around. Special appreciation for the Blinka work
+12:45 @kattni - @JohnPark for providing me with a wave file to use with a guide, and help with wiring up and giving more detail on potentiometers. @sommersoft for helping out on Discord this weekend.
+@MikeBarela - lurking mostly
+14:13 @oldcrow - probably lurking
+14:27 @Radomir - hug for Construc for diving into CP and learning programming, really impressed with the nRF work to Jerry and Arturo
+15:13 @sdw_nj - group hug plus kudos for adding Android support to Chrome OS and the creators of no-root-linux-on-android apps
+15:33 @sommersoft - arturo and hathach for the flurry  of nRF work. Mrmcwethy for diving into PyPi. Group hug for any I’ve missed.
+@tannewt 7:00
+Arturo for nrf PRs
+@sommersoft for modding discord
+@kattni for notetaking
+@Roy - group hug
+@arturo - hugs all around, especially to hathach for working on the nRF bootloader
+@threebits - lurking, first meeting!
+
+Status Update 16:00
+21:45 @andon - Status update: Preparing for BronyCon in a few weeks, prepping up DigiBadges. I have 30-ish 328Ps to solder, 38 1.8" TFTs to solder, and 36 buttons to replace. And then I have to upload the programming for 50 of them. It'll give me about 75 to sell at the convention. And then I have an EL Wire project I'm working on, too, but that's a "Secret Project" with an artist friend of mine, so no leeks (yet).
+22:24 @brentr - Finishing IO stuff, doing CP. Blinka IO examples, will be out later this week, updating io basic guides to work with new API. Added in time feeds. Any other ideas for topics or enhancements to IO, let Brent know, he’ll get it to the team.
+23:46 @cater - this ADS1x15 issue came up in Arduino first, conversion values off. Timing issue. Looked at CP lib, same issue exists there, posted issue for it, Ladyada directed which way to go, converts from delay to polling. New PR is put in place to do that. Looking at the current state - we’re close on getting it merged. Talk about this in the weeds.
+25:14 @cgrover - Current: Finished the Blues Playground Learning Guide (originally in 2.3.1, converted to 3.0.0 -- works great!). The two versions of the CPy-powered DSP musical synth (Feather M0 Express and Trinket M0) are working with MIDI and now include modular-synth CV/Gate inputs and outputs. (See/hear earlier video post.) These will act as gateways into the analog modular synthesizer world for me, one that has beckoned to me for many, many years. 
+Next: Enclosure and rack -ize the DSP synths and start buying some foundational modular synth gear. Another expensive hobby to add to the list. Wrap up the Lissajous galvanometer project. Also on the list is a heirloom Black Forest cuckoo clock upgrade (CPy and Feather M4 -- maybe Crickit -- operating the original whistles and gong) and a CV/Gate and MIDI-compatible Trellis + rotary encoder bank (CPy and ItsyBitsy M4).
+Interrupters: yardwork, eating, sleeping, yardwork.
+27:54 @Dan Halbert - Earlier last week, working on the last bugs out of the Crickit lib. Pin mapping issues, all the way down to the seesaw code, had to figure out how to make it work, all fixed up and tested by Mike and Ladyada. Learn guides updated with it. That’s done. Issues with Windows 7 drivers package didn’t include Itsy M4 etc, working on that, errors with web usb, or installer complaining about failed device, driver is out for testing. Going to start ernest on nRF52, first thing is to get travis builds working. And made a learn guide about a night light. Out of a Gemma, using while True: do nothing, 1 minute night light. 3.0 final release in the weeds.
+30:25 @dastels - Mentioned last time that there was a book in the planning stage in CP. Has been called off, BlitzCityDIY and dastels both got busier with work. Now writing guides full time for Adafruit! Now discussing doing it as a series of guides. More material beyond the beginner level that should be published, going to work on that. In guides, using CP as much as possible.
+32:42 @jerryn - very exciting non-CP stuff. Got to dig a new hole for an outhouse! As far as CP, got around to updating the RFM69 driver to fix known bug and clean up other things. Took SPG30 gas sensor and installed it next to the cat’s litter box to see if it will give warning about the state of the litter box - to see how it works out. In the weeds - recent nRF52 questions.
+34:26 @kattni - Mirrored all of the Welcome and Essentials into Itsy M4 guide, after testing all the code in the essentials guide. Updated upcoming Feather M4 guide with Welcome/Essentials. Deployed the CoC to Discord. Now running Feather M4 through the Essentials guide code and cleaning up the wording in the guide where needed, still need to do new wiring diagrams for the Itsy and Feather M4 boards. Audio Out page for essentials guide: code done, page started, wiring diagrams.
+@MikeBarela - lurking mostly
+@oldcrow - lurking
+@Radomir - nothing to report.
+37:33 @sdw_nj - Missed last week, realised haven’t given a status update! Uflash leave to flash to microbit, and make separate command to flash, thought it needed separate py file, noticed the command setting and entry point settings, means probably could have been not a separate file. Called it hexify. Two issues, one, realised after that someone else’s PR, that had separate file, ntoll wanted a single file. One function is called hexlify. Running linux on Android on ChromeOS. Put it all into one file, and separate command was called py2hex. Finally done unless issues found! Uflash for Microbit. https://github.com/ScottDWebster/uflash/releases
+41:05 @sommersoft - 
+FrequencyIn Module: still no real fix to M4 readings. Refactored the "fail gracefully" code to not rely on calling for the value. That approach works for a blocking loop, but would lead to lockup otherwise. New approach turns off capture in the interrupt handler, but doesn't raise the exception until the value is requested.
+Little Leslie amp: no movement.
+General: waited a week or so for DigiKey to get the nRF52840DK back in stock; they're now scheduled to restock at the end of the month. :sadface: Broke down and got one from Mouser, plus a Microchip MGC3030 gesture controller sensor to play with in the future. Gotta keep the stable ready for the chance that I ever finish anything. :D
+CoC In Libraries: git patch/am is a possible route. Still looking into how to further automate, but might just hand jam it locally.
+@tannewt 16:26 
+Released 3.0.0-rc.1
+Testing nrf
+Fixed svd for nrf
+Uf2 in python3
+20:15 @Roy - no progress last week
+@arturo - working on nRF as usual, want to do #994 and #995 this week
+@jepler - @tannewt probably won't be around for the meeting today, but I just want to report that pfalcon made major progress on the uzlib crash fixes this weekend, reworking my proposed changes for minimum code size impact.  Once the fixes make it to his master branch I'll make a PR to update circuitpython to use the fixed version.  Let me know if you want that in 3.0, otherwise I'll target master only.
+@ntoll - Hi folks, Mu 1.0.0-beta.17 is out.... details here: https://madewith.mu/mu/releases/2018/07/09/beta-17.html (all feedback most welcome!)
+
+Discussion 42:30
+42:44 Cater - pass v. time.sleep()
+54:35 Dhalbert 3.0 release discussion - stable release time!
+Upgrading shipping version
+58:38 Jerryn - stmpe nrf issue
+
+1:08:29 - Wrap up!

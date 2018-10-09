@@ -1,0 +1,157 @@
+Join here for the chat all week: <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/redirect?event=video_description&amp;v=V2PbVZVELys&amp;q=http%3A%2F%2Fadafru.it%2Fdiscord&amp;redir_token=X805Yr7DZzzrcl86spdPUg7duih8MTUzOTEzMjM4OUAxNTM5MDQ1OTg5" rel="nofollow">http://adafru.it/discord</a>
+
+The weekly happens normally at 2pm ET/11am PT on Mondays. Check the <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/results?search_query=%23circuitpython">#circuitpython</a> channel for notices of change in time and links to past episodes.
+
+12/4/2017
+State of CircuitPython
+* 5 pull requests merged, 3 committers.
+* 6 closed issues by 5 people, 4 opened by 3 people
+* 2.1 released many ago but still latest. <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/redirect?event=video_description&amp;v=V2PbVZVELys&amp;q=https%3A%2F%2Fapi.github.com%2Frepos%2Fadafruit%2Fcircuitpython%2Freleases%2Flatest&amp;redir_token=X805Yr7DZzzrcl86spdPUg7duih8MTUzOTEzMjM4OUAxNTM5MDQ1OTg5" rel="nofollow">https://api.github.com/repos/adafruit...</a>
+    * trinket m0 359 +67
+    * circuitplayground_express 407 +55
+    * feather_huzzah 176 +42
+    * gemma m0 122 +20
+    * Feather m0 express 207 +49
+    * metro m0 express 103 +15
+    * feather m0 basic 68 +10
+    * feather m0 adalogger 58 +16
+    * arduino_zero 47 +8
+1547 total +282
+
+16 attendees in total!
+
+Scott's hug reports <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/watch?v=V2PbVZVELys&amp;t=165s">2:45</a>
+* @boneskull for first PR fixing an RST/md link style swap
+* kattni@ for adding troubleshooting and community pages to all m0 guides
+
+tdicola:
+none
+
+andon:
+stewmyster for giving adalogger
+
+cater:
+group + scott and kattni for RTD help
+
+cgrover:
+kattni, community welcome page ++ especially RTD link
+
+dan:
+guide help
+stewmystre edge cases with SD cards
+
+deshipu:
+dan for figuring out spi clock mystery
+skr0d who found bug in spi display code and micropython itself. floating point issue
+
+jerryn:
+kattni for support and updates to docs
+
+kattni:
+dan and scott for help with code and wolf. thanks for kurt for support as well
+
+ladyada:
+thanks tonyd for all the awesome new guides and libz
+kattni for the new guides to help beginners
+cater is working hard on updating older guides
+noe &amp; pedro for the pythonpainter
+
+microwattbott:
+group hug
+
+mr mcwethy:
+nothing
+
+noe:
+group hugs
+
+pedro:
+Hugs to @deshipu for fixing segments on micropython-ht16k33 -- and group hugs to all !!
+
+stewmyster:
+adafruit sdcard library
+
+Status updates: <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/watch?v=V2PbVZVELys&amp;t=867s">14:27</a>
+
+scott's:
+more foundational stuff for libraries
+
+tdicola:
+vl53 0x - distance sensor new driver and guide
+tcs coloring sensor
+fx0 9 dof - 15k C source code
+hax - thermocouple
+more 9 dofs
+more guide updates, will publish after drivers debugged
+
+andon:
+Status Update: Glacial progress (I've been busy and/or sick) on the Example updates. I've completely re-aimed for Arduino/Python differences, with the end goal of easing transition to CP from Arduino. I'm also leaning towards creating a Learn guide, which will be exciting to work with and learn. The GitHub repository I'm working with is here: <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/redirect?event=video_description&amp;v=V2PbVZVELys&amp;q=https%3A%2F%2Fgithub.com%2FAndon-A%2FCircuitPython-Examples&amp;redir_token=X805Yr7DZzzrcl86spdPUg7duih8MTUzOTEzMjM4OUAxNTM5MDQ1OTg5" rel="nofollow">https://github.com/Andon-A/CircuitPyt...</a> (It's literally just the examples. Don't need the whole CP repo for this)
+
+cater:
+mainly busy doing guide updates to add in cp. will get back to onewire soon. passing APDS9960 on to mrmcwethy.
+
+cgrover:
+string cars are going really well
+corrosion detector with rfm69 up and coming
+process for selecting libraries on the trinket m0
+scheme to help people set up circuitpython on windows
+
+dan halbert:
+got spi flash filesystem working in 3.x
+understood spi clock rates
+atom package that flushes files when you do a write - <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/redirect?event=video_description&amp;v=V2PbVZVELys&amp;q=https%3A%2F%2Fatom.io%2Fpackages%2Fcircuitpython-force-to-drive&amp;redir_token=X805Yr7DZzzrcl86spdPUg7duih8MTUzOTEzMjM4OUAxNTM5MDQ1OTg5" rel="nofollow">https://atom.io/packages/circuitpytho...</a>
+working on uart support
+
+deshipu:
+ludum dare - game in 48 hours
+<a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/redirect?event=video_description&amp;v=V2PbVZVELys&amp;q=https%3A%2F%2Fldjam.com%2Fevents%2Fludum-dare%2F40%2Fvacuum-tube&amp;redir_token=X805Yr7DZzzrcl86spdPUg7duih8MTUzOTEzMjM4OUAxNTM5MDQ1OTg5" rel="nofollow">https://ldjam.com/events/ludum-dare/4...</a>
+space invaders clone
+audio issues - clicks and buzzing
+problem with wave files
+
+jerryn:
+home renovations
+keeping up with what we're doing
+
+kattni:
+finished welcome to community guide
+got troubleshooting page into all m0 guides, flash erasers
+cpx library will prefer frozen version of modules
+update feather m0 and metro m0 guides with beginning examples
+
+ladyada:
+i worked on adding a plotter to mu
+next version will come with Cpy on it
+small revision, chanign SPI flash chip to a gigadevice
+oh i am coming out with the itsybitsy m0 soon, philb did a great silkscreen, smaller than feather, 0.7" x 1.2"
+
+microwattbott:
+
+mr mcwethy:
+I created a pull release for the bundle to include Adafruit_CircuitPython_CharLCD and  scott completed the pull request.  After talking Carter, I have started working the APDS9960 gesture board driver.  Using the arduino library as a template.
+
+Noe:
+CircuitPython painter guide up:
+Add link to kattni's guide: <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/redirect?event=video_description&amp;v=V2PbVZVELys&amp;q=https%3A%2F%2Flearn.adafruit.com%2Fwelcome-to-the-community&amp;redir_token=X805Yr7DZzzrcl86spdPUg7duih8MTUzOTEzMjM4OUAxNTM5MDQ1OTg5" rel="nofollow">https://learn.adafruit.com/welcome-to...</a>
+Updating motorized camera slider, mounting on a tripod
+new project: remake of "big mack" device: <a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/redirect?event=video_description&amp;v=V2PbVZVELys&amp;q=https%3A%2F%2Fwww.ablenetinc.com%2Fbigmack&amp;redir_token=X805Yr7DZzzrcl86spdPUg7duih8MTUzOTEzMjM4OUAxNTM5MDQ1OTg5" rel="nofollow">https://www.ablenetinc.com/bigmack</a>
+with circuitplayground express. big button to trigger
+call out if anyone wants to help code it up let @Noe know on discord
+
+Pedro:
+dock for cpx, micro usb compatible
+
+sKr0d:
+porting arduino projects to circuitpython
+latest relates to rfm69, if anyone needs a tester let them know
+
+stewmystre:
+broke things in circuitpython
+got to safe mode a bit
+ordered a bunch of stuff off adafruit
+
+<a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/watch?v=V2PbVZVELys&amp;t=2633s">43:53</a>
+kattni: safe mode message is ominous and terrifying
+<a class="yt-simple-endpoint style-scope yt-formatted-string" spellcheck="false" href="/watch?v=V2PbVZVELys&amp;t=2810s">46:50</a>
+2.1.1 this week, bug fixes + new libraries
+deshipu, constants for min/max SPI baudrates
