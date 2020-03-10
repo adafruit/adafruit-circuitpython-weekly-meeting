@@ -15,9 +15,7 @@ tz = pytz.timezone('US/Eastern')
 meeting_duration = datetime.timedelta(seconds=3600)
 
 def localize(d):
-    """pytz says US/Eastern, but ical wants US-Eastern"""
     d = tz.localize(d)
-    d.tzinfo.zone = d.tzinfo.zone.replace('/', '-')
     return d
 
 now = localize(datetime.datetime.now())
