@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 # Makes the weekly meeting schedule, following some rules:
 #  * Recognize a bunch of US-centric holidays and move meeting from Mon -> Tue
 #  * Put in special notices when US daylight/standard changes occur
