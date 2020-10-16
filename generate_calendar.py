@@ -8,9 +8,25 @@ import sys
 
 import pytz
 import icalendar
-from holidays import CountryHoliday
+from holidays.countries.united_states import UnitedStates
 
-hols = CountryHoliday('US', state='NY')
+from datetime import date
+from dateutil.relativedelta import relativedelta as rd, MO, FR, TH, TU
+from holidays.constants import JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, \
+    OCT, \
+    NOV, DEC
+
+class CircuitPythonHoliday(UnitedStates):
+    def _populate(self, year):
+        super()._populate(year)
+
+        try:
+            del self[date(year, OCT, 1) + rd(weekday=MO(+2))]
+        except KeyError:
+            pass
+        self[date(year, OCT, 1) + rd(weekday=MO(+2))] = "Indigenous Peoples' Day"
+
+hols = CircuitPythonHoliday(state='NY')
 tz = pytz.timezone('US/Eastern')
 meeting_duration = datetime.timedelta(seconds=3600)
 
