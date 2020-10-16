@@ -8,9 +8,25 @@ import sys
 
 import pytz
 import icalendar
-from holidays import CountryHoliday
+from holidays.countries.united_states import UnitedStates
 
-hols = CountryHoliday('US', state='NY')
+from datetime import date
+from dateutil.relativedelta import relativedelta as rd, MO, FR, TH, TU
+from holidays.constants import JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, \
+    OCT, \
+    NOV, DEC
+
+class CircuitPythonHoliday(UnitedStates):
+    def _populate(self, year):
+        super()._populate(year)
+
+        try:
+            del self[date(year, OCT, 1) + rd(weekday=MO(+2))]
+        except KeyError:
+            pass
+        self[date(year, OCT, 1) + rd(weekday=MO(+2))] = "Indigenous Peoples' Day"
+
+hols = CircuitPythonHoliday(state='NY')
 tz = pytz.timezone('US/Eastern')
 meeting_duration = datetime.timedelta(seconds=3600)
 
@@ -48,17 +64,14 @@ def add_meeting_notice(calendar, d, note):
                   parameters= {'VALUE':'URI'})
     calendar.add_component(event)
 
-def make_calendar(year):
-    c = icalendar.Calendar()
-    c.add('prodid', '-//circuitpython weekly meeting generator//circuitpython.org//')
-    c.add('version', '0.0.0-beta0')
+def make_calendar(calendar, year):
     d0 = first_monday(year)
     olddst = None
     while d0 < datetime.datetime(year, 12, 23):
         d = d0
         hol = hols.get(d, None)
         if hol is not None:
-            add_holiday_notice(c, d, hol)
+            add_holiday_notice(calendar, d, hol)
             d = d + datetime.timedelta(days=1)
         dst = tz.utcoffset(d)
         if dst != olddst:
@@ -67,10 +80,13 @@ def make_calendar(year):
             olddst = dst
         else:
             note = ''
-        add_meeting_notice(c, d, note)
+        add_meeting_notice(calendar, d, note)
         d0 += datetime.timedelta(days=7)
-    return c
- 
+
 if __name__ == "__main__":
+    calendar = icalendar.Calendar()
+    calendar.add('prodid', '-//circuitpython weekly meeting generator//circuitpython.org//')
+    calendar.add('version', '0.0.0-beta0')
     for arg in sys.argv[1:]:
-        sys.stdout.buffer.write(make_calendar(int(arg)).to_ical())
+        make_calendar(calendar, int(arg))
+    sys.stdout.buffer.write(calendar.to_ical())
