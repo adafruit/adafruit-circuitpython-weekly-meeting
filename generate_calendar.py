@@ -75,7 +75,7 @@ def make_calendar(calendar, year):
             d = d + datetime.timedelta(days=1)
         dst = tz.utcoffset(d)
         if dst != olddst:
-            note = '\n(1PM in UTC%+d)' % (
+            note = '\n(2PM in UTC%+d)' % (
                 dst.total_seconds()//3600)
             olddst = dst
         else:
