@@ -8,8 +8,8 @@ The meeting is held in the English language and usually lasts between 60 and 90
 minutes.  If you can only attend part of the meeting, that's absolutely fine.
 
 To participate in the meeting, or just attend it live as a listener, join us on
-the [Adafruit Discord](https://adafru.it/discord). There is a _#CircuitPython_
-text channel and a _#CircuitPython_ voice channel.
+the [Adafruit Discord](https://adafru.it/discord). There is a _#circuitpython_
+text channel and a _#circuitpython_ voice channel.
 
 The text from the text channel and the audio from the voice channel are
 recorded and uploaded to YouTube and podcast services. Please keep this in
@@ -23,14 +23,14 @@ these notifications or request to leave the role anytime you like.
 While we love to hear the voices of everyone in the community, we also
 understand that it doesn't always work out to speak during the
 meeting—whether you don't have a microphone, are in a noisy environment, are
-simply uncomfortable speaking, or for any other reason—so the moderator will
+simply uncomfortable speaking, or for any other reason—so the host will
 read those notes aloud 
 
 We encourage you to listen to a meeting or two before participating, so that
 you know better what to expect. You can watch old meetings [on youtube](https://www.youtube.com/watch?v=lvo-seDO4yk&list=PLjF7R1fz_OOUvw7tMv45xjWp0ht8yNgg0)
 or listen to them on podcast services. 
 
-# Parts of the meeting
+# Meeting Section
 
 The meeting is held in five parts, and in three of the parts (Hug Reports,
 Status Updates, and In The Weeds) community members are invited to participate.
@@ -39,7 +39,7 @@ Status Updates, and In The Weeds) community members are invited to participate.
 
 Hug reports is a time to highlight folks in the CircuitPython community and beyond for doing awesome things, and say thanks.
 
-This section is held as a round-robin, starting with the moderator and continuing in alphabetical order by Discord handle.
+This section is held as a round-robin, starting with the host and continuing in alphabetical order by Discord handle.
 
 When you give a hug report you'll want to say who you're giving it to and why, such as:
 
@@ -63,7 +63,7 @@ A typical report might say:
 >   * Creating a pull request to fix that bug
 >   * Getting back to work on my photo frame project
 
-Small amounts of discussion are appropriate during Status Updates, but if it goes beyond that the moderator may request that you
+Small amounts of discussion are appropriate during Status Updates, but if it goes beyond that the host may request that you
 discuss it later during In The Weeds.
 
 ## In The Weeds
@@ -89,7 +89,7 @@ but we sometimes change the schedule for US holidays and other special events.
 If you're outside the US remember that the dates for the start and end of your
 "summer" time may differ from the rule followed in the US.
 
-Each meeting is accompanied by a notes document in google docs. You can find
+Each meeting is accompanied by a notes document in Google Docs. You can find
 the link to the meeting document in Discord by looking in the "pinned
 messages". Generally the link is made available soon after the previous
 meeting is concluded.
@@ -99,7 +99,7 @@ The Weeds, you can update the notes doc at any time. For Hug Reports and
 Status Updates, please put your notes in alphabetical order, starting with your
 Discord handle.
 
-If the moderator should read your notes, indicate that next to your name, such as:
+If the host should read your notes, indicate that next to your name, such as:
 
 > @foamyguy (lurking)
 
@@ -107,27 +107,26 @@ If the moderator should read your notes, indicate that next to your name, such a
 
 If you're going to be speaking and don't have time before the meeting to enter
 your notes, at least add your Discord handle as a placeholder so that the
-moderator knows to let you have your turn. If for some reason even that's not
+host knows to let you have your turn. If for some reason even that's not
 possible, ask in the text chat for someone else to add it for you.
 
 Your notes can be terse (they don't have to be full english sentences and
-paragraphs) but if the moderator is going to be reading them make sure they
+paragraphs) but if the host is going to be reading them make sure they
 have enough context that what they say will make sense.
 
 # During the meeting
 
 Join a few minutes before the meeting if you want to check that your audio is working.
 
-Please give the moderator a few minutes after the start of the hour to arrive.
-The Discord meeting starts after an internal Adafruit meeting which often goes
-slightly over its alloted time.
+Please give the host a few minutes after the start of the hour to arrive.
+The Discord meeting starts immediately after an internal Adafruit meeting.
 
 When not actively speaking, please mute your microphone.
 
 In the sections where you will participate, be attentive to the order of the
 meeting so that you're ready to un-mute and speak when called on.
 
-If the moderator accidentally skips you, place a note in the text chat to make
+If the host accidentally skips you, place a note in the text chat to make
 them aware of it.
 
 ## In The Weeds
@@ -141,5 +140,5 @@ going to take action will state so clearly, such as "I will add additional
 information to the relevant Issue", "I will fix the bug using the approach we
 selected", etc. The person who brought the In The Weeds topic will also
 briefly summarise the discussion in the notes document. Please do this
-promptly, as the moderator has to finalize the notes document and upload it to
+promptly, as the host has to finalize the notes document and upload it to
 github shortly after the meeting concludes.
