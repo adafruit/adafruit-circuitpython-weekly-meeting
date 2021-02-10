@@ -15,8 +15,8 @@ The text from the text channel and the audio from the voice channel are
 recorded and uploaded to YouTube and podcast services. Please keep this in
 mind if you plan to participate.
 
-Before speaking in the meeting, ask any Community Moderator to add you to the
-_@CircuitPythonistas_ role. In this role, you will receive a small number of
+If you wish to speak in the meeting, you must ask any Community Moderator to add you to the
+_@circuitpythonistas_ role. In this role, you will receive a small number of
 notifications each week, almost always related to the meeting. You can mute
 these notifications or request to leave the role anytime you like.
 
