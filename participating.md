@@ -24,13 +24,13 @@ While we love to hear the voices of everyone in the community, we also
 understand that it doesn't always work out to speak during the
 meeting—whether you don't have a microphone, are in a noisy environment, are
 simply uncomfortable speaking, or for any other reason—so the host will
-read those notes aloud 
+read those notes aloud.
 
 We encourage you to listen to a meeting or two before participating, so that
 you know better what to expect. You can watch old meetings [on youtube](https://www.youtube.com/watch?v=lvo-seDO4yk&list=PLjF7R1fz_OOUvw7tMv45xjWp0ht8yNgg0)
 or listen to them on podcast services. 
 
-# Meeting Section
+# Meeting Sections
 
 The meeting is held in five parts, and in three of the parts (Hug Reports,
 Status Updates, and In The Weeds) community members are invited to participate.
@@ -126,14 +126,15 @@ When not actively speaking, please mute your microphone.
 In the sections where you will participate, be attentive to the order of the
 meeting so that you're ready to un-mute and speak when called on.
 
-If the host accidentally skips you, place a note in the text chat to make
-them aware of it.
+If the host accidentally skips you, please send a note in the Discord text chat
+to make them aware of it.
 
 ## In The Weeds
 
 In The Weeds topics are discussed in the order they appear in the notes document.
 
-If you've brought an In The Weeds topic, you will introduce it and then anyone
+If you've brought an In The Weeds topic, the host will introduce you and you will
+introduce the topic.  Then, anyone
 who is interested in the discussion can unmute and speak freely, or participate
 in the text chat as they prefer. At the end of the discussion, anyone who is
 going to take action will state so clearly, such as "I will add additional
@@ -141,4 +142,4 @@ information to the relevant Issue", "I will fix the bug using the approach we
 selected", etc. The person who brought the In The Weeds topic will also
 briefly summarise the discussion in the notes document. Please do this
 promptly, as the host has to finalize the notes document and upload it to
-github shortly after the meeting concludes.
+GitHub shortly after the meeting concludes.
