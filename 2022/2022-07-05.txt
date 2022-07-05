@@ -1,0 +1,309 @@
+﻿# CircuitPython Weekly Meeting for July 5, 2022
+
+
+Welcome to the CircuitPython Weekly meeting notes! Feel free to add your Hug Reports and Status Updates early. During the meeting, we go through them as a round robin sorted by username. If you can’t make the meeting and would still like to participate, add your notes with a “(missing meeting)” after your username and we’ll read them off for you. 
+
+
+Add any longer-form discussion topics or general questions you have to the “In the weeds” section. 
+
+
+Thanks! We hope to see you in the meeting!
+
+
+Tim is hosting.
+
+
+Video is available [on YouTube](https://youtu.be/QrpmlBzY244).
+
+
+Join here for the chat all week: http://adafru.it/discord.
+
+
+The CircuitPython Weekly happens normally at 2pm ET/11am PT on Mondays. Check the #circuitpython channel on Discord for notices of change in time and links to past meetings. Meeting times are also available in [iCal format](https://raw.githubusercontent.com/adafruit/adafruit-circuitpython-weekly-meeting/master/meeting.ical) for use with standard calendar applications and can also be viewed [in your browser](https://open-web-calendar.herokuapp.com/calendar.html?url=https%3A%2F%2Fraw.githubusercontent.com%2Fadafruit%2Fadafruit-circuitpython-weekly-meeting%2Fmain%2Fmeeting.ical&title=CircuitPython%20Meeting%20Schedule&tab=agenda&tabs=month&tabs=agenda).
+
+
+If you want to be able to participate in the meeting by speaking, you will need to be added to the @circuitpythonistas role on Discord. Please ask any one of the moderators or admins to add you if you’d like to join.
+
+
+CircuitPython development is sponsored by Adafruit. Please support them by purchasing hardware from https://adafruit.com.
+
+
+Reminders: Podcast available on most services. Let us know if we’re missing some.
+## Community News
+### 03:14 New Raspberry Pi Pico W
+  
+
+June 30th, Raspberry Pi launched three new members of their Pico family. Raspberry Pi Pico W is priced at $6, and brings 802.11n wireless networking to the Pico platform while retaining complete pin compatibility by adding an Infineon CYW43439 wireless chip.
+
+
+### 04:04 RGB Hexagonal Keyboard Powered by CircuitPython
+  
+
+A beautiful custom keyboard with colored hexagonal keys. The key switches are Kailh Choc, the keycaps custom resin. It's powered by a Solder Party RP2040 Stamp with custom CircuitPython - [Twitter](https://twitter.com/S0lll0s/status/1543664256494850050) and [Firmware](https://git.s-ol.nu/kb/0x33.board/firmware/-/).
+
+
+### 04:30 Tom's Hardware PiCast Featuring CircuitPythonista Debra Ansell Tuesday
+Tom's Hardware PiCast videocast week has special guest Debra Ansell, @GeekMomProjects, to talk about her fantastic range of LED infused projects. From bags, wearables, robots, blobs, chances are GeekMomProjects has found a clever way to add RGB LEDs - [Twitter](https://twitter.com/biglesp/status/1542876652627181569) and [YouTube](https://www.youtube.com/watch?v=PzU1N3NmoSI) Broadcast.
+
+
+### 05:05 Newsletter Details
+The CircuitPython Weekly Newsletter is a CircuitPython community-run newsletter emailed every Tuesday. The complete [archives are here](https://www.adafruitdaily.com/category/circuitpython/). It highlights the latest Python on hardware related news from around the web including CircuitPython, Python and MicroPython developments. 
+To contribute your own news or project, edit next week's draft [on GitHub](https://github.com/adafruit/circuitpython-weekly-newsletter/tree/gh-pages/_drafts) and [submit a pull request](https://help.github.com/articles/editing-files-in-your-repository/) with the changes. You may also tag a tweet with #CircuitPython on Twitter, or email cpnews@adafruit.com.
+## 06:09 State of CircuitPython, Libraries and Blinka
+### Overall
+* 22 pull requests merged
+  * 14 authors - dhalbert, tekktrik, todbot, Lisapple, bergdahl, jepler, JulianOrteil, klocs, Neradoc, weblate, tannewt, rtyley, xuhow, tcfranks
+  * 8 reviewers - dhalbert, tekktrik, FoamyGuy, gamblor21, caternuson, ladyada, jepler, tannewt
+* 18 closed issues by 8 people, 27 opened by 21 people
+
+
+### 07:14 Core
+* 14 pull requests merged
+  * 8 authors - dhalbert, todbot, Lisapple, bergdahl, jepler, weblate, tannewt, xuhow
+  * 5 reviewers - ladyada, dhalbert, tannewt, jepler, gamblor21
+* 16 open pull requests
+  * https://github.com/adafruit/circuitpython/pull/5352 (Open 292 days)
+  * https://github.com/adafruit/circuitpython/pull/5999 (Open 145 days)
+  * https://github.com/adafruit/circuitpython/pull/6037 (Open 139 days)
+  * https://github.com/adafruit/circuitpython/pull/6119 (Open 121 days)
+  * https://github.com/adafruit/circuitpython/pull/6217 (Open 94 days)
+  * https://github.com/adafruit/circuitpython/pull/6247 (Open 90 days)
+  * https://github.com/adafruit/circuitpython/pull/6256 (Open 89 days)
+  * https://github.com/adafruit/circuitpython/pull/6349 (Open 61 days)
+  * https://github.com/adafruit/circuitpython/pull/6397 (Open 51 days)
+  * https://github.com/adafruit/circuitpython/pull/6410 (Open 46 days)
+  * https://github.com/adafruit/circuitpython/pull/6514 (Open 13 days)
+  * https://github.com/adafruit/circuitpython/pull/6522 (Open 11 days)
+  * https://github.com/adafruit/circuitpython/pull/6545 (Open 3 days)
+  * https://github.com/adafruit/circuitpython/pull/6551 (Open 2 days)
+  * https://github.com/adafruit/circuitpython/pull/6550 (Open 2 days)
+  * https://github.com/adafruit/circuitpython/pull/6555 (Open 0 days)
+* 6 closed issues by 2 people, 11 opened by 10 people
+* 536 open issues
+  * https://github.com/adafruit/circuitpython/issues
+* 5 active milestones
+  * 7.3.x: 2 open issues
+  * 8.0.0: 50 open issues
+  * Libraries: 22 open issues
+  * Long term: 459 open issues
+  * Support: 1 open issues
+  * 2 issues not assigned a milestone
+
+
+* Core download stats available at https://circuitpython.org/stats
+
+
+### 09:06 Libraries
+* 8 pull requests merged
+  * 6 authors - klocs, tekktrik, rtyley, Neradoc, tcfranks, JulianOrteil
+  * 6 reviewers - ladyada, dhalbert, tekktrik, tannewt, FoamyGuy, caternuson
+  * Merged pull requests:
+    * https://github.com/adafruit/Adafruit_CircuitPython_GC_IOT_Core/pull/26 (Days open: 19)
+    * https://github.com/adafruit/Adafruit_CircuitPython_Thermistor/pull/20 (Days open: 3)
+    * https://github.com/adafruit/Adafruit_CircuitPython_DymoScale/pull/13 (Days open: 2)
+    * https://github.com/adafruit/Adafruit_CircuitPython_AW9523/pull/6 (Days open: 1)
+    * https://github.com/adafruit/Adafruit_CircuitPython_DPS310/pull/24 (Days open: 1)
+    * https://github.com/adafruit/Adafruit_CircuitPython_PortalBase/pull/71 (Days open: 1)
+    * https://github.com/adafruit/Adafruit_CircuitPython_Requests/pull/111 (Days open: 1)
+    * https://github.com/adafruit/Adafruit_CircuitPython_Requests/pull/110 (Days open: 1)
+  * 31 open pull requests (Oldest: 644, Newest: 1)
+* 11 closed issues by 7 people, 16 opened by 11 people
+  * 645 open issues
+  * 175 good first issues
+* https://circuitpython.org/contributing
+Library updates in the last seven days:
+**Updated Libraries**
+ * [Adafruit_CircuitPython_AW9523](https://github.com/adafruit/Adafruit_CircuitPython_AW9523)
+ * [Adafruit_CircuitPython_GC_IOT_Core](https://github.com/adafruit/Adafruit_CircuitPython_GC_IOT_Core)
+ * [Adafruit_CircuitPython_DPS310](https://github.com/adafruit/Adafruit_CircuitPython_DPS310)
+ * [Adafruit_CircuitPython_PortalBase](https://github.com/adafruit/Adafruit_CircuitPython_PortalBase)
+ * [Adafruit_CircuitPython_DymoScale](https://github.com/adafruit/Adafruit_CircuitPython_DymoScale)
+ * [Adafruit_CircuitPython_Requests](https://github.com/adafruit/Adafruit_CircuitPython_Requests)
+ * [Adafruit_CircuitPython_Thermistor](https://github.com/adafruit/Adafruit_CircuitPython_Thermistor)
+
+
+### 11:15 Blinka
+* 0 pull requests merged
+  * 0 authors - 
+  * 0 reviewers - 
+* 4 open pull requests
+  * https://github.com/adafruit/Adafruit_Blinka/pull/417 (Open 510 days)
+  * https://github.com/adafruit/Adafruit_Blinka/pull/496 (Open 344 days)
+  * https://github.com/adafruit/Adafruit_Blinka_bleio/pull/40 (Open 270 days)
+  * https://github.com/adafruit/Adafruit_Python_PlatformDetect/pull/201 (Open 210 days)
+* 1 closed issues by 1 people, 0 opened by 0 people
+* 76 open issues
+  * https://github.com/adafruit/Adafruit_Blinka/issues
+* Piwheels Downloads in the last month: 8063
+Number of supported boards: 89
+
+
+
+
+## Hug reports
+
+
+12:36 @foamyguy (hosting)
+* Scott for working on new webworkflow and helping me get it running on a device
+* @Neradoc and @Tekktrik for some circup fixes
+
+
+13:03 @danh
+* @Neradoc for a quick fix to circup.
+* @hathach for working on multiple LUNs (e.g. showing SD card in addition to CIRCUITPY)
+* @tannewt for web workflow
+
+
+13:58 @jepler
+* Group hug
+
+
+14:08 @kattni
+* @tekktrik for working through the process to move from setup.py to pyproject.toml
+* @todbot for explaining a Python concept in a way I was able to understand
+* @Neradoc for helping explain the same concept
+* @foamyguy for writing, and continuing to help with, the GitHub Actions Status Light code
+* @krayola for designing a 3D printed stand for the Tri-Color USB Tower Light.
+* @tekktrik for putting in quick fixes for bugs
+* My dad for agreeing to take the lead on building a room in my basement, for stopping by to measure everything, get an idea what we’re looking for, and putting together a parts list for the project.
+* @krayola for putting so much effort into the mailbox project receiver code, and persevering in the face of multiple obstacles
+* @jepler for a lovely chat
+* Group hug!
+
+
+15:10 @kmatch
+* @bablokb on github for a performance update to the display_shapes Sparkline library to improve redrawing performance and flexibility
+
+
+15:39 @Liz (BlitzCity)
+* @Melissa for adding multiple display support for the HT16K33 LED matrix driver. I’m using two alphanumeric displays as a GUI for a project and it is working great
+* Group hug
+
+
+15:59 @MakerMelissa
+* Group hug to everyone who kept things going while I was out for the last few weeks
+
+
+16:11 @mark(gamblor) [missing today]
+* @todbot and @paintyourdragon for examples and tutorials I used to make my googly eye project work.
+* Group hug I’m sure I’ve missed thanking some people the last couple weeks
+
+
+16:35 @Neradoc (text only)
+* Group hug, for all the group hugs I didn’t give in the past
+* @foamyguy for the interactive streams
+* @tekktrik for the PRs and the reviews on circup and other things
+* @danh for all the discussion and responsiveness on CP issues and PRs
+* @kattni, @tannewt, PT, etc. for the opportunities to work with Adafruit
+
+
+17:05 @tammymakesthings (text-only):
+* @danh, for a speedy response to the asyncio import error I ran into last week
+* Group hug!
+
+
+17:21 @tannewt
+* @Neradoc, @danh, @RetiredWizard and @foamyguy for testing web workflow
+
+
+17:36 @tekktrik (text only)
+* The team behind Dependabot for the neat code I used for parsing the arguments to setup() in setup.py files so I can automate building the new pyproject.toml files
+* Group hug!
+## 18:12 Status Updates
+18:44 @foamyguy (hosting)
+* Last week:
+   * Tried out the latest main with web workflow. Worked in an edit page that I began earlier in development
+   * Octopus Game & Watch Game. The core objects that control the more complex aspects of the game are complete and the most basic game mode is implemented.
+* This week
+   * Add the second game mode and finishing touches to match the specific behaviors from the original game where possible. Get the first draft of the learn guide out of my head and  down on the page 
+
+
+19:57 @danh
+* Tested and reviewed web workflow.
+* Have the REPL working on ESP32 V2 (plain ESP32). Debugging file transfer problems: none of the file transfer apps (thonny, ampy, mpremote, etc.) are working properly. Some cause Safe Mode.
+
+
+21:17 @jepler
+* Last week:
+   * Was still getting over being sick so wasn’t particularly productive
+   * Small amount of work on RGBmatrix for ESP32-S3. It looks like existing support just crashes. PaintYourDragon made a new driver that uses the LCD control peripheral, but my first attempt to convert the code to CircuitPython gave weird results
+* This week:
+   * Continuing to look at RGBMatrix
+   * Not CircuitPython: looking at the recently-landed RP2040 support in qmk
+
+
+22:39 @kattni
+* Last week:
+   * Began working on the GitHub Actions Status Light guide. Completed most of the text content.
+   * Assembled tower light and stand
+      * The tower light used in this project has a USB cable coming out the bottom, but the base has no clearance for the cable, so as-is, it sits on an angle and is wobbly. Rose designed a bolt-on stand with a track for the USB cable, and now it sits super solidly on a flat surface!
+* This week:
+   * Finish the GitHub Actions Status Light guide - needs a few more screenshots and images.
+   * Approve the five PRs to move the first five libs to pyproject.toml
+   * Set up Discord Automod
+   * Test a new feature in Learn
+   * Go through open PRs with me tagged on them to move them forward
+* The past weekend:
+   * Reduced the Mailbox project LoRa-receiver-Pi code down to only making an LED blink and showing “U GOT MAIL” on the bonnet OLED, and traded SD cards with my dad, so now he has a simple working version of the notifier. He is very excited. We’ll sort out phone notifications when we have time.
+   * Began emptying the majority of the basement into the garage or into other parts of the basement to prep for partitioning off a section of the basement into a room.
+
+
+24:32 @kmatch
+* I’m considering what is required to add capacitive touchscreen reading into the CircuitPython core, my main objective is to reduce latency to touch events.  Reviewed the EventQueue used in the keypad module.  Looks like a good starting point. Next steps: Explore adding an event queue using a touchscreen interrupt pin and I2C call to collect x-y touch data from a I2C touch controller.  (Could consider a generic capability of defining an interrupt pin to trigger grabbing some I2C data into a queue.)  
+* Tangential question regarding measuring display performance: Is there currently a way to measure and report the displayio refresh rate?
+
+
+
+
+26:22 @MakerMelissa
+* Last few weeks:
+   * Updated HT16K33 library to accommodate spanning text and graphics across multiple displays by only passing in multiple I2C addresses in a list or tuple.
+   * Recovering from foot surgery
+* This week:
+   * Finishing up catching up on emails
+   * Still figuring out exactly what to work on, but likely it will be working on web workflow and code.circuitpython.org enhancements.
+
+
+27:06 @Neradoc (text only)
+* Last week
+   * Made a library manager (think circup) for the web workflow, maybe next on Show and Tell.
+   * Work on a fix for circup crashing on unidentifiable mpy files.
+* This Week
+   * Add a property to .env to change the BLE default name (for BLE workflow, user code can set it itself).
+   * PR fixes to web workflow CORS preflight implementation.
+   * Adopt a cat, it has been almost 2 years without a cat in the house. 🙀
+
+
+28:03 @tammymakesthings (text-only)
+* Last week:
+   * Started working on a project to display CI/CD status for my work CI/CD system on a Matrix Portal M4. The code is currently not functional because of a problem I ran into with asyncio on that hardware, but most of the code is written.
+   * Preparing to give a CircuitPython demo at the DesertPy meetup on Saturday, July 9.
+* This week:
+   * Still hoping to get back to a regular streaming cadence, work and other considerations permitting.
+   * CircuitPython demo at the DesertPy Python meetup.
+
+
+28:51 @tannewt
+* Web workflow is checked in. Only does file system stuff
+* Working on serial access via WebSockets.
+* Definitely have things to sort out wrt tasks and when things run. Socket management probably still has bugs.
+
+
+30:18 @tekktrik (text only)
+* Last week
+   * Fixed documentation issue in DPS310 library that had the wrong units
+   * Fixed issue with circup where latest version of setuptools was incompatible with the version of a pinned dependency
+   * Working on the moving the libraries from setup.py to pyproject.toml
+      * Created pyproject.toml files for a few libraries to begin testing use to make sure users aren’t affected when pip installing
+      * Parsed, consolidated and cleaned the requirements for each library
+      * Built prototype pyproject.toml (or pyproject.toml.disabled) files for each library, to prepare/test automating the transition for the libraries when it’s time to convert them
+* This week:
+   * Deploying the pyproject.toml test libraries
+   * Accounting for possible optional dependencies for libraries (if we choose to use them) in the pyproject.toml files
+   * Finalize my PR that makes touchpads iterable for the CircuitPlayground library (late group hug to Dan for making pins hashable!)
+   * Hopefully some more CircuitPython core documentation additions
+## 31:58 In The Weeds
+32:26 @kattni - CircuitPython Day is August 19! This will be a virtual event. If you’re interested in joining in, hosting something, being involved in any way, please reach out to Kattni! Send an email to circuitpythonday@adafruit.com with ideas!
+
+
+## 34:16 Wrap-Up
