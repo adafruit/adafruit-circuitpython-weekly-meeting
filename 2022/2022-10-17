@@ -1,0 +1,346 @@
+# CircuitPython Weekly Meeting for October 17, 2022
+
+Video is available [on YouTube](https://youtu.be/DAdU3vxQNgM).
+
+Join here for the chat all week: http://adafru.it/discord.
+
+The CircuitPython Weekly happens normally at 2pm ET/11am PT on Mondays. Check the #circuitpython channel on Discord for notices of change in time and links to past meetings. Meeting times are also available in [iCal format](https://raw.githubusercontent.com/adafruit/adafruit-circuitpython-weekly-meeting/master/meeting.ical) for use with standard calendar applications and can also be viewed [in your browser](https://open-web-calendar.herokuapp.com/calendar.html?url=https%3A%2F%2Fraw.githubusercontent.com%2Fadafruit%2Fadafruit-circuitpython-weekly-meeting%2Fmain%2Fmeeting.ical&title=CircuitPython%20Meeting%20Schedule&tab=agenda&tabs=month&tabs=agenda).
+
+If you want to be able to participate in the meeting by speaking, you will need to be added to the @circuitpythonistas role on Discord. Please ask any one of the moderators or admins to add you if you’d like to join.
+
+CircuitPython development is sponsored by Adafruit. Please support them by purchasing hardware from https://adafruit.com.
+
+Reminders: Podcast available on most services. Let us know if we’re missing some.
+## Community News 2:51 
+### Espressif Developer Conference 2022 This Week With Ladyada 2:52
+
+Espressif DevCon22 is the first official conference for Espressif developers. This two-day online conference October 19-20 will bring to you content about products and solutions created by Espressif and its partners. You can expect over 30 talks on topics including Matter, RainMaker, ESP-IDF, Privilege Separation, Embedded Rust, Components Manager, Board Support Packages, 3rd-party frameworks, and more - Espressif.
+### CircuitPython 8.0.0 Beta 2 Released! 3:15 
+
+CircuitPython 8.0.0-beta.2 was released! It is relatively stable, but there will be further additions and fixes before final release - Adafruit Blog.
+Warning: The flash partitioning for the Raspberry Pi Pico W has changed since 8.0.0-beta.1. When you load 8.0.0-beta.2 over beta.1 (or vice versa), on the Pico W only, CIRCUITPY will be erased and reformatted.
+Full Release Notes.
+### Join the Python Developers Survey 2022: Share and learn about the community 3:33 
+
+The Python Software Foundation (PSF) is conducting the sixth iteration of the official Python Developers Survey. The goal is to capture the current state of the language and the ecosystem around it. By comparing the results with last year’s, they can identify and share with everyone the hottest trends in the Python community and the key insights into it. The PSF encourages you to contribute to our community’s knowledge. The survey should only take about 10-15 minutes to complete.
+The survey is organized in partnership between the Python Software Foundation and JetBrains. After the survey is over, the PSF will publish the aggregated results and randomly choose 20 winners (among those who complete the survey in its entirety), who will each receive a $100 Amazon Gift Card or a local equivalent - PSF.
+### Project of the Week: A Homemade HP 16C Calculator 4:10 
+
+A homerolled HP 16C implementation (work in progress) by u/someyob - Reddit.
+A work in progress, including labels for the missing keys. Does its thing in RPN, of course. Right now, base conversion. Raspberry Pi Pico, 1602 LCD with level shifters, aliexpress keypads with rows wired together to create a 40-key keypad. Learning Python along the way with Adafruit's Circuitpython.
+## Looking for Testers 4:47
+
+River Wang writes:
+Alpha version of the new CircuitPython online IDE is out! If you want to help me test it out, please visit https://urfdvw.github.io/cpy-ol-ide-tests/#. Sorry the Github repo is a bit messy right now. It is going public soon. For now, please use "Help->Feedback" to send me some suggestions - Twitter and GitHub.
+
+
+
+### Newsletter Details 5:08 
+The CircuitPython Weekly Newsletter is a CircuitPython community-run newsletter emailed every Tuesday. The complete [archives are here](https://www.adafruitdaily.com/category/circuitpython/). It highlights the latest Python on hardware related news from around the web including CircuitPython, Python and MicroPython developments. 
+To contribute your own news or project, edit next week's draft [on GitHub](https://github.com/adafruit/circuitpython-weekly-newsletter/tree/gh-pages/_drafts) and [submit a pull request](https://help.github.com/articles/editing-files-in-your-repository/) with the changes. You may also tag a tweet with #CircuitPython on Twitter, or email cpnews@adafruit.com.
+## State of CircuitPython, Libraries and Blinka 5:38 
+### Overall
+49 pull requests merged
+ 21 authors - CedarGroveStudios, georgboe, zonywhoop, fabaff, The-Debarghya, tcfranks, waiweng83, Wind-stormger, isacben, MicroDev1, mopore, dhalbert, weblate, makermelissa, calcut, tinkeringtech, flom84, bmol118, boranroni, tekktrik, jepler
+7 reviewers - MicroDev1, jepler, gamblor21, makermelissa, tekktrik, FoamyGuy, dhalbert
+46 closed issues by 14 people, 29 opened by 22 people
+Assigned Hacktoberfest label to 0 issues.
+
+### Core 6:42 
+30 pull requests merged
+12 authors - weblate, georgboe, boranroni, flom84, fabaff, waiweng83, Wind-stormger, isacben, MicroDev1, makermelissa, jepler, dhalbert
+3 reviewers - MicroDev1, jepler, dhalbert
+14 open pull requests
+https://github.com/adafruit/circuitpython/pull/5999 (Open 250 days)
+https://github.com/adafruit/circuitpython/pull/6037 (Open 243 days)
+https://github.com/adafruit/circuitpython/pull/6119 (Open 225 days)
+https://github.com/adafruit/circuitpython/pull/6217 (Open 198 days)
+https://github.com/adafruit/circuitpython/pull/6555 (Open 104 days)
+https://github.com/adafruit/circuitpython/pull/6594 (Open 95 days)
+https://github.com/adafruit/circuitpython/pull/6819 (Open 52 days)
+https://github.com/adafruit/circuitpython/pull/6902 (Open 32 days)
+https://github.com/adafruit/circuitpython/pull/6913 (Open 30 days)
+https://github.com/adafruit/circuitpython/pull/6927 (Open 26 days)
+https://github.com/adafruit/circuitpython/pull/6979 (Open 15 days)
+https://github.com/adafruit/circuitpython/pull/7059 (Open 2 days)
+https://github.com/adafruit/circuitpython/pull/7071 (Open 0 days)
+https://github.com/adafruit/circuitpython/pull/7069 (Open 0 days)
+26 closed issues by 7 people, 17 opened by 12 people
+Assigned Hacktoberfest label to 0 issues.
+574 open issues
+https://github.com/adafruit/circuitpython/issues
+6 active milestones
+7.3.x: 0 open issues
+8.0.0: 26 open issues
+8.x.x: 12 open issues
+Libraries: 20 open issues
+Long term: 502 open issues
+Support: 3 open issues
+11 issues not assigned a milestone
+
+Core download stats available at https://circuitpython.org/stats
+
+### Libraries 8:10 
+17 pull requests merged
+9 authors - CedarGroveStudios, calcut, tinkeringtech, The-Debarghya, tcfranks, isacben, mopore, tekktrik, jepler
+4 reviewers - gamblor21, tekktrik, FoamyGuy, dhalbert
+Merged pull requests:
+https://github.com/adafruit/Adafruit_CircuitPython_MiniMQTT/pull/122 (Days open: 35)
+https://github.com/adafruit/Adafruit_CircuitPython_PYOA/pull/37 (Days open: 25)
+https://github.com/adafruit/Adafruit_CircuitPython_Logging/pull/40 (Days open: 12)
+https://github.com/adafruit/Adafruit_CircuitPython_RFM69/pull/42 (Days open: 12)
+https://github.com/adafruit/Adafruit_CircuitPython_BNO055/pull/108 (Days open: 11)
+https://github.com/adafruit/Adafruit_CircuitPython_SD/pull/51 (Days open: 8)
+https://github.com/adafruit/Adafruit_CircuitPython_SI4713/pull/24 (Days open: 6)
+https://github.com/adafruit/Adafruit_CircuitPython_DisplayIO_Layout/pull/76 (Days open: 3)
+https://github.com/adafruit/Adafruit_CircuitPython_SI1145/pull/17 (Days open: 3)
+https://github.com/adafruit/Adafruit_CircuitPython_SHTC3/pull/17 (Days open: 3)
+https://github.com/adafruit/Adafruit_CircuitPython_LPS2X/pull/12 (Days open: 1)
+https://github.com/adafruit/Adafruit_CircuitPython_Display_Text/pull/176 (Days open: 1)
+https://github.com/adafruit/Adafruit_CircuitPython_Ticks/pull/8 (Days open: 1)
+https://github.com/adafruit/Adafruit_CircuitPython_SCD4X/pull/15 (Days open: 1)
+https://github.com/adafruit/CircuitPython_Community_Bundle/pull/115 (Days open: 1)
+https://github.com/adafruit/CircuitPython_Community_Bundle/pull/113 (Days open: 1)
+https://github.com/adafruit/CircuitPython_Community_Bundle/pull/112 (Days open: 1)
+27 open pull requests (Oldest: 748, Newest: 1)
+17 closed issues by 7 people, 11 opened by 10 people
+Assigned Hacktoberfest label to 0 issues.
+567 open issues
+105 good first issues
+https://circuitpython.org/contributing
+
+#### Library updates in the last seven days:
+**Updated Libraries**
+[Adafruit_CircuitPython_BNO055](https://github.com/adafruit/Adafruit_CircuitPython_BNO055)
+[Adafruit_CircuitPython_DisplayIO_Layout](https://github.com/adafruit/Adafruit_CircuitPython_DisplayIO_Layout)
+[Adafruit_CircuitPython_Logging](https://github.com/adafruit/Adafruit_CircuitPython_Logging)
+[Adafruit_CircuitPython_MiniMQTT](https://github.com/adafruit/Adafruit_CircuitPython_MiniMQTT)
+[Adafruit_CircuitPython_PYOA](https://github.com/adafruit/Adafruit_CircuitPython_PYOA)
+[Adafruit_CircuitPython_RFM69](https://github.com/adafruit/Adafruit_CircuitPython_RFM69)
+[Adafruit_CircuitPython_LPS2X](https://github.com/adafruit/Adafruit_CircuitPython_LPS2X)
+[Adafruit_CircuitPython_SI1145](https://github.com/adafruit/Adafruit_CircuitPython_SI1145)
+[Adafruit_CircuitPython_Display_Text](https://github.com/adafruit/Adafruit_CircuitPython_Display_Text)
+[Adafruit_CircuitPython_SI4713](https://github.com/adafruit/Adafruit_CircuitPython_SI4713)
+[Adafruit_Python_PlatformDetect](https://github.com/adafruit/Adafruit_Python_PlatformDetect)
+[CircuitPython_Community_Bundle](https://github.com/adafruit/CircuitPython_Community_Bundle)
+
+### Blinka 11:14 
+2 pull requests merged
+2 authors - zonywhoop, bmol118
+1 reviewers - makermelissa
+9 open pull requests
+https://github.com/adafruit/Adafruit_Blinka/pull/417 (Open 614 days)
+https://github.com/adafruit/Adafruit_Blinka/pull/496 (Open 448 days)
+https://github.com/adafruit/Adafruit_Blinka_bleio/pull/40 (Open 374 days)
+https://github.com/adafruit/Adafruit_Python_PlatformDetect/pull/201 (Open 314 days)
+https://github.com/adafruit/Adafruit_Blinka_Displayio/pull/97 (Open 46 days)
+https://github.com/adafruit/Adafruit_Blinka_Displayio/pull/98 (Open 9 days)
+https://github.com/adafruit/Adafruit_Blinka/pull/620 (Open 1 days)
+https://github.com/adafruit/Adafruit_Blinka/pull/619 (Open 1 days)
+https://github.com/adafruit/Adafruit_Blinka/pull/621 (Open 0 days)
+3 closed issues by 2 people, 1 opened by 1 people
+Assigned Hacktoberfest label to 0 issues.
+84 open issues
+https://github.com/adafruit/Adafruit_Blinka/issues
+Piwheels Downloads in the last month: 11419
+Number of supported boards: 96
+
+## Hug reports 12:18 
+@Paul Cutler 12:21 
+@kattni and @makermelissa - get better soon!
+@tekktrik for keeping up on Hacktoberfest and CI even while moving
+Group hug
+
+@CGrover (text only) 12:31 
+To @Tekktrik and @Mark(Gamblor) for support of recent Community Bundle submissions. 
+
+@danh 12:39 
+@jepler for fixing a wide variety of things, both Pico W and also many miscellaneous things
+@microdev for recent ESP32nn fixes
+@skerr for finding a bunch of issues that could be closed without any work
+@mwalimu for noting issues with ESP32 in beta.2
+
+@DJDevon3 (missing meeting) 13:32 
+@Kattni for getting COVID. Hope you feel better this week.
+@Todbot for his GCA091 community library. The round displays are excellent for eye projects approaching Halloween.
+@Gamblor for porting PaintYourDragon’s MonsterM4sk code to the M4 Express. Hopefully breaking out the UF2 for all future eye projects to run on any CP board.
+
+@foamyguy 14:05 
+@CGrover for recent additions to the community bundle and for saving me some troubleshooting time and frustration by pointing out a false assumption I was making about breadboard rails.
+@deʃhipu for implementing PNG support for adafruit_imageload
+Group Hug
+
+@jepler 15:06 
+Liz for pico w testing & a great guide – check it out
+Paul for hosting the meeting
+@georgboe on github for fixing the picow bug that made mqtt not work, reported by two users
+@danh for the new release with so many good things in it
+@bill88t for picking up another picow bug, biffobear for reporting and testing
+@tekktrik - excited to see the Actions improvements inching towards completion
+@djdevon3 - love seeing your projects as they morph in the course of time. Remember to send them to the newsletter when they get done!
+
+@kattni 16:16 
+Phil and Limor for being so supportive over the last couple of weeks. I had plenty to worry about, but not being able to work was not one of them.
+My partner Rose for helping out so much while also being sick because she was doing better than I was.
+Friends and family for support over the last two weeks.
+@tammymakesthings for chatting with me on the first day I was able to sit up for any period of time
+@makermelissa I hope you make it through having COVID in the house  completely uneventfully
+@foamyguy for helping me with a Python script. I had part of it figured out, but I couldn’t sort out parsing an RSS feed and generating a dynamic string based on three pieces of information from the feed. Tim had it sorted out within 20 minutes. So helpful!
+@tekktrik for always being up for library infrastructure tasks
+Thanks to everyone here for keeping everything going while I was out!
+Group hug!
+
+@Liz (missing meeting) 18:04 
+Jeff for his work on the Pico W and linking the issue that was causing problems with azure
+Dan for the UF2 for testing the Pico W fixes and releasing the new beta
+Group hug
+
+@makermelissa 18:23 
+@danh for fixing the tests on the CircuitPython PR I made to fix the folders being able to be moved inside themselves
+@kattni for hopefully getting over COVID soon
+Group Hug
+
+@Mark[gamblor] (missing meeting) 18:41 
+@paintyourdragon for such amazing code. I keep finding myself modifying your projects and learning from them.
+Group hug
+
+@MicroDev (text-only) 18:54 
+Group Hug.
+@jepler for Chained Exception PR
+@danh for testing and figuring out the bug in issue #7070 
+@Neradoc and @mwalimu for testing issue #7060
+
+@tammymakesthings (text-only) 19:12 
+@kattni for a great conversation
+@Paul Cutler, @tekktrik, and everyone else helping with the next CircuitPython Community Help Desk
+Group Hug
+
+@tekktrik (text only) 19:28 
+@kattni for all the good chats
+@jepler for pinging me on a neat failure that happened in the CI, always appreciate interesting problems
+@jelper again because I haven’t thanked them yet for all the awesome work on the PicoW, I'm very excited to get my hands on one and start tinkering!
+@Mark[gamblor] for reviewing all my Hactoberfest PRs
+My girlfriend, who while not a CircuitPython user (yet), did help move all my electronics (as well as everything else I/she/we own) into our new home
+Group hug!
+## Status Updates 20:03 
+
+@Paul Cutler 20:30 
+Last week: Interviewed Joey Castillo for an upcoming podcast episode
+This week: New episode of The CircuitPython Show with Jim Mussared of Micropython out today - great to talk with an upstream developer.
+Get my stitches out of my hand tomorrow!
+
+@CGrover (text only) 20:58 
+Last week: Submitted AD5245 DigitalPotentiometer driver and AD9833 Programmable Waveform Generator drivers as well as ShadowWatcher and PunkConsole helper classes to the Community Bundle.
+This week: Will wrap up the current round of Community Bundle submissions with:
+PMSA003I AQI calculator with French, English, German, and Pirate translations
+SCD-30 CO2 Indoor Air Quality calculator
+Daylight Saving Time detector and adjuster (timing is everything)
+Ohm’s Law calculator
+Music helper library (MIDI note number <-> note name, note <-> frequency, and descriptive MIDI CC decoder)
+Dew point calculator
+Heat index calculator. 
+Future: Planning to revamp the CedarGrove Widgets collection to take full advantage of vector display graphics and drop the support for display size independence. The widgets include an animated kitchen scale, LED multi-digit bubble displays (think HP-35), and emulations of a 6E5 magic eye, neopixel strip, and LED bargraph integrated circuit.
+Wrapped up this year’s landscaping with a 3.5-bag concrete project. Was nice to play in the mud again. Recently learned and was amused to hear that over 30 years ago, my son used to sneak handfuls of wet concrete from my patio and mowing strip projects to sculpt a secret rock collection. (cue: Cat’s In The Cradle song)
+
+@danh 22:35 
+Released 8.0.0-beta.2 last Friday. Mostly really good, but it turns out ESP32-C3 boards stopped working, and some ESP32 boards also don’t work, for different reasons. We have a fix for the latter. The C3 issue is caused by a toolchain update, and we need to research that further.
+Fixed issue of output from a board getting into its REPL input when the board first starts. Jeff diagnosed this as a Linux–specific issue which is due to a race about turning off “echo mode” when you first open a serial connection.
+Did a lot of reviews.
+Will work on ESP32-C3 issue to try to diagnose it further. Have a bunch of reviews to do. Then will continue on 8.0.0 issues.
+Will do a beta.3 very soon to get the broken ESP32 boards back to working and to pick up new Pico W fixes.
+
+@DJDevon3 (missing meeting)
+Purchased some arcade buttons from the Adafruit store to use as reset buttons on all my S2 & S3 boards dealing with the hard reset bug. Hours later the core devs fixed the hard reset bug. Still added a reset button to my social media counter out of principle even though it’s really no longer needed.
+
+Still working on adding the Twitter API for the social media tracker. Dealing with Twitter’s 0auth has been a major headache compared to YouTube. I’m trying to add all the API’s using only the requests library and avoiding using portalbase to maximize board compatibility.
+Created a YouTube video on my new channel called Devon’s Workshop featuring a complete build of Adafruit’s Trinket M0 NeoPixel Goggle kit for Circuit Python. Video includes a lot of soldering, updating the Trinket M0 bootloader and installing CP 8.0 beta2.
+
+Added a bug report for the Protomatter library as it’s not playing nice with the UM FeatherS3 and RGB Matrix featherwing. I tried everything I had to get it to work, it’s just over my head.
+Got 2 GCA091 round displays running some eyes code from @Todbot. That cut my development time by a huge margin and was easily able to get a working demo within minutes. I plan on adding it to a new dragon skull mask purchased for Halloween. This week I’ll be working on turning the human eyes into lizard eyes. Will the displays fit in the goggles? Yes, but I actually want to wear the mask for Halloween so the projects are separate. It’s a neat idea for Lars or other stuffed animals to combine those 2 projects.
+
+If I finish with the eyes project and Twitter API early this week I’d love to get back to the LORA messenger project. I’m really excited to work with the long range communication boards.
+
+@foamyguy 27:19 
+Last week
+Testing out PicoW wifi functionality with requests tests and httpserver examples. 
+Started building out a Trivia game played in the browser, hosted from picow with httpserver and found a seemingly strict upper limit of size that can be returned on the pico w. ESP32-S2 can return larger files successfully so it seems specific to pico w so far. I will make a PR with reproducer script
+Tried out displayio with Pico W for the first time. Got an external display hooked up and working along with a 1x4 Neokey and will make a different variation of the trivia game with it.
+This week
+Working on getting my core repo / environment updated or fixed to be able to run `make html`. I think due to older version of python but need to dig further. 
+Test the PNG support recently added to imageload library with more standard device and basic example. Submit followup PR for it with typing and the example added.
+Tuesday night is my last night to teach a class in the evenings so I’ll be able to get back to being more active during evenings with circuitpython things.
+
+@jepler 30:20 
+Belated hug report for Limor for teasing the first CowBell. It’s a great name. If I do say so myself.
+Last week:
+Picow bug squashing
+Code squeezing (flash size savings)
+PR reviewing
+Prototyped ‘chained exceptions’ for CircuitPython (raise X from Y, etc)
+Chased down several asyncio problems, PR’d fixes
+Chased down & fixed what looked like a picow bug but was a dotenv bug
+Fixed warnings within CircuitPython build due to use of deprecated Github Actions features, there may be more to do though.
+PR’d a change so that we run the asyncio tests against Adafruit_CircuitPython_asyncio and find problems earlier
+This week:
+Attend this meeting
+???
+Profit
+Another “classic”(?) keyboard was added to my list of keyboard projects. Atari 8-bit era keyboard is WEIRD, they have a freaky way to connect to up to 72 keys using just 8 I/O pins, but it won’t work with KeyMatrix (based on what I read online so far)
+Will take a try at building Doom for the Feather ESP32-S3, not a CircuitPython project – based on https://github.com/chcbaram/esp32-s3-boy_fw/tree/develop
+
+@kattni 32:44 
+Last week and the week before:
+COVID. I’m working on sharing my situation on my blog, if you’re interested: https://kattni.com
+This week:
+A TON of catch up (If you’re on that list and you know it, please reach out to me to make sure I get to it)
+LTR3** guide.
+A huge list of new pages and guides. Plan is to finish the LTR guide and then revisit the list and make a decision on what’s next at that point.
+If I talked to you about doing a thing, please don’t hesitate to reach out and ping me. I’m absolutely certain that I’ve forgotten some things.
+
+@makermelissa: 34:42 
+Last Week:
+Finished updating the TensorFlow on Raspberry Pi 4 guide to work with Bullseye and the latest Picamera2
+Updated the associated rpi-vision library, which currently has an open PR waiting
+Fixed up a few miscellaneous GitHub issues
+Added missing boards to CircuitPython.org
+Tested out a Text to Speech library to see if it would work for future projects
+This Week:
+Finish updating screenshots on Code Editor learn guide
+Finally working on the guide for the CLUE robot I made for CircuitPython day
+With COVID now in the household, it’s uncertain how I’ll feel as the week goes on, but I'm trying to get as much done as I’m feeling ok so far.
+
+@tammymakesthings (text-only):
+Last Week:
+Rebuilt my Linux VM which had mysteriously stopped working, so I can once again build CircuitPython
+Installed the new beta version of Loopback, a macOS utility which I think (hope) will fix the OBS audio issues I was having with the macOS Ventura beta.
+This Week:
+Getting ready to go out of town for birthday festivities (my birthday is Friday), so probably not a lot of CircuitPython stuff happening this week or next week.
+Non-CircuitPython fun:
+I scored an [HP-200LX](https://en.wikipedia.org/wiki/HP_200LX), an old DOS-based palmtop computer from the early 1990s, on eBay and got Turbo C, Turbo Pascal, and Turbo Assembler installed on it so I can hack on stuff on the go. I wanted one of these so badly when they were new, but they were just too expensive, and I’m excited to add one to my collection now. (It’s astounding to compare this hardware, which had an 80C186 running at 7.9MHz with 1 MB of RAM, to a RPi Pico that’s 1/100th of the cost!)
+
+@tekktrik (text only) 36:52 
+Last week
+Moving, moving, and more moving
+Finished all my Hacktoberfest PRs!
+Reviewing incoming PRs as I found the time
+Finalized the unified composite actions for the CircuitPython libraries; working on the build-mpy action was a huge help
+In personal projects, my CircuitPythonukiah project is now OSHWA certified, thanks to CERN for fantastic license options for hardware
+Also in personal projects, my circlink CLI tool for writing code locally and having it autopush to CircuitPython boards as it’s modified is pretty fleshed out and ready for use
+Hoping to use it for testing some PRs next week
+This week (and upcoming)
+Probably the last light week as I unpack everything and get the last few things out of the old place.  Hoping to ramp back up possibly as early as the end of the week.
+Planning an end of Hacktoberfest review on the 31st
+After checking with the Hacktoberfest Discord, I’ll add the hacktoberfest-accepted label to any PRs submitted at or before that time so they count even if changes need to be made the PR will count, so please don’t let that prevent a submission!
+Following through with the unified library CI workflows
+Odds and ends while planning where to start next week
+
+## In The Weeds 38:19 
+@kattni
+I’ll be working on the graphic for the CircuitPython Community Help Desk over the next couple of weeks. I have ideas, but I also want to put it out here so anyone else with ideas or suggestions can collaborate. Please send me ideas via email at kattni(at)adafruit.com as messages can get lost on Discord. If you’re up for it, sketches are welcome. I’m hoping to work with our graphics person to get a few ideas sketched out before we finalise anything. Either way, once it’s in the hands of our amazing graphics person, it will come out great.
+@jepler - first thing that came to mind was to riff on the Peanuts 5¢ Help Booth
+ 
+@mark [Gamblor] (text only) 
+40:15 
+General question: Has anyone done any performance on displayio speeds? Really more interested in whether it’s worth me poking at.
+## Wrap-Up 41:27 
+
