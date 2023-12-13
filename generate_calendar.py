@@ -32,10 +32,10 @@ class CircuitPythonHoliday(UnitedStates):
     def _populate(self, year):
         super()._populate(year)
 
-        try:
-            del self[date(year, OCT, 1) + rd(weekday=MO(+2))]
-        except KeyError:
-            pass
+        for k, v in list(self.items()):
+            if 'Lincoln' in v or 'Columbus' in v:
+                del self[k]
+
         self[date(year, OCT, 1) + rd(weekday=MO(+2))] = "Indigenous Peoples' Day"
 
 hols = CircuitPythonHoliday(state='NY')
