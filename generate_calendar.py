@@ -3,9 +3,19 @@
 #  * Recognize a bunch of US-centric holidays and move meeting from Mon -> Tue
 #  * Put in special notices when US daylight/standard changes occur
 #  * Never hold a meeting from December 23 through December 31 inclusive
+#
+# Using the script:
+#  - it's recommended to use a venv
+#  - pip install -r requirements.txt
+#  - python generate_calendar.py prune 2022
+#  - python generate_calendar.py generate 2024
+#  - git commit meeting.ical -m"update for 2024"
+
 import datetime
+import pathlib
 import sys
 
+import click
 import pytz
 import icalendar
 from holidays.countries.united_states import UnitedStates
@@ -15,6 +25,8 @@ from dateutil.relativedelta import relativedelta as rd, MO, FR, TH, TU
 from holidays.constants import JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, \
     OCT, \
     NOV, DEC
+
+CALENDAR_FILE = pathlib.Path("meeting.ical")
 
 class CircuitPythonHoliday(UnitedStates):
     def _populate(self, year):
@@ -83,10 +95,46 @@ def make_calendar(calendar, year):
         add_meeting_notice(calendar, d, note)
         d0 += datetime.timedelta(days=7)
 
-if __name__ == "__main__":
+def empty_calendar():
     calendar = icalendar.Calendar()
     calendar.add('prodid', '-//circuitpython weekly meeting generator//circuitpython.org//')
     calendar.add('version', '0.0.0-beta0')
-    for arg in sys.argv[1:]:
-        make_calendar(calendar, int(arg))
-    sys.stdout.buffer.write(calendar.to_ical())
+    return calendar
+
+@click.group
+@click.pass_context
+def cli(ctx):
+    if CALENDAR_FILE.exists():
+        with CALENDAR_FILE.open('rb') as f:
+            content = f.read()
+        calendar = icalendar.Calendar.from_ical(content)
+    else:
+        calendar = empty_calendar()
+    ctx.obj = calendar
+
+@cli.command
+@click.argument("year", type=int)
+@click.pass_context
+def generate(ctx, year):
+    calendar = ctx.obj
+    make_calendar(calendar, year)
+    with CALENDAR_FILE.open('wb') as f:
+        f.write(calendar.to_ical())
+
+@cli.command
+@click.argument("year", type=int)
+@click.pass_context
+def prune(ctx, year):
+    thresh = localize(datetime.datetime(year+1, 1, 1))
+    calendar = ctx.obj
+    calendar.subcomponents = [
+            component for component in calendar.subcomponents
+            if component.name != 'VEVENT' 
+            or component['DTSTART'].dt >= thresh]
+
+    with CALENDAR_FILE.open('wb') as f:
+        f.write(calendar.to_ical())
+
+
+if __name__ == '__main__':
+    cli()
