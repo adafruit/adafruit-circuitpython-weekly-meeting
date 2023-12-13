@@ -49,7 +49,7 @@ def localize(d):
 now = localize(datetime.datetime.now())
 
 def first_monday(year):
-    d = datetime.datetime(year, 1, 2, 14)
+    d = datetime.datetime(year, 1, 1, 14)
     while d.weekday() != 0:
         d += datetime.timedelta(days=1)
     return d
