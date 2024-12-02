@@ -21,10 +21,8 @@ import icalendar
 from holidays.countries.united_states import UnitedStates
 
 from datetime import date
-from dateutil.relativedelta import relativedelta as rd, MO, FR, TH, TU
-from holidays.constants import JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, \
-    OCT, \
-    NOV, DEC
+from dateutil.relativedelta import relativedelta as rd, MO
+from holidays.constants import OCT, NOV
 
 CALENDAR_FILE = pathlib.Path("meeting.ical")
 
@@ -37,6 +35,7 @@ class CircuitPythonHoliday(UnitedStates):
                 del self[k]
 
         self[date(year, OCT, 1) + rd(weekday=MO(+2))] = "Indigenous Peoples' Day"
+        self[date(year, NOV, 11)] = "Veterans Day"
 
 hols = CircuitPythonHoliday(state='NY')
 tz = pytz.timezone('US/Eastern')
