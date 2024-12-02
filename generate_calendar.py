@@ -45,8 +45,6 @@ def localize(d):
     d = tz.localize(d)
     return d
 
-now = localize(datetime.datetime.now())
-
 def first_monday(year):
     d = datetime.datetime(year, 1, 1, 14)
     while d.weekday() != 0:
@@ -59,7 +57,7 @@ def add_holiday_notice(calendar, d, note):
     event.add('summary', note + ' -- Meeting Postponed due to holiday')
     event.add('dtstart', icalendar.vDatetime(d))
     event.add('dtend', icalendar.vDatetime(d + meeting_duration))
-    event.add('dtstamp', now)
+    event.add('dtstamp', localize(datetime.datetime(d.year, 1, 1)))
     calendar.add_component(event)
 
 def add_meeting_notice(calendar, d, note):
@@ -68,7 +66,7 @@ def add_meeting_notice(calendar, d, note):
     event.add('summary', 'CircuitPython Discord Meeting' + note)
     event.add('dtstart', icalendar.vDatetime(d))
     event.add('dtend', icalendar.vDatetime(d + meeting_duration))
-    event.add('dtstamp', icalendar.vDatetime(now))
+    event.add('dtstamp', localize(datetime.datetime(d.year, 1, 1)))
     if 0:  # This doesn't work, makes google not show the calendar at all
         event.add('conference',
                   'https://adafru.it/discord',
