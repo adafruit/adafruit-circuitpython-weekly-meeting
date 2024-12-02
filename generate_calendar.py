@@ -114,6 +114,10 @@ def cli(ctx):
 @click.pass_context
 def generate(ctx, year):
     calendar = ctx.obj
+    calendar.subcomponents = [
+            component for component in calendar.subcomponents
+            if component.name != 'VEVENT'
+            or component['DTSTART'].dt.year != year]
     make_calendar(calendar, year)
     with CALENDAR_FILE.open('wb') as f:
         f.write(calendar.to_ical())
