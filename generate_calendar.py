@@ -21,10 +21,8 @@ import icalendar
 from holidays.countries.united_states import UnitedStates
 
 from datetime import date
-from dateutil.relativedelta import relativedelta as rd, MO, FR, TH, TU
-from holidays.constants import JAN, FEB, MAR, APR, MAY, JUN, JUL, AUG, SEP, \
-    OCT, \
-    NOV, DEC
+from dateutil.relativedelta import relativedelta as rd, MO
+from holidays.constants import OCT, NOV
 
 CALENDAR_FILE = pathlib.Path("meeting.ical")
 
@@ -37,6 +35,7 @@ class CircuitPythonHoliday(UnitedStates):
                 del self[k]
 
         self[date(year, OCT, 1) + rd(weekday=MO(+2))] = "Indigenous Peoples' Day"
+        self[date(year, NOV, 11)] = "Veterans Day"
 
 hols = CircuitPythonHoliday(state='NY')
 tz = pytz.timezone('US/Eastern')
@@ -45,8 +44,6 @@ meeting_duration = datetime.timedelta(seconds=3600)
 def localize(d):
     d = tz.localize(d)
     return d
-
-now = localize(datetime.datetime.now())
 
 def first_monday(year):
     d = datetime.datetime(year, 1, 1, 14)
@@ -60,7 +57,7 @@ def add_holiday_notice(calendar, d, note):
     event.add('summary', note + ' -- Meeting Postponed due to holiday')
     event.add('dtstart', icalendar.vDatetime(d))
     event.add('dtend', icalendar.vDatetime(d + meeting_duration))
-    event.add('dtstamp', now)
+    event.add('dtstamp', localize(datetime.datetime(d.year, 1, 1)))
     calendar.add_component(event)
 
 def add_meeting_notice(calendar, d, note):
@@ -69,7 +66,7 @@ def add_meeting_notice(calendar, d, note):
     event.add('summary', 'CircuitPython Discord Meeting' + note)
     event.add('dtstart', icalendar.vDatetime(d))
     event.add('dtend', icalendar.vDatetime(d + meeting_duration))
-    event.add('dtstamp', icalendar.vDatetime(now))
+    event.add('dtstamp', localize(datetime.datetime(d.year, 1, 1)))
     if 0:  # This doesn't work, makes google not show the calendar at all
         event.add('conference',
                   'https://adafru.it/discord',
@@ -117,6 +114,10 @@ def cli(ctx):
 @click.pass_context
 def generate(ctx, year):
     calendar = ctx.obj
+    calendar.subcomponents = [
+            component for component in calendar.subcomponents
+            if component.name != 'VEVENT'
+            or component['DTSTART'].dt.year != year]
     make_calendar(calendar, year)
     with CALENDAR_FILE.open('wb') as f:
         f.write(calendar.to_ical())
